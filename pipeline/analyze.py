@@ -84,6 +84,28 @@ def _validate_and_normalise(data: dict) -> dict:
     if rec not in {"must_read", "optional", "skip"}:
         rec = "optional"
 
+    def _list(key, n=8):
+        v = data.get(key)
+        if not isinstance(v, list):
+            return []
+        return [str(x).strip() for x in v if x][:n]
+
+    res = data.get("resources") or {}
+    if not isinstance(res, dict):
+        res = {}
+    resources = {
+        "code_url": (res.get("code_url") or "").strip(),
+        "project_url": (res.get("project_url") or "").strip(),
+        "hf_url": (res.get("hf_url") or "").strip(),
+        "demo_url": (res.get("demo_url") or "").strip(),
+        "dataset_urls": [u for u in (res.get("dataset_urls") or [])
+                         if isinstance(u, str) and u.strip()][:4],
+    }
+    # discard obviously fake URLs
+    for k in ("code_url", "project_url", "hf_url", "demo_url"):
+        if resources[k] and not resources[k].startswith(("http://", "https://")):
+            resources[k] = ""
+
     return {
         "score": final_score,
         "raw_score": raw_score,
@@ -94,17 +116,21 @@ def _validate_and_normalise(data: dict) -> dict:
         "reading_suggestion": data.get("reading_suggestion") or "",
         "model_card": mc,
         "relevance_to_focus": data.get("relevance_to_focus") or "",
-        "snark": data.get("snark") or "",
         "limitations": data.get("limitations") or "",
         "recommendation": rec,
+        "first_authors": _list("first_authors", 4),
+        "corresponding_authors": _list("corresponding_authors", 4),
+        "affiliations": _list("affiliations", 4),
+        "resources": resources,
     }
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=20))
-def _call_llm(title: str, abstract: str) -> dict:
-    prompt = PROMPT_TEMPLATE.replace("{title}", title).replace(
-        "{abstract}", abstract[:6000]
-    )
+def _call_llm(title: str, abstract: str, authors: str) -> dict:
+    prompt = (PROMPT_TEMPLATE
+              .replace("{title}", title)
+              .replace("{authors}", authors or "（作者列表未给出）")
+              .replace("{abstract}", abstract[:6000]))
     resp = client.chat.completions.create(
         model=DEEPSEEK_MODEL,
         messages=[
@@ -123,7 +149,7 @@ def _call_llm(title: str, abstract: str) -> dict:
 
 def _analyze_one(row) -> tuple[str, dict | None, str | None]:
     try:
-        result = _call_llm(row["title"], row["abstract"])
+        result = _call_llm(row["title"], row["abstract"], row["authors"] or "")
         return row["arxiv_id"], result, None
     except Exception as e:
         return row["arxiv_id"], None, str(e)

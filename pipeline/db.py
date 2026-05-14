@@ -35,8 +35,13 @@ CREATE TABLE IF NOT EXISTS papers (
   reading_suggestion TEXT,
   model_card         TEXT,    -- JSON object
   relevance_to_focus TEXT,
-  snark              TEXT,
-  recommendation     TEXT     -- must_read | optional | skip
+  snark              TEXT,    -- legacy, no longer used
+  recommendation     TEXT,    -- must_read | optional | skip
+  -- academic metadata
+  first_authors          TEXT,   -- JSON array
+  corresponding_authors  TEXT,   -- JSON array
+  affiliations           TEXT,   -- JSON array
+  resources              TEXT    -- JSON object
 );
 
 CREATE INDEX IF NOT EXISTS idx_fetch_date ON papers(fetch_date);
@@ -52,6 +57,10 @@ MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN relevance_to_focus TEXT",
     "ALTER TABLE papers ADD COLUMN snark TEXT",
     "ALTER TABLE papers ADD COLUMN recommendation TEXT",
+    "ALTER TABLE papers ADD COLUMN first_authors TEXT",
+    "ALTER TABLE papers ADD COLUMN corresponding_authors TEXT",
+    "ALTER TABLE papers ADD COLUMN affiliations TEXT",
+    "ALTER TABLE papers ADD COLUMN resources TEXT",
 ]
 
 
@@ -113,8 +122,11 @@ def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> No
           reading_suggestion=:reading_suggestion,
           model_card=:model_card,
           relevance_to_focus=:relevance_to_focus,
-          snark=:snark,
           recommendation=:recommendation,
+          first_authors=:first_authors,
+          corresponding_authors=:corresponding_authors,
+          affiliations=:affiliations,
+          resources=:resources,
           analyzed_at=datetime('now')
         WHERE arxiv_id=:arxiv_id
         """,
@@ -126,7 +138,6 @@ def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> No
             "main_task": analysis.get("main_task"),
             "tags": json.dumps(analysis.get("tags", []), ensure_ascii=False),
             "tldr": analysis.get("tldr"),
-            # innovations -> highlights for legacy compatibility
             "highlights": json.dumps(mc.get("innovations", []),
                                      ensure_ascii=False),
             "method": mc.get("architecture"),
@@ -135,8 +146,15 @@ def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> No
             "reading_suggestion": analysis.get("reading_suggestion"),
             "model_card": json.dumps(mc, ensure_ascii=False),
             "relevance_to_focus": analysis.get("relevance_to_focus"),
-            "snark": analysis.get("snark"),
             "recommendation": analysis.get("recommendation"),
+            "first_authors": json.dumps(
+                analysis.get("first_authors") or [], ensure_ascii=False),
+            "corresponding_authors": json.dumps(
+                analysis.get("corresponding_authors") or [], ensure_ascii=False),
+            "affiliations": json.dumps(
+                analysis.get("affiliations") or [], ensure_ascii=False),
+            "resources": json.dumps(
+                analysis.get("resources") or {}, ensure_ascii=False),
         },
     )
 
@@ -165,3 +183,28 @@ def papers_in_range(conn: sqlite3.Connection,
         """,
         (start, end, limit),
     ))
+
+
+def papers_recent_focus(conn: sqlite3.Connection,
+                        focus_tags: set[str],
+                        limit: int = 5) -> list[sqlite3.Row]:
+    """Return the N most recent analyzed papers whose main_task is in focus_tags."""
+    placeholders = ",".join("?" * len(focus_tags))
+    return list(conn.execute(
+        f"""
+        SELECT * FROM papers
+        WHERE analyzed_at IS NOT NULL
+          AND main_task IN ({placeholders})
+        ORDER BY date(fetch_date) DESC, score DESC
+        LIMIT ?
+        """,
+        (*focus_tags, limit),
+    ))
+
+
+def latest_post_date(conn: sqlite3.Connection) -> str | None:
+    row = conn.execute(
+        "SELECT date(fetch_date) FROM papers "
+        "WHERE analyzed_at IS NOT NULL ORDER BY fetch_date DESC LIMIT 1"
+    ).fetchone()
+    return row[0] if row else None

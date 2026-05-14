@@ -1,0 +1,40 @@
+{{- define "main" }}
+
+<article class="first-entry home-info">
+  {{- with site.GetPage "/" }}
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  {{- end }}
+</article>
+
+<section class="recent-section">
+  <h2 class="recent-heading">📰 最近的速递</h2>
+  {{- $pages := where (where site.RegularPages "Section" "posts") "Type" "posts" }}
+  {{- $pages = where $pages "Params.categories" "intersect" (slice "每日速递") }}
+  {{- $pages = first 12 (sort $pages "Date" "desc") }}
+  {{- range $pages }}
+    <article class="post-entry">
+      <header class="entry-header">
+        <h2 class="entry-hint-parent">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+      </header>
+      <div class="entry-content">
+        <p>{{ .Summary | plainify }}</p>
+      </div>
+      <footer class="entry-footer">
+        {{- partial "post_meta.html" . -}}
+      </footer>
+      <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+  {{- end }}
+</section>
+
+{{- if gt (len (where (where site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "每日速递"))) 12 }}
+<div class="see-all">
+  <a class="btn-primary" href="/posts/">查看全部速递 →</a>
+</div>
+{{- end }}
+
+{{- end }}{{/* end main */}}

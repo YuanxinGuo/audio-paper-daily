@@ -4,6 +4,7 @@ import fetch_hf
 import analyze
 import render
 import rankings
+import home
 
 
 def main() -> None:
@@ -20,6 +21,7 @@ def main() -> None:
     analyze.main()
     render.main()
     rankings.main()
+    home.main()
 
 
 if __name__ == "__main__":

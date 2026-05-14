@@ -29,12 +29,9 @@ pagination.pagerSize = 15
   TocOpen = false
   ShowRssButtonInSectionTermList = true
   DateFormat = "2006-01-02"
-
-  [params.homeInfoParams]
-    Title = "语音/音频论文速递 🎧"
-    Content = """每日自动抓取 arxiv / HuggingFace 最新语音/音频 AI 论文，DeepSeek 深度分析后发布。
-    
-左上方导航可查看 **归档 / 标签 / 分类 / 排行榜**，右上角支持搜索。"""
+  disableSpecial1stPost = true
+  hideMeta = false
+  assets.disableHLJS = false
 
   [[params.socialIcons]]
     name = "github"
