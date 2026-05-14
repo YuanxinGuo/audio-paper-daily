@@ -45,4 +45,30 @@ TAG_ALIASES = {
     "#speech synthesis": "#语音合成",
     "#音频生成": "#音频生成",
     "#sound event detection": "#音频事件检测",
+    "#speech enhancement": "#语音增强",
+    "#denoising": "#语音增强",
+    "#dereverberation": "#语音增强",
+    "#target speaker extraction": "#目标说话人提取",
+    "#TSE": "#目标说话人提取",
+    "#personalized speech enhancement": "#目标说话人提取",
+    "#speech separation": "#语音分离",
+    "#source separation": "#语音分离",
+    "#binaural": "#双耳音频",
+    "#binaural audio": "#双耳音频",
+    "#spatial audio": "#双耳音频",
+    "#HRTF": "#双耳音频",
+    "#music source separation": "#乐器分离",
+    "#MSS": "#乐器分离",
+    "#stem separation": "#乐器分离",
 }
+
+# Topics the site cares about. A paper whose main_task or tags hits one of
+# these gets a +SCORE_FOCUS_BONUS bump (capped at 10.0).
+FOCUS_TAGS = {
+    "#语音增强",
+    "#目标说话人提取",
+    "#语音分离",
+    "#双耳音频",
+    "#乐器分离",
+}
+SCORE_FOCUS_BONUS = 1.0

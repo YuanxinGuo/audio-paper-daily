@@ -19,23 +19,48 @@ CREATE TABLE IF NOT EXISTS papers (
   source      TEXT NOT NULL,
   pdf_url     TEXT,
   html_url    TEXT,
-  -- analysis
-  score       REAL,
-  tier        TEXT,
-  main_task   TEXT,
-  tags        TEXT,    -- JSON array
-  tldr        TEXT,
-  highlights  TEXT,    -- JSON array
-  method      TEXT,
-  results     TEXT,
-  limitations TEXT,
-  analyzed_at TEXT
+  -- analysis (legacy)
+  score          REAL,
+  tier           TEXT,
+  main_task      TEXT,
+  tags           TEXT,    -- JSON array
+  tldr           TEXT,
+  highlights     TEXT,    -- JSON array
+  method         TEXT,
+  results        TEXT,
+  limitations    TEXT,
+  analyzed_at    TEXT,
+  -- analysis (extended)
+  raw_score          REAL,
+  reading_suggestion TEXT,
+  model_card         TEXT,    -- JSON object
+  relevance_to_focus TEXT,
+  snark              TEXT,
+  recommendation     TEXT     -- must_read | optional | skip
 );
 
 CREATE INDEX IF NOT EXISTS idx_fetch_date ON papers(fetch_date);
 CREATE INDEX IF NOT EXISTS idx_score      ON papers(score);
 CREATE INDEX IF NOT EXISTS idx_pub_date   ON papers(pub_date);
 """
+
+# Idempotent migrations for older DB files.
+MIGRATIONS = [
+    "ALTER TABLE papers ADD COLUMN raw_score REAL",
+    "ALTER TABLE papers ADD COLUMN reading_suggestion TEXT",
+    "ALTER TABLE papers ADD COLUMN model_card TEXT",
+    "ALTER TABLE papers ADD COLUMN relevance_to_focus TEXT",
+    "ALTER TABLE papers ADD COLUMN snark TEXT",
+    "ALTER TABLE papers ADD COLUMN recommendation TEXT",
+]
+
+
+def _run_migrations(conn: sqlite3.Connection) -> None:
+    for stmt in MIGRATIONS:
+        try:
+            conn.execute(stmt)
+        except sqlite3.OperationalError:
+            pass  # column already exists
 
 
 @contextmanager
@@ -44,6 +69,7 @@ def connect():
     conn.row_factory = sqlite3.Row
     try:
         conn.executescript(SCHEMA)
+        _run_migrations(conn)
         yield conn
         conn.commit()
     finally:
@@ -76,27 +102,41 @@ def get_unanalyzed(conn: sqlite3.Connection) -> list[sqlite3.Row]:
 
 
 def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> None:
+    mc = analysis.get("model_card") or {}
     conn.execute(
         """
         UPDATE papers SET
-          score=:score, tier=:tier, main_task=:main_task,
-          tags=:tags, tldr=:tldr, highlights=:highlights,
+          score=:score, raw_score=:raw_score, tier=:tier, main_task=:main_task,
+          tags=:tags, tldr=:tldr,
+          highlights=:highlights,
           method=:method, results=:results, limitations=:limitations,
+          reading_suggestion=:reading_suggestion,
+          model_card=:model_card,
+          relevance_to_focus=:relevance_to_focus,
+          snark=:snark,
+          recommendation=:recommendation,
           analyzed_at=datetime('now')
         WHERE arxiv_id=:arxiv_id
         """,
         {
             "arxiv_id": arxiv_id,
             "score": analysis.get("score"),
+            "raw_score": analysis.get("raw_score"),
             "tier": analysis.get("tier"),
             "main_task": analysis.get("main_task"),
             "tags": json.dumps(analysis.get("tags", []), ensure_ascii=False),
             "tldr": analysis.get("tldr"),
-            "highlights": json.dumps(analysis.get("highlights", []),
-                                    ensure_ascii=False),
-            "method": analysis.get("method"),
-            "results": analysis.get("results"),
+            # innovations -> highlights for legacy compatibility
+            "highlights": json.dumps(mc.get("innovations", []),
+                                     ensure_ascii=False),
+            "method": mc.get("architecture"),
+            "results": mc.get("key_results"),
             "limitations": analysis.get("limitations"),
+            "reading_suggestion": analysis.get("reading_suggestion"),
+            "model_card": json.dumps(mc, ensure_ascii=False),
+            "relevance_to_focus": analysis.get("relevance_to_focus"),
+            "snark": analysis.get("snark"),
+            "recommendation": analysis.get("recommendation"),
         },
     )
 
