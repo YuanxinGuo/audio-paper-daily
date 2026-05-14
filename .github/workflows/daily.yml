@@ -1,0 +1,86 @@
+name: Daily Paper Digest
+
+on:
+  schedule:
+    # 01:00 UTC = 09:00 Beijing time
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install Python deps
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run pipeline
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        working-directory: pipeline
+        run: python run_all.py
+
+      - name: Commit data + content
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ site/content/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: digest $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "Nothing new to commit."
+          fi
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Setup PaperMod theme
+        run: |
+          git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod.git site/themes/PaperMod
+          rm -rf site/themes/PaperMod/.git
+
+      - name: Build site
+        run: hugo --minify -s site
+
+      - name: Build search index (Pagefind)
+        run: npx -y pagefind --site site/public
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

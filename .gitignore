@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Hugo
+site/public/
+site/resources/
+site/.hugo_build.lock
+site/themes/PaperMod/   # fetched at build time
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
