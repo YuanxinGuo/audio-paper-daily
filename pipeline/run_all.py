@@ -7,8 +7,16 @@ import rankings
 
 
 def main() -> None:
-    fetch_arxiv.fetch()
-    fetch_hf.fetch()
+    # Each fetcher is best-effort. The pipeline must continue even if one
+    # source is rate-limited or temporarily down.
+    try:
+        fetch_arxiv.fetch()
+    except Exception as e:
+        print(f"[run_all] fetch_arxiv crashed: {e}")
+    try:
+        fetch_hf.fetch()
+    except Exception as e:
+        print(f"[run_all] fetch_hf crashed: {e}")
     analyze.main()
     render.main()
     rankings.main()

@@ -72,7 +72,12 @@ def main() -> None:
         pending = get_unanalyzed(conn)
     print(f"[analyze] pending={len(pending)}")
     if not pending:
+        print("[analyze] nothing to do")
         return
+    # Hard cap to avoid runaway costs on a bad day.
+    if len(pending) > 80:
+        print(f"[analyze] capping at 80 (got {len(pending)})")
+        pending = pending[:80]
 
     ok = fail = 0
     with ThreadPoolExecutor(max_workers=LLM_CONCURRENCY) as pool:
