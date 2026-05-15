@@ -58,16 +58,6 @@ ARXIV_CATEGORIES = ["eess.AS", "cs.SD"]
 ARXIV_MAX_RESULTS = 200  # per fetch
 ARXIV_LOOKBACK_HOURS = 36  # tolerate cron drift
 
-# HuggingFace daily papers
-# Strong audio/speech keywords. Must contain at least one to be considered relevant.
-HF_KEYWORDS = [
-    "speech", "audio", "voice", "music", "acoustic", "sound",
-    "tts", "asr", "song", "singing", "phoneme", "wav", "spectrogram",
-    "vocal", "speaker", "auditory", "ultrasonic", "asr", "tts",
-    "podcast", "transcription", "voice cloning", "voice conversion",
-    "audio-visual", "audiovisual", "speech-to-text", "text-to-speech",
-]
-
 # DeepSeek
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"

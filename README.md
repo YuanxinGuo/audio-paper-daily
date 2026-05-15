@@ -1,6 +1,6 @@
 # 语音/音频论文速递 (audio-paper-daily)
 
-每日自动抓取 [arxiv](https://arxiv.org/) (eess.AS / cs.SD) 与 [HuggingFace Daily Papers](https://huggingface.co/papers) 上最新的语音/音频 AI 论文，调用 **DeepSeek** 大模型自动分析、打分、生成中文摘要，最终发布为静态网站。
+每日自动抓取 [arxiv](https://arxiv.org/) (eess.AS / cs.SD) 上最新的语音/音频 AI 论文，调用 **DeepSeek** 大模型自动分析、打分、生成中文摘要，最终发布为静态网站。
 
 🌐 在线访问：<https://YuanxinGuo.github.io/audio-paper-daily/>
 
@@ -10,13 +10,13 @@
 GitHub Actions (每日 09:00 北京时间)
         │
         ├── fetch_arxiv.py     抓取 arxiv eess.AS / cs.SD
-        ├── fetch_hf.py        抓取 HF Daily Papers (按关键词过滤)
         ├── analyze.py         DeepSeek 深度分析、JSON 结构化输出
-        ├── render.py          生成当日 Hugo markdown
-        └── rankings.py        每周一/每月 1 日聚合榜单
+        ├── render.py          生成每日速递 + 每篇论文详情页
+        ├── rankings.py        每周一 / 每月 1 日聚合榜单
+        └── home.py            生成首页 dashboard
                 │
                 ▼
-          hugo build → Pagefind 索引 → GitHub Pages
+              hugo build → GitHub Pages
 ```
 
 整个流程跑在 GitHub 服务器上，**无需保持本地电脑开机**。
@@ -53,11 +53,11 @@ hugo server
 .
 ├── .github/workflows/daily.yml   # GitHub Actions
 ├── pipeline/                     # Python 数据管道
-│   ├── fetch_arxiv.py
-│   ├── fetch_hf.py
+│   ├── fetch_arxiv.py            # arxiv RSS / API 抓取
 │   ├── analyze.py                # DeepSeek 调用
-│   ├── render.py                 # Hugo MD 渲染
+│   ├── render.py                 # 速递 + 详情页渲染
 │   ├── rankings.py               # 周/月榜
+│   ├── home.py                   # 首页 dashboard
 │   ├── db.py                     # SQLite 索引
 │   └── prompts/analyze.txt       # LLM 提示词
 ├── data/papers.sqlite            # 持久化论文索引（被 git 跟踪）

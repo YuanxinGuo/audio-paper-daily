@@ -1,0 +1,70 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $type := .Type }}
+{{- $focus := slice "#语音增强" "#目标说话人提取" "#语音分离" "#双耳音频" "#乐器分离" }}
+
+{{- if eq $type "tags" }}
+{{- /* Build a map of all terms keyed by name. */ -}}
+{{- $allTerms := .Data.Terms.Alphabetical }}
+
+{{- /* Partition into focus and rest. */ -}}
+{{- $focusTerms := slice }}
+{{- $restTerms := slice }}
+{{- range $allTerms }}
+  {{- if in $focus .Name }}
+    {{- $focusTerms = $focusTerms | append . }}
+  {{- else }}
+    {{- $restTerms = $restTerms | append . }}
+  {{- end }}
+{{- end }}
+
+{{- if $focusTerms }}
+<section class="focus-tags-block">
+  <h2 class="focus-tags-title">⭐ 本站重点关注领域</h2>
+  <p class="focus-tags-desc">站点对以下 5 个方向论文给予 +1 评分加权，并在每日速递中专门聚合展示。</p>
+  <ul class="terms-tags terms-tags-focus">
+    {{- range $focusTerms }}
+    <li>
+      <a href="{{ .Page.Permalink }}">
+        {{ .Name }}
+        <sup><strong><sup>{{ .Count }}</sup></strong></sup>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+
+<h2 class="other-tags-title">所有标签</h2>
+{{- end }}
+
+<ul class="terms-tags">
+  {{- range $restTerms }}
+  <li>
+    <a href="{{ .Page.Permalink }}">
+      {{ .Name }}
+      <sup><strong><sup>{{ .Count }}</sup></strong></sup>
+    </a>
+  </li>
+  {{- end }}
+</ul>
+
+{{- else }}
+{{- /* Fallback for non-tag taxonomies (categories, etc.). Use original behaviour. */ -}}
+<ul class="terms-tags">
+  {{- range .Data.Terms.Alphabetical }}
+  <li>
+    <a href="{{ .Page.Permalink }}">{{ .Name }}
+      <sup><strong><sup>{{ .Count }}</sup></strong></sup>
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
+
+{{- end }}{{/* end main */}}

@@ -636,6 +636,116 @@ body {
   .meta-row { justify-content: center; flex-wrap: wrap; }
 }
 
+/* ───────────── tags page: focus tags pinned on top ───────────── */
+
+.focus-tags-block {
+  margin: 1.2rem 0 2rem 0;
+  padding: 1.4rem 1.6rem;
+  border-radius: var(--card-radius);
+  background:
+    linear-gradient(135deg, rgba(6,182,212,0.08), rgba(16,185,129,0.08)),
+    var(--entry);
+  border: 1px solid rgba(16,185,129,0.25);
+  position: relative;
+  overflow: hidden;
+}
+.focus-tags-block::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0; width: 3px;
+  background: linear-gradient(180deg, var(--focus-2), var(--focus-1));
+}
+.focus-tags-title {
+  margin: 0 0 0.4rem 0 !important;
+  font-size: 1.1rem;
+  background: linear-gradient(90deg, var(--focus-2), var(--focus-1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding-left: 0 !important;
+}
+.focus-tags-title::before { display: none !important; }
+.focus-tags-desc {
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin: 0 0 1rem 0;
+  line-height: 1.55;
+}
+.other-tags-title {
+  font-size: 1.05rem;
+  margin: 1.5rem 0 0.8rem 0 !important;
+  color: var(--secondary);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding-left: 0 !important;
+}
+.other-tags-title::before { display: none !important; }
+
+/* ───────────── tag pills (terms-tags) ───────────── */
+
+/* Default tag pills on /tags/ page get a slightly more elegant style */
+.terms-tags li a {
+  border: 1px solid var(--border);
+  background: var(--entry);
+  border-radius: 999px;
+  padding: 0.4rem 0.95rem;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+.terms-tags li a:hover {
+  transform: translateY(-1px);
+  border-color: var(--grad-mid);
+  box-shadow: 0 4px 14px rgba(99,102,241,0.10);
+}
+
+/* Highlight the 5 focus tags with the focus gradient (cyan→emerald). */
+.terms-tags li a[href*="%E8%AF%AD%E9%9F%B3%E5%A2%9E%E5%BC%BA"],     /* 语音增强 */
+.terms-tags li a[href*="%E7%9B%AE%E6%A0%87%E8%AF%B4%E8%AF%9D%E4%BA%BA%E6%8F%90%E5%8F%96"], /* 目标说话人提取 */
+.terms-tags li a[href*="%E8%AF%AD%E9%9F%B3%E5%88%86%E7%A6%BB"],     /* 语音分离 */
+.terms-tags li a[href*="%E5%8F%8C%E8%80%B3%E9%9F%B3%E9%A2%91"],     /* 双耳音频 */
+.terms-tags li a[href*="%E4%B9%90%E5%99%A8%E5%88%86%E7%A6%BB"]      /* 乐器分离 */
+{
+  background: linear-gradient(135deg, var(--focus-1), var(--focus-2));
+  color: #fff !important;
+  border-color: transparent;
+  font-weight: 600;
+  position: relative;
+  padding-left: 1.6rem;
+  box-shadow: 0 4px 14px rgba(16,185,129,0.18);
+}
+.terms-tags li a[href*="%E8%AF%AD%E9%9F%B3%E5%A2%9E%E5%BC%BA"]::before,
+.terms-tags li a[href*="%E7%9B%AE%E6%A0%87%E8%AF%B4%E8%AF%9D%E4%BA%BA%E6%8F%90%E5%8F%96"]::before,
+.terms-tags li a[href*="%E8%AF%AD%E9%9F%B3%E5%88%86%E7%A6%BB"]::before,
+.terms-tags li a[href*="%E5%8F%8C%E8%80%B3%E9%9F%B3%E9%A2%91"]::before,
+.terms-tags li a[href*="%E4%B9%90%E5%99%A8%E5%88%86%E7%A6%BB"]::before {
+  content: "★";
+  position: absolute;
+  left: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.85rem;
+  color: #fff;
+}
+.terms-tags li a[href*="%E8%AF%AD%E9%9F%B3%E5%A2%9E%E5%BC%BA"]:hover,
+.terms-tags li a[href*="%E7%9B%AE%E6%A0%87%E8%AF%B4%E8%AF%9D%E4%BA%BA%E6%8F%90%E5%8F%96"]:hover,
+.terms-tags li a[href*="%E8%AF%AD%E9%9F%B3%E5%88%86%E7%A6%BB"]:hover,
+.terms-tags li a[href*="%E5%8F%8C%E8%80%B3%E9%9F%B3%E9%A2%91"]:hover,
+.terms-tags li a[href*="%E4%B9%90%E5%99%A8%E5%88%86%E7%A6%BB"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(16,185,129,0.32);
+  filter: brightness(1.05);
+}
+
+/* tag count badge inside link */
+.terms-tags li a sup strong sup,
+.terms-tags li a sup {
+  opacity: 0.7;
+  font-size: 0.75em;
+  margin-left: 0.25rem;
+}
+
 /* ───────────── home recent section ───────────── */
 
 .home-info { box-shadow: none !important; padding: 0 !important; }

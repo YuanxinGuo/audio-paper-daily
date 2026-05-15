@@ -7,16 +7,15 @@ hidemeta: true
 
 ## 这是什么
 
-**语音/音频论文速递** 每天自动从 arxiv (eess.AS / cs.SD) 与 HuggingFace Daily Papers 抓取最新论文，
+**语音/音频论文速递** 每天自动从 arxiv (eess.AS / cs.SD) 抓取最新论文，
 通过 DeepSeek 大模型自动分析、打分、生成中文摘要，并按主题与评分聚合发布。
 
 整套系统完全开源、零人工维护：
 
-- 数据源：[arxiv](https://arxiv.org/) · [HuggingFace Daily Papers](https://huggingface.co/papers)
+- 数据源：[arxiv](https://arxiv.org/) eess.AS / cs.SD
 - 分析模型：DeepSeek `deepseek-chat`
 - 静态站点：Hugo (PaperMod 主题)
 - 自动化：GitHub Actions（每天 09:00 北京时间）
-- 全文搜索：[Pagefind](https://pagefind.app/)
 
 ## 评分含义
 

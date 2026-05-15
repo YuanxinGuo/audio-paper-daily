@@ -52,7 +52,7 @@ def main() -> None:
     out.append('<div class="hero-headline">')
     out.append('<span class="hero-badge">🎧 Daily Digest</span>')
     out.append('<h1 class="hero-title">语音 / 音频论文 <span class="grad">速递</span></h1>')
-    out.append('<p class="hero-sub">每天自动从 arXiv & HuggingFace 抓取最新研究，'
+    out.append('<p class="hero-sub">每天自动从 arXiv eess.AS / cs.SD 抓取最新研究，'
                '由 DeepSeek 深度阅读、打分、提炼。</p>')
     out.append('<p class="hero-focus-tags">')
     out.append('<span class="focus-pill">语音增强</span>')
@@ -126,11 +126,9 @@ def main() -> None:
     # ─── About strip ─────────────────────────────────────────────────────
     out.append("## 关于本站")
     out.append("")
-    out.append("- 数据源：[arXiv](https://arxiv.org/) eess.AS & cs.SD · "
-               "[HuggingFace Daily Papers](https://huggingface.co/papers)")
+    out.append("- 数据源：[arXiv](https://arxiv.org/) eess.AS / cs.SD")
     out.append("- 分析模型：DeepSeek `deepseek-chat`")
     out.append("- 自动化：GitHub Actions（每日 09:00 北京时间）")
-    out.append("- 全文搜索：[Pagefind](https://pagefind.app/)")
     out.append("- 源码：<https://github.com/YuanxinGuo/audio-paper-daily>")
     out.append("")
     out.append("> 评分由大语言模型基于摘要自动生成，仅供快速筛选。"
