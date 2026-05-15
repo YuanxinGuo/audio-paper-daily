@@ -525,13 +525,31 @@ def render_for_date(date_str: str) -> Path | None:
     out.append("> 语音增强 · 目标说话人提取 · 语音分离 · 双耳音频 · 乐器分离")
     out.append("")
 
-    # Group today's focus papers by main_task
-    by_task: dict[str, list[tuple[str, "sqlite3.Row"]]] = {}
-    for slug, r in focus_rows:
-        by_task.setdefault(r["main_task"], []).append((slug, r))
-
+    # Group today's papers by which focus area they hit. A paper counts
+    # for an area when its main_task == area OR its tags include area.
+    # This keeps e.g. CALM (main_task=#语音识别, tags include #目标说话人提取)
+    # visible under the TSE area.
     focus_order = ["#语音增强", "#目标说话人提取", "#语音分离",
                    "#双耳音频", "#乐器分离"]
+
+    def _paper_areas(row) -> set[str]:
+        out = set()
+        if row["main_task"] in focus_order:
+            out.add(row["main_task"])
+        try:
+            tags = json.loads(row["tags"] or "[]")
+        except Exception:
+            tags = []
+        for t in tags:
+            if t in focus_order:
+                out.add(t)
+        return out
+
+    by_task: dict[str, list[tuple[str, "sqlite3.Row"]]] = {a: [] for a in focus_order}
+    for slug, r in paper_entries:
+        for a in _paper_areas(r):
+            by_task[a].append((slug, r))
+
     for area in focus_order:
         todays = by_task.get(area, [])
         out.append(f'### {area}')
