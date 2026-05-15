@@ -71,4 +71,4 @@ TocOpen: false
 
 ---
 
-<div class="paper-footer"><span>评分：7.2</span><span>原始：7.2</span><a href="/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>
+<div class="paper-footer"><span>评分：7.2</span><span>原始：7.2</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

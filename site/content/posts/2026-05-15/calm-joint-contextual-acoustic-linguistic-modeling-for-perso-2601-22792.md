@@ -74,4 +74,4 @@ TocOpen: false
 
 ---
 
-<div class="paper-footer"><span>评分：9.2</span><span>原始：8.2</span><span>+1 重点领域加权</span><a href="/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>
+<div class="paper-footer"><span>评分：9.2</span><span>原始：8.2</span><span>+1 重点领域加权</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>
