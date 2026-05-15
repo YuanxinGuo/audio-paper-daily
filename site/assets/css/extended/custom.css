@@ -22,6 +22,62 @@ body {
   font-feature-settings: "ss01", "cv11";
 }
 
+/* ───────────── TOP NAV: active state + hover ───────────── */
+
+.nav .logo a,
+.header .logo a {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+#menu {
+  gap: 0.2rem;
+}
+#menu li a {
+  position: relative;
+  padding: 0.45rem 0.85rem !important;
+  border-radius: 8px;
+  color: var(--secondary);
+  font-weight: 500;
+  transition: var(--transition);
+}
+#menu li a span {
+  transition: var(--transition);
+  display: inline-block;
+}
+
+#menu li a:hover {
+  color: var(--primary);
+  background: linear-gradient(135deg,
+    rgba(99,102,241,0.10), rgba(236,72,153,0.10));
+}
+
+/* PaperMod adds class="active" on the inner span for the current page. */
+#menu li a:has(span.active) {
+  background: linear-gradient(135deg,
+    rgba(99,102,241,0.14), rgba(236,72,153,0.14));
+  box-shadow: inset 0 -2px 0 0 var(--grad-mid);
+}
+
+#menu li a span.active {
+  background: linear-gradient(90deg, var(--grad-start), var(--grad-end));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+/* Subtle bottom underline for browsers without :has() support */
+@supports not (selector(:has(*))) {
+  #menu li:has(span.active),
+  #menu li a > span.active {
+    /* Fallback: outline the whole link area via box-shadow on the span */
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, var(--grad-start), var(--grad-end)) 1;
+    padding-bottom: 0.15rem;
+  }
+}
+
 /* ───────────── HERO (home) ───────────── */
 
 .hero {
