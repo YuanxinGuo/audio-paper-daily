@@ -54,13 +54,22 @@ def main() -> None:
     out.append('<h1 class="hero-title">语音 / 音频论文 <span class="grad">速递</span></h1>')
     out.append('<p class="hero-sub">每天自动从 arXiv eess.AS / cs.SD 抓取最新研究，'
                '由 DeepSeek 深度阅读、打分、提炼。</p>')
-    out.append('<p class="hero-focus-tags">')
-    out.append('<span class="focus-pill">语音增强</span>')
-    out.append('<span class="focus-pill">目标说话人提取</span>')
-    out.append('<span class="focus-pill">语音分离</span>')
-    out.append('<span class="focus-pill">双耳音频</span>')
-    out.append('<span class="focus-pill">乐器分离</span>')
-    out.append('</p>')
+    out.append('<div class="hero-focus-tags">')
+    for tag, label in [
+        ("#语音增强",         "语音增强"),
+        ("#目标说话人提取",   "目标说话人提取"),
+        ("#语音分离",         "语音分离"),
+        ("#双耳音频",         "双耳音频"),
+        ("#乐器分离",         "乐器分离"),
+    ]:
+        href = site_url(f"tags/{tag.lower()}/")
+        out.append(
+            f'<a class="focus-pill" href="{href}">'
+            f'<span class="focus-pill-icon">★</span>'
+            f'<span class="focus-pill-label">{label}</span>'
+            f'</a>'
+        )
+    out.append('</div>')
     out.append('</div>')
 
     if top and latest:
