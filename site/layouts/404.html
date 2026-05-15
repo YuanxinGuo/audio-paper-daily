@@ -1,0 +1,50 @@
+{{- define "main" -}}
+<article class="post-single not-found">
+  <div class="nf-card">
+    <div class="nf-emoji" id="nf-emoji">🔍</div>
+    <h1 class="nf-title" id="nf-title">页面没找到</h1>
+    <p class="nf-desc" id="nf-desc">
+      你访问的页面不存在，可能是链接有误，或这个标签目前还没有收录论文。
+    </p>
+    <div class="nf-actions">
+      <a class="btn-primary" href="{{ "" | absURL }}">回到首页</a>
+      <a class="btn-ghost" href="{{ "tags/" | absURL }}">查看全部标签</a>
+      <a class="btn-ghost" href="{{ "archives/" | absURL }}">浏览归档</a>
+    </div>
+    <div class="nf-focus" id="nf-focus" style="display:none">
+      <p class="nf-focus-label">本站重点关注的 5 个领域：</p>
+      <div class="nf-focus-grid">
+        <a class="focus-pill" href="{{ "tags/%23%E8%AF%AD%E9%9F%B3%E5%A2%9E%E5%BC%BA/" | absURL }}"><span class="focus-pill-icon">★</span><span class="focus-pill-label">语音增强</span></a>
+        <a class="focus-pill" href="{{ "tags/%23%E7%9B%AE%E6%A0%87%E8%AF%B4%E8%AF%9D%E4%BA%BA%E6%8F%90%E5%8F%96/" | absURL }}"><span class="focus-pill-icon">★</span><span class="focus-pill-label">目标说话人提取</span></a>
+        <a class="focus-pill" href="{{ "tags/%23%E8%AF%AD%E9%9F%B3%E5%88%86%E7%A6%BB/" | absURL }}"><span class="focus-pill-icon">★</span><span class="focus-pill-label">语音分离</span></a>
+        <a class="focus-pill" href="{{ "tags/%23%E5%8F%8C%E8%80%B3%E9%9F%B3%E9%A2%91/" | absURL }}"><span class="focus-pill-icon">★</span><span class="focus-pill-label">双耳音频</span></a>
+        <a class="focus-pill" href="{{ "tags/%23%E4%B9%90%E5%99%A8%E5%88%86%E7%A6%BB/" | absURL }}"><span class="focus-pill-icon">★</span><span class="focus-pill-label">乐器分离</span></a>
+      </div>
+    </div>
+  </div>
+</article>
+
+<script>
+(function () {
+  var path = window.location.pathname || "";
+  // tag URL pattern: /<base>/tags/<encoded-tag>/
+  var tagMatch = path.match(/\/tags\/([^/]+)\/?$/);
+  var emoji = document.getElementById("nf-emoji");
+  var title = document.getElementById("nf-title");
+  var desc = document.getElementById("nf-desc");
+  var focus = document.getElementById("nf-focus");
+  if (tagMatch) {
+    var tagName;
+    try {
+      tagName = decodeURIComponent(tagMatch[1]).replace(/^#/, "");
+    } catch (e) {
+      tagName = tagMatch[1];
+    }
+    emoji.textContent = "🏷️";
+    title.textContent = "「" + tagName + "」 暂无论文";
+    desc.textContent = "这个标签目前还没有收录到论文，可能尚未在 arXiv 上出现，或者还在等待下一次抓取。";
+    focus.style.display = "block";
+  }
+})();
+</script>
+{{- end -}}
