@@ -101,3 +101,35 @@ FOCUS_TAGS = {
     "#乐器分离",
 }
 SCORE_FOCUS_BONUS = 1.0
+
+# Daily analysis budget: how many papers to analyse per run.
+DAILY_ANALYSIS_LIMIT = 10
+
+# Keyword pre-filter (lower-cased, English) for the title+abstract of an
+# arxiv paper. Hits any keyword in any focus group → the paper is treated
+# as a focus candidate and prioritised when filling the 10-slot quota.
+FOCUS_KEYWORDS = {
+    "#语音增强": [
+        "speech enhancement", "speech denoising", "noise reduction",
+        "dereverberation", "speech restoration", "noise suppression",
+    ],
+    "#目标说话人提取": [
+        "target speaker extraction", "speaker extraction",
+        "personalized speech enhancement", "voicefilter", "speakerbeam",
+        "spex", "target speech",
+    ],
+    "#语音分离": [
+        "speech separation", "source separation", "cocktail party",
+        "speaker separation", "multi-speaker separation",
+        "diarization and separation",
+    ],
+    "#双耳音频": [
+        "binaural audio", "binaural rendering", "binaural synthesis",
+        "spatial audio", "hrtf", "head-related transfer",
+        "3d audio", "ambisonic",
+    ],
+    "#乐器分离": [
+        "music source separation", "stem separation", "instrument separation",
+        "vocal separation", "singing voice separation", "musdb",
+    ],
+}

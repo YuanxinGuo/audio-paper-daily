@@ -10,18 +10,20 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 from config import (DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL,
                     LLM_CONCURRENCY, LLM_TIMEOUT, TAG_ALIASES,
-                    FOCUS_TAGS, SCORE_FOCUS_BONUS)
+                    FOCUS_TAGS, SCORE_FOCUS_BONUS,
+                    DAILY_ANALYSIS_LIMIT, FOCUS_KEYWORDS)
 from db import connect, get_unanalyzed, save_analysis
 
 PROMPT_TEMPLATE = (Path(__file__).parent / "prompts" / "analyze.txt").read_text(
     encoding="utf-8"
 )
 
-if not DEEPSEEK_API_KEY:
-    print("[analyze] WARN: DEEPSEEK_API_KEY not set; skipping analysis.")
-    sys.exit(0)
-
-client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
+# Lazily build the OpenAI client so import works even when no key is set
+# (e.g. local syntax checks or running render-only).
+client = (
+    OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
+    if DEEPSEEK_API_KEY else None
+)
 
 
 def _canonicalize_tag(tag: str) -> str:
@@ -167,6 +169,27 @@ def _analyze_one(row) -> tuple[str, dict | None, str | None]:
         return row["arxiv_id"], None, str(e)
 
 
+def _is_focus_candidate(row) -> bool:
+    """Cheap keyword pre-filter: does the paper look like a focus-area
+    paper based on its title + abstract?"""
+    haystack = f"{row['title']} {row['abstract']}".lower()
+    for kws in FOCUS_KEYWORDS.values():
+        for kw in kws:
+            if kw in haystack:
+                return True
+    return False
+
+
+def _select_today(pending: list, limit: int) -> list:
+    """Pick at most `limit` papers from pending, focus candidates first."""
+    focus = [p for p in pending if _is_focus_candidate(p)]
+    other = [p for p in pending if not _is_focus_candidate(p)]
+    chosen = focus[:limit]
+    if len(chosen) < limit:
+        chosen += other[: limit - len(chosen)]
+    return chosen
+
+
 def main() -> None:
     with connect() as conn:
         pending = get_unanalyzed(conn)
@@ -174,9 +197,23 @@ def main() -> None:
     if not pending:
         print("[analyze] nothing to do")
         return
-    if len(pending) > 80:
-        print(f"[analyze] capping at 80 (got {len(pending)})")
-        pending = pending[:80]
+
+    selected = _select_today(pending, DAILY_ANALYSIS_LIMIT)
+    selected_ids = {p["arxiv_id"] for p in selected}
+    n_focus = sum(1 for p in selected if _is_focus_candidate(p))
+    skipped_ids = [p["arxiv_id"] for p in pending if p["arxiv_id"] not in selected_ids]
+
+    # Discard the skipped ones from the DB so they don't accumulate forever.
+    if skipped_ids:
+        with connect() as conn:
+            conn.executemany(
+                "DELETE FROM papers WHERE arxiv_id = ?",
+                [(aid,) for aid in skipped_ids],
+            )
+
+    print(f"[analyze] picked {len(selected)} (focus={n_focus}, "
+          f"other={len(selected) - n_focus}); discarded {len(skipped_ids)}")
+    pending = selected
 
     ok = fail = 0
     with ThreadPoolExecutor(max_workers=LLM_CONCURRENCY) as pool:
