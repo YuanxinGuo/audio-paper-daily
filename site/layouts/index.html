@@ -33,7 +33,7 @@
 
 {{- if gt (len (where (where site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "每日速递"))) 12 }}
 <div class="see-all">
-  <a class="btn-primary" href="/posts/">查看全部速递 →</a>
+  <a class="btn-primary" href="{{ "posts/" | absURL }}">查看全部速递 →</a>
 </div>
 {{- end }}
 

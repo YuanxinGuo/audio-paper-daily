@@ -11,7 +11,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-from config import POSTS_DIR, FOCUS_TAGS
+from config import POSTS_DIR, FOCUS_TAGS, site_url
 from db import connect, papers_for_date
 
 MEDALS = ["🥇", "🥈", "🥉"]
@@ -348,7 +348,7 @@ def render_for_date(date_str: str) -> Path | None:
 
     daily_dir = POSTS_DIR / date_str
     daily_dir.mkdir(parents=True, exist_ok=True)
-    daily_url = f"/posts/{date_str}/"
+    daily_url = site_url(f"posts/{date_str}/")
 
     paper_entries: list[tuple[str, "sqlite3.Row"]] = []
     for row in rows:

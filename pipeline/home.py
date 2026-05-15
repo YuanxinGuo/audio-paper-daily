@@ -9,7 +9,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from config import SITE_DIR, FOCUS_TAGS
+from config import SITE_DIR, FOCUS_TAGS, site_url
 from db import (connect, papers_for_date, papers_recent_focus,
                 latest_post_date)
 
@@ -64,8 +64,7 @@ def main() -> None:
     out.append('</div>')
 
     if top and latest:
-        url = f"/posts/{latest}/"
-        # find the slug of the top paper from its title
+        url = site_url(f"posts/{latest}/")
         out.append('<div class="hero-pick">')
         out.append('<div class="pick-label">今日一言推荐</div>')
         out.append(f'<div class="pick-score">{top["score"]:.1f}</div>')
@@ -92,7 +91,7 @@ def main() -> None:
                    f'<div class="stat-label">最近更新</div></div>')
         out.append('</div>')
         out.append("")
-        out.append(f'<p class="dashboard-cta"><a href="/posts/{latest}/" class="btn-primary">'
+        out.append(f'<p class="dashboard-cta"><a href="{site_url(f"posts/{latest}/")}" class="btn-primary">'
                    f'查看 {latest} 完整速递 →</a></p>')
         out.append("")
 
@@ -107,7 +106,7 @@ def main() -> None:
             # build slug like render.py does
             from render import _slugify
             slug = _slugify(r["title"]) + "-" + r["arxiv_id"].replace(".", "-")
-            url = f"/posts/{date_str}/{slug}/"
+            url = site_url(f"posts/{date_str}/{slug}/")
             tldr = r["tldr"] or ""
             out.append(f'<div class="paper-card paper-card-focus">')
             out.append(f'<div class="card-rank">⭐</div>')

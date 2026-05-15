@@ -35,7 +35,7 @@ hidemeta: true
 
 ## 订阅
 
-- [RSS](/index.xml)
+- [RSS](index.xml)
 
 ## 源码
 

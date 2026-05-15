@@ -1,7 +1,9 @@
 """Project-wide configuration."""
 from __future__ import annotations
 from pathlib import Path
+from urllib.parse import urlparse
 import os
+import re
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -13,6 +15,43 @@ DB_PATH = DATA_DIR / "papers.sqlite"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 POSTS_DIR.mkdir(parents=True, exist_ok=True)
 RANKINGS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _read_base_path() -> str:
+    """Extract the URL path prefix from site/config.toml's baseURL.
+
+    For example, baseURL = "https://user.github.io/myrepo/" yields
+    "/myrepo".  Returns "" for an apex domain.
+    """
+    cfg = SITE_DIR / "config.toml"
+    if not cfg.exists():
+        return ""
+    text = cfg.read_text(encoding="utf-8")
+    m = re.search(r'^\s*baseURL\s*=\s*"([^"]+)"', text, re.MULTILINE)
+    if not m:
+        return ""
+    parsed = urlparse(m.group(1))
+    path = parsed.path.rstrip("/")
+    return path
+
+
+# Path prefix for all internal links.  Hugo will auto-prepend this for
+# Hugo-managed paths (e.g. .Permalink), but anything we hand-write in
+# markdown / raw HTML must include it ourselves.
+SITE_BASE_PATH = _read_base_path()
+
+
+def site_url(path: str) -> str:
+    """Build a site-internal URL by prepending the base path.
+
+    Accepts paths like "posts/2026-05-15/" (with or without leading slash)
+    and returns e.g. "/audio-paper-daily/posts/2026-05-15/".
+    """
+    if not path:
+        return SITE_BASE_PATH + "/"
+    if not path.startswith("/"):
+        path = "/" + path
+    return SITE_BASE_PATH + path
 
 # arxiv categories to monitor (speech / audio focused)
 ARXIV_CATEGORIES = ["eess.AS", "cs.SD"]
