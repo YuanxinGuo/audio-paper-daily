@@ -31,28 +31,34 @@ ShowToc: false
 
 > 语音增强 · 目标说话人提取 · 语音分离 · 双耳音频 · 乐器分离
 
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
+### #语音增强
+
+<p class="empty-hint">今日无新论文命中，推荐回顾该方向的经典工作：</p>
+<div class="paper-card paper-card-classic">
+<div class="card-rank">📚</div>
 <div class="card-body">
-<a class="card-title" href="calm-joint-contextual-acoustic-linguistic-modeling-for-perso-2601-22792/">CALM: Joint Contextual Acoustic-Linguistic Modeling for Personalization of Multi-Speaker ASR</a>
+<a class="card-title" href="https://ieeexplore.ieee.org/document/6932438" target="_blank" rel="noopener">A Regression Approach to Speech Enhancement Based on Deep Neural Networks</a> <span class="classic-badge">经典</span>
 <div class="card-meta">
-<span class="card-score">9.5</span>
-<span class="tag-pill">#语音识别</span>
+<span class="card-venue">TASLP 2015</span>
+<span class="tag-pill tag-pill-soft">#语音增强</span>
 </div>
-<div class="card-tldr">提出CALM框架，联合声学-语言建模实现多说话人ASR中的个性化，通过说话人嵌入提取和动态词汇偏置降低偏置词错误率。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
+<div class="card-tldr">首次系统验证 DNN 直接回归对数功率谱的语音增强范式，奠定后续大量 mask / mapping 方法的基础。</div>
+<div class="card-authors">Yong Xu, Jun Du, Li-Rong Dai, Chin-Hui Lee</div>
+</div></div>
+<div class="paper-card paper-card-classic">
+<div class="card-rank">📚</div>
 <div class="card-body">
-<a class="card-title" href="unifying-diarization-separation-and-asr-with-multi-speaker-e-2508-20474/">Unifying Diarization, Separation, and ASR with Multi-Speaker Encoder</a>
+<a class="card-title" href="https://arxiv.org/abs/1809.07454" target="_blank" rel="noopener">Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking</a> <span class="classic-badge">经典</span>
 <div class="card-meta">
-<span class="card-score">9.5</span>
-<span class="tag-pill">#语音分离</span>
+<span class="card-venue">TASLP 2019</span>
+<span class="tag-pill tag-pill-soft">#语音增强</span>
 </div>
-<div class="card-tldr">提出统一多说话人编码器（UME），通过共享语音基础编码器联合学习说话人日志、语音分离和多说话人ASR，在LibriMix上显著优于单任务基线。</div>
-</div>
-</div>
+<div class="card-tldr">时域端到端分离/增强里程碑，证明 1D 卷积可超越 STFT 域 IRM/IBM 上限。</div>
+<div class="card-authors">Yi Luo, Nima Mesgarani</div>
+</div></div>
+
+### #目标说话人提取
+
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -62,8 +68,20 @@ ShowToc: false
 <span class="tag-pill">#目标说话人提取</span>
 </div>
 <div class="card-tldr">IsoNet 提出一种面向紧凑麦克风阵列的视听目标语音提取系统，通过多通道 STFT、GCC-PHAT 空间线索和面部嵌入的融合，在低 SNR 下显著优于传统波束成形。</div>
+</div></div>
+
+### #语音分离
+
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="unifying-diarization-separation-and-asr-with-multi-speaker-e-2508-20474/">Unifying Diarization, Separation, and ASR with Multi-Speaker Encoder</a>
+<div class="card-meta">
+<span class="card-score">9.5</span>
+<span class="tag-pill">#语音分离</span>
 </div>
-</div>
+<div class="card-tldr">提出统一多说话人编码器（UME），通过共享语音基础编码器联合学习说话人日志、语音分离和多说话人ASR，在LibriMix上显著优于单任务基线。</div>
+</div></div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -73,8 +91,36 @@ ShowToc: false
 <span class="tag-pill">#语音分离</span>
 </div>
 <div class="card-tldr">提出SR-CorrNet，一种非对称编码器-解码器框架，通过分离-重建策略和相关性滤波实现鲁棒语音分离。</div>
+</div></div>
+
+### #双耳音频
+
+<p class="empty-hint">今日无新论文命中，推荐回顾该方向的经典工作：</p>
+<div class="paper-card paper-card-classic">
+<div class="card-rank">📚</div>
+<div class="card-body">
+<a class="card-title" href="https://arxiv.org/abs/2111.10882" target="_blank" rel="noopener">Binaural Audio Generation via Multi-task Learning</a> <span class="classic-badge">经典</span>
+<div class="card-meta">
+<span class="card-venue">ACM TOG 2021</span>
+<span class="tag-pill tag-pill-soft">#双耳音频</span>
 </div>
+<div class="card-tldr">联合 mono-to-binaural 与几何信息预测，提升合成空间感。</div>
+<div class="card-authors">Sijia Li, Sagar Vaze, et al.</div>
+</div></div>
+<div class="paper-card paper-card-classic">
+<div class="card-rank">📚</div>
+<div class="card-body">
+<a class="card-title" href="https://arxiv.org/abs/1812.04204" target="_blank" rel="noopener">2.5D Visual Sound</a> <span class="classic-badge">经典</span>
+<div class="card-meta">
+<span class="card-venue">CVPR 2019</span>
+<span class="tag-pill tag-pill-soft">#双耳音频</span>
 </div>
+<div class="card-tldr">用单视频引导 mono → binaural，视听双耳音频合成开创性工作。</div>
+<div class="card-authors">Ruohan Gao, Kristen Grauman</div>
+</div></div>
+
+### #乐器分离
+
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,8 +130,7 @@ ShowToc: false
 <span class="tag-pill">#乐器分离</span>
 </div>
 <div class="card-tldr">发布了一个包含多轨管弦乐录音的数据集，用于音乐源分离和MIR任务，并提供基线评估。</div>
-</div>
-</div>
+</div></div>
 
 ## 📊 完整排行榜
 
