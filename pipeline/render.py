@@ -465,8 +465,11 @@ def render_for_date(date_str: str) -> Path | None:
     top_dirs = counter.most_common(8)
     max_n = max(n for _, n in top_dirs) if top_dirs else 1
 
-    main_tasks = sorted({r["main_task"] for r in rows if r["main_task"]})
-    front_tags = main_tasks
+    # Daily index page is a *section* listing many papers. We deliberately
+    # leave its front-matter `tags` empty — otherwise Hugo would count the
+    # section itself as a member of every tag it declares, inflating each
+    # tag's shown count by 1 (e.g. a 1-paper tag would display "2").
+    front_tags: list[str] = []
     title = f"语音/音频论文速递 {date_str}"
 
     focus_rows = [(s, r) for s, r in paper_entries if _is_focus(r)]
