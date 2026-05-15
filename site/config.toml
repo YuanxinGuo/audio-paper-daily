@@ -54,13 +54,9 @@ pagination.pagerSize = 15
     url = "/rankings/"
     weight = 30
   [[menu.main]]
-    name = "搜索"
-    url = "/search/"
-    weight = 40
-  [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 50
+    weight = 40
 
 [markup]
   [markup.goldmark.renderer]
