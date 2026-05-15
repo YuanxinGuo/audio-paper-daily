@@ -338,14 +338,6 @@ def _render_paper_page(row, daily_dir: Path, daily_url: str) -> str:
             out.append(f"- **数据集**：<{u}>")
         out.append("")
 
-    # ─── 9. BibTeX ───────────────────────────────────────────────────────
-    out.append("## 📋 引用")
-    out.append("")
-    out.append("```bibtex")
-    out.append(_bibtex(row))
-    out.append("```")
-    out.append("")
-
     # ─── Footer ──────────────────────────────────────────────────────────
     out.append("---")
     out.append("")
