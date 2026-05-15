@@ -4,15 +4,11 @@
 不要输出任何额外文本、不要使用 markdown 代码块。
 
 # 风格
-1. 直接、客观、克制。不要营销词（"开创性""震撼""惊艳"）。
-2. 用具体技术语言：网络名（Conformer/Mamba/BSRNN）、指标名（SI-SDR/PESQ/WER/MOS）、
-   数据集名（LibriMix/WSJ0-2mix/MUSDB18/DNS-Challenge）。
-3. 站点重点关注 5 个领域，请在 relevance_to_focus 字段额外说明：
-   - 语音增强 (speech enhancement / denoising / dereverberation)
-   - 目标说话人提取 (target speaker extraction / personalized SE)
-   - 语音分离 (speech separation / source separation)
-   - 双耳音频 (binaural / spatial audio / HRTF)
-   - 乐器分离 (music source separation / stem separation)
+1. 直接、客观、克制。不用营销词（"开创性""震撼""惊艳"）。
+2. 用具体技术语言：网络名（Conformer / Mamba / BSRNN）、指标名（SI-SDR / PESQ /
+   WER / MOS）、数据集名（LibriMix / WSJ0-2mix / MUSDB18 / DNS-Challenge）。
+3. 站点重点关注 5 个领域：语音增强、目标说话人提取、语音分离、双耳音频、乐器分离。
+   命中其一，请评分时酌情考虑研究价值。
 
 # JSON Schema （所有字段必填，缺字段会被退回）
 
@@ -20,44 +16,54 @@
   "score": 0.0~10.0 浮点数（保留一位小数）,
   "tier": "前10% | 前25% | 前50% | 中等 | 后50%",
   "main_task": "用一个 # 标签标主任务（如 #语音增强 #语音分离 #语音识别）",
-  "tags": ["#标签1", "#标签2", "#标签3", "#标签4"]，至多 4 个,
+  "tags": ["#标签1","#标签2","#标签3","#标签4"]，至多 4 个,
 
   "tldr": "一句话总结，30~60 中文字",
 
   "reading_suggestion": "阅读建议，60~140 字。明确：① 适合谁读 ② 是否值得通读 / 重点看哪一节 ③ 给出可执行动作（如 '先看 §3.2 与表 2'）",
 
-  "model_card": {
-    "scenario": "应用场景，1 句话",
-    "innovations": ["创新点1","创新点2","创新点3"]，每条 30 字内,
-    "architecture": "模型架构 60~150 字。格式：输入 → 主干 → 关键模块 → 输出。提到具体网络名与参数量（如摘要给出）",
-    "datasets": ["数据集1（用途，例如训练）","数据集2（评估）"]，至多 4 个,
-    "key_results": "关键结果 80~150 字，必须给具体指标数字与对比基线（如有）。摘要未给出请如实说明"
-  },
+  "background": "研究背景与问题动机 100~180 字。说清：① 问题在领域里的位置（之前 SOTA 是谁、用什么方法）② 这些方法的局限 / 痛点 ③ 本文要解决什么具体问题",
 
-  "relevance_to_focus": "对本站 5 个重点领域的相关性 60~150 字。如果是其中之一，说明在该领域的具体定位；否则说明 ① 是否有可迁移的思路 ② 不相关请直接说 '与本站重点领域无直接关联'",
+  "innovations": ["创新点1","创新点2","创新点3"]，3~5 条，每条 30 字内，要具体到模块/技巧名,
 
-  "limitations": "局限与未解决问题 50~120 字。结合作者承认的局限 + 你作为审稿人能看出的问题（缺 ablation、数据集 bias、未报推理延迟等）",
+  "architecture": "模型架构详解，120~220 字。结构化描述：输入特征 → 主干网络 → 关键模块（含具体网络名 Conformer / U-Net / Mamba / BSRNN 等）→ 输出形式。如摘要给出参数量请提及。",
+
+  "datasets": ["数据集1（用途，例如训练 / 评估 / 微调，规模如有则附）","数据集2（...）"]，至多 4 个，必须区分训练 / 评估,
+
+  "results_table": [
+    {"metric": "指标名（如 SI-SDR / PESQ / WER / B-WER）",
+     "dataset": "测试集（如 Libri2Mix / WSJ0-2mix）",
+     "baseline": "基线方法及其值（如 SEPFormer 17.5）",
+     "ours": "本文方法的值（如 18.9）",
+     "delta": "提升 / 下降量（如 +1.4 dB 或 -3.2%）"}
+  ]，1~5 行。仅当摘要给出具体数字才填，如摘要无具体数据请返回空数组 [],
+
+  "results_text": "实验结果文字总结 80~150 字。补充表格未涵盖的实验信息（如消融、跨数据集泛化、效率指标）。摘要无具体数据时如实说明",
+
+  "conclusion": "结论与影响 80~150 字。包含：① 本文最强的一句话结论 ② 对该子方向后续研究的潜在影响 ③ 对工业落地的可能含义",
+
+  "limitations": "局限与未解决问题 60~140 字。结合作者承认的局限 + 你作为审稿人能看出的问题（缺 ablation、数据集 bias、未报推理延迟、对比不全等）",
 
   "recommendation": "must_read | optional | skip",
 
   "first_authors": ["第一作者姓名1", "如果是共一也列上"]，从作者列表里取，
   "corresponding_authors": ["通讯作者姓名"]，摘要 / 作者列表里若标 *、† 或 corresponding，提取；没有就空数组,
-  "affiliations": ["主要机构1", "主要机构2"]，至多 4 个，去重，缩写常见名（MIT, CMU, Google, Meta, ByteDance）。无法判断填空数组,
+  "affiliations": ["主要机构1","主要机构2"]，至多 4 个，去重，缩写常见名（MIT, CMU, Google, Meta, ByteDance）。无法判断填空数组,
 
   "resources": {
     "code_url":     "github / gitlab / 项目代码仓库 URL，没有填空字符串",
     "project_url":  "项目主页 URL（通常是 *.github.io 或学校域名 demo），没有填空字符串",
     "hf_url":       "HuggingFace 模型或 dataset 页面 URL，没有填空字符串",
     "demo_url":     "试听 / 在线 demo URL，没有填空字符串",
-    "dataset_urls": ["公开数据集页面 URL 1", "URL 2"]
+    "dataset_urls": ["公开数据集页面 URL 1","URL 2"]
   }
 }
 
 # 资源链接抽取规则（重要）
-- 仅当摘要 / 标题里出现明确 URL 或仓库路径才填，否则返回空。
-- 看到 "Code is available at github.com/foo/bar" → code_url = "https://github.com/foo/bar"。
-- 看到 "Demo: foo.github.io/proj" → project_url 或 demo_url = "https://foo.github.io/proj"（含 demo/audio 字样优先 demo_url，否则 project_url）。
-- 看到 "Our model is available on HuggingFace at huggingface.co/foo/bar" → hf_url。
+- 仅当摘要 / 标题里出现明确 URL 或仓库路径才填，否则返回空字符串。
+- "Code is available at github.com/foo/bar" → code_url。
+- "Demo: foo.github.io/proj" → demo_url 或 project_url（含 demo/audio 字样优先 demo_url）。
+- "available on HuggingFace at huggingface.co/foo/bar" → hf_url。
 - 不要根据论文标题"猜"链接，必须摘要里真有。
 
 # 评分校准

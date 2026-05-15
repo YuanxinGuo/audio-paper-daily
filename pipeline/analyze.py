@@ -71,15 +71,6 @@ def _validate_and_normalise(data: dict) -> dict:
         else:
             tier = "后50%"
 
-    mc = data.get("model_card") or {}
-    if not isinstance(mc, dict):
-        mc = {}
-    # ensure list-typed sub-fields
-    if not isinstance(mc.get("innovations"), list):
-        mc["innovations"] = []
-    if not isinstance(mc.get("datasets"), list):
-        mc["datasets"] = []
-
     rec = (data.get("recommendation") or "optional").lower()
     if rec not in {"must_read", "optional", "skip"}:
         rec = "optional"
@@ -106,6 +97,21 @@ def _validate_and_normalise(data: dict) -> dict:
         if resources[k] and not resources[k].startswith(("http://", "https://")):
             resources[k] = ""
 
+    # Validate results_table: list of dicts with required keys.
+    rt_in = data.get("results_table")
+    results_table: list[dict] = []
+    if isinstance(rt_in, list):
+        for r in rt_in[:6]:
+            if not isinstance(r, dict):
+                continue
+            results_table.append({
+                "metric":   str(r.get("metric") or "").strip(),
+                "dataset":  str(r.get("dataset") or "").strip(),
+                "baseline": str(r.get("baseline") or "").strip(),
+                "ours":     str(r.get("ours") or "").strip(),
+                "delta":    str(r.get("delta") or "").strip(),
+            })
+
     return {
         "score": final_score,
         "raw_score": raw_score,
@@ -114,14 +120,20 @@ def _validate_and_normalise(data: dict) -> dict:
         "tags": tags,
         "tldr": data.get("tldr") or "",
         "reading_suggestion": data.get("reading_suggestion") or "",
-        "model_card": mc,
-        "relevance_to_focus": data.get("relevance_to_focus") or "",
         "limitations": data.get("limitations") or "",
         "recommendation": rec,
         "first_authors": _list("first_authors", 4),
         "corresponding_authors": _list("corresponding_authors", 4),
         "affiliations": _list("affiliations", 4),
         "resources": resources,
+        # New v3 fields:
+        "background": data.get("background") or "",
+        "innovations": _list("innovations", 5),
+        "architecture": data.get("architecture") or "",
+        "datasets": _list("datasets", 4),
+        "results_table": results_table,
+        "results_text": data.get("results_text") or "",
+        "conclusion": data.get("conclusion") or "",
     }
 
 

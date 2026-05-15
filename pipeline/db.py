@@ -33,15 +33,23 @@ CREATE TABLE IF NOT EXISTS papers (
   -- analysis (extended)
   raw_score          REAL,
   reading_suggestion TEXT,
-  model_card         TEXT,    -- JSON object
-  relevance_to_focus TEXT,
-  snark              TEXT,    -- legacy, no longer used
+  model_card         TEXT,    -- JSON object (legacy)
+  relevance_to_focus TEXT,    -- legacy, no longer rendered
+  snark              TEXT,    -- legacy
   recommendation     TEXT,    -- must_read | optional | skip
   -- academic metadata
   first_authors          TEXT,   -- JSON array
   corresponding_authors  TEXT,   -- JSON array
   affiliations           TEXT,   -- JSON array
-  resources              TEXT    -- JSON object
+  resources              TEXT,   -- JSON object
+  -- expanded paper-detail fields (v3 schema)
+  background          TEXT,
+  innovations         TEXT,    -- JSON array
+  architecture_text   TEXT,
+  datasets_text       TEXT,    -- JSON array
+  results_table       TEXT,    -- JSON array of {metric,dataset,baseline,ours,delta}
+  results_text        TEXT,
+  conclusion          TEXT
 );
 
 CREATE INDEX IF NOT EXISTS idx_fetch_date ON papers(fetch_date);
@@ -61,6 +69,13 @@ MIGRATIONS = [
     "ALTER TABLE papers ADD COLUMN corresponding_authors TEXT",
     "ALTER TABLE papers ADD COLUMN affiliations TEXT",
     "ALTER TABLE papers ADD COLUMN resources TEXT",
+    "ALTER TABLE papers ADD COLUMN background TEXT",
+    "ALTER TABLE papers ADD COLUMN innovations TEXT",
+    "ALTER TABLE papers ADD COLUMN architecture_text TEXT",
+    "ALTER TABLE papers ADD COLUMN datasets_text TEXT",
+    "ALTER TABLE papers ADD COLUMN results_table TEXT",
+    "ALTER TABLE papers ADD COLUMN results_text TEXT",
+    "ALTER TABLE papers ADD COLUMN conclusion TEXT",
 ]
 
 
@@ -111,7 +126,6 @@ def get_unanalyzed(conn: sqlite3.Connection) -> list[sqlite3.Row]:
 
 
 def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> None:
-    mc = analysis.get("model_card") or {}
     conn.execute(
         """
         UPDATE papers SET
@@ -120,13 +134,18 @@ def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> No
           highlights=:highlights,
           method=:method, results=:results, limitations=:limitations,
           reading_suggestion=:reading_suggestion,
-          model_card=:model_card,
-          relevance_to_focus=:relevance_to_focus,
           recommendation=:recommendation,
           first_authors=:first_authors,
           corresponding_authors=:corresponding_authors,
           affiliations=:affiliations,
           resources=:resources,
+          background=:background,
+          innovations=:innovations,
+          architecture_text=:architecture_text,
+          datasets_text=:datasets_text,
+          results_table=:results_table,
+          results_text=:results_text,
+          conclusion=:conclusion,
           analyzed_at=datetime('now')
         WHERE arxiv_id=:arxiv_id
         """,
@@ -138,14 +157,13 @@ def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> No
             "main_task": analysis.get("main_task"),
             "tags": json.dumps(analysis.get("tags", []), ensure_ascii=False),
             "tldr": analysis.get("tldr"),
-            "highlights": json.dumps(mc.get("innovations", []),
-                                     ensure_ascii=False),
-            "method": mc.get("architecture"),
-            "results": mc.get("key_results"),
+            # Legacy mirrors for backward compat with old templates / queries.
+            "highlights": json.dumps(
+                analysis.get("innovations", []), ensure_ascii=False),
+            "method": analysis.get("architecture"),
+            "results": analysis.get("results_text"),
             "limitations": analysis.get("limitations"),
             "reading_suggestion": analysis.get("reading_suggestion"),
-            "model_card": json.dumps(mc, ensure_ascii=False),
-            "relevance_to_focus": analysis.get("relevance_to_focus"),
             "recommendation": analysis.get("recommendation"),
             "first_authors": json.dumps(
                 analysis.get("first_authors") or [], ensure_ascii=False),
@@ -155,6 +173,16 @@ def save_analysis(conn: sqlite3.Connection, arxiv_id: str, analysis: dict) -> No
                 analysis.get("affiliations") or [], ensure_ascii=False),
             "resources": json.dumps(
                 analysis.get("resources") or {}, ensure_ascii=False),
+            "background": analysis.get("background"),
+            "innovations": json.dumps(
+                analysis.get("innovations") or [], ensure_ascii=False),
+            "architecture_text": analysis.get("architecture"),
+            "datasets_text": json.dumps(
+                analysis.get("datasets") or [], ensure_ascii=False),
+            "results_table": json.dumps(
+                analysis.get("results_table") or [], ensure_ascii=False),
+            "results_text": analysis.get("results_text"),
+            "conclusion": analysis.get("conclusion"),
         },
     )
 

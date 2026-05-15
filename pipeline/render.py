@@ -165,11 +165,11 @@ def _render_paper_page(row, daily_dir: Path, daily_url: str) -> str:
     slug = _slugify(row["title"]) + "-" + row["arxiv_id"].replace(".", "-")
     page_path = daily_dir / f"{slug}.md"
 
-    mc = _safe_json(row["model_card"], {})
-    innovations = mc.get("innovations") or []
-    datasets = mc.get("datasets") or []
     tags = _safe_json(row["tags"], [])
     affiliations = _safe_json(row["affiliations"], [])
+    innovations = _safe_json(row["innovations"], [])
+    datasets = _safe_json(row["datasets_text"], [])
+    results_table = _safe_json(row["results_table"], [])
     main_task = row["main_task"] or ""
 
     front_tags_for_yaml = sorted({main_task, *tags} - {""})
@@ -253,27 +253,70 @@ def _render_paper_page(row, daily_dir: Path, daily_url: str) -> str:
         out.append(row["reading_suggestion"])
         out.append("")
 
-    # ─── Model card ──────────────────────────────────────────────────────
-    out.append("## 🧩 模型一栏概览")
-    out.append("")
-    out.append("| 项 | 内容 |")
-    out.append("| --- | --- |")
-    if mc.get("scenario"):
-        out.append(f"| **应用场景** | {mc['scenario']} |")
-    if innovations:
-        out.append("| **核心创新** | " + " · ".join(innovations) + " |")
-    if mc.get("architecture"):
-        arch = mc["architecture"].replace("\n", " ").replace("|", "\\|")
-        out.append(f"| **模型架构** | {arch} |")
-    if datasets:
-        ds = " · ".join(d.replace("|", "\\|") for d in datasets)
-        out.append(f"| **数据集** | {ds} |")
-    if mc.get("key_results"):
-        kr = mc["key_results"].replace("\n", " ").replace("|", "\\|")
-        out.append(f"| **关键结果** | {kr} |")
-    out.append("")
+    # ─── 1. Background ───────────────────────────────────────────────────
+    if row["background"]:
+        out.append("## 🌍 研究背景")
+        out.append("")
+        out.append(row["background"])
+        out.append("")
 
-    # ─── Open-source resources detailed list ─────────────────────────────
+    # ─── 2. Innovations ──────────────────────────────────────────────────
+    if innovations:
+        out.append("## 💡 核心创新")
+        out.append("")
+        for i, inv in enumerate(innovations, 1):
+            out.append(f"{i}. {inv}")
+        out.append("")
+
+    # ─── 3. Architecture ─────────────────────────────────────────────────
+    if row["architecture_text"]:
+        out.append("## 🏗️ 模型架构")
+        out.append("")
+        out.append(row["architecture_text"])
+        out.append("")
+
+    # ─── 4. Datasets ─────────────────────────────────────────────────────
+    if datasets:
+        out.append("## 📚 数据集")
+        out.append("")
+        for d in datasets:
+            out.append(f"- {d}")
+        out.append("")
+
+    # ─── 5. Experimental results ────────────────────────────────────────
+    if results_table or row["results_text"]:
+        out.append("## 📊 实验结果")
+        out.append("")
+        if results_table:
+            out.append("| 指标 | 测试集 | 基线 | 本文 | 提升 |")
+            out.append("| --- | --- | --- | --- | --- |")
+            for r in results_table:
+                metric = (r.get("metric") or "—").replace("|", "\\|")
+                ds = (r.get("dataset") or "—").replace("|", "\\|")
+                bl = (r.get("baseline") or "—").replace("|", "\\|")
+                ours = (r.get("ours") or "—").replace("|", "\\|")
+                delta = (r.get("delta") or "—").replace("|", "\\|")
+                out.append(f"| {metric} | {ds} | {bl} | **{ours}** | {delta} |")
+            out.append("")
+        if row["results_text"]:
+            out.append(row["results_text"])
+            out.append("")
+
+    # ─── 6. Conclusion ───────────────────────────────────────────────────
+    if row["conclusion"]:
+        out.append("## 🎯 结论与影响")
+        out.append("")
+        out.append(row["conclusion"])
+        out.append("")
+
+    # ─── 7. Limitations ──────────────────────────────────────────────────
+    if row["limitations"]:
+        out.append("## ⚠️ 局限与未解决问题")
+        out.append("")
+        out.append(row["limitations"])
+        out.append("")
+
+    # ─── 8. Open-source resources detailed list ─────────────────────────
     res = _safe_json(row["resources"], {})
     has_extras = any([
         res.get("code_url"), res.get("hf_url"),
@@ -295,21 +338,7 @@ def _render_paper_page(row, daily_dir: Path, daily_url: str) -> str:
             out.append(f"- **数据集**：<{u}>")
         out.append("")
 
-    # ─── Relevance to focus ──────────────────────────────────────────────
-    if row["relevance_to_focus"]:
-        out.append("## 🎯 与本站重点领域的关联")
-        out.append("")
-        out.append(row["relevance_to_focus"])
-        out.append("")
-
-    # ─── Limitations ─────────────────────────────────────────────────────
-    if row["limitations"]:
-        out.append("## ⚠️ 局限与未解决问题")
-        out.append("")
-        out.append(row["limitations"])
-        out.append("")
-
-    # ─── BibTeX ──────────────────────────────────────────────────────────
+    # ─── 9. BibTeX ───────────────────────────────────────────────────────
     out.append("## 📋 引用")
     out.append("")
     out.append("```bibtex")
