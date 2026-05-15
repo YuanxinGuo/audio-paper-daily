@@ -254,7 +254,10 @@ def _render_paper_page(row, daily_dir: Path, daily_url: str) -> str:
     results_table = _safe_json(row["results_table"], [])
     main_task = row["main_task"] or ""
 
-    front_tags_for_yaml = sorted({main_task, *tags} - {""})
+    # Only the main_task goes into the global Hugo tag index.
+    # Sub-tags are rendered inline on the page itself but don't pollute
+    # /tags/, otherwise that listing balloons to ~100 once-used tags.
+    front_tags_for_yaml = [main_task] if main_task else []
 
     rec_label = {
         "must_read": "🔥 强烈推荐通读",

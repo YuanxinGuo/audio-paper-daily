@@ -6,16 +6,13 @@ ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-<link href="https://cdn.jsdelivr.net/npm/@pagefind/default-ui@1/css/ui.css" rel="stylesheet">
+<link href="/audio-paper-daily/pagefind/pagefind-ui.css" rel="stylesheet">
 <div id="search"></div>
-<script src="https://cdn.jsdelivr.net/npm/@pagefind/default-ui@1/npm/dist/coupled_search.min.js"></script>
+<script src="/audio-paper-daily/pagefind/pagefind-ui.js"></script>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
     new PagefindUI({
       element: "#search",
-      // Site is served from a sub-path on GitHub Pages; tell Pagefind
-      // where to load its wasm + fragment files from.
-      bundlePath: "/audio-paper-daily/pagefind/",
       showImages: false,
       showSubResults: true,
       resetStyles: false,

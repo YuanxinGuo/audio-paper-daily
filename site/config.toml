@@ -50,21 +50,17 @@ pagination.pagerSize = 15
     url = "/tags/"
     weight = 20
   [[menu.main]]
-    name = "分类"
-    url = "/categories/"
-    weight = 30
-  [[menu.main]]
     name = "排行榜"
     url = "/rankings/"
-    weight = 40
+    weight = 30
   [[menu.main]]
     name = "搜索"
     url = "/search/"
-    weight = 50
+    weight = 40
   [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 60
+    weight = 50
 
 [markup]
   [markup.goldmark.renderer]
