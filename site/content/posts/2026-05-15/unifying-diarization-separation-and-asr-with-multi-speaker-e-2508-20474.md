@@ -78,17 +78,6 @@ TocOpen: false
 
 摘要未报告SS和ASR的具体指标，仅称优于基线，缺乏量化对比。实验仅在LibriMix上评估，未在真实场景或更大规模数据集验证。未提及模型参数量和推理延迟，实用性待考。未进行消融实验分析RWSE贡献。
 
-## 📋 引用
-
-```bibtex
-@article{shakeel20262508,
-  title  = {Unifying Diarization, Separation, and ASR with Multi-Speaker Encoder},
-  author = {Muhammad Shakeel and  Yui Sudo and  Yifan Peng and  Chyi-Jiunn Lin and  Shinji Watanabe},
-  journal = {arXiv preprint arXiv:2508.20474},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：9.5</span><span>原始：8.5</span><span>+1 重点领域加权</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

@@ -82,17 +82,6 @@ TocOpen: false
 
 - **代码**：<https://github.com/Sooyyoungg/Stylus.git>
 
-## 📋 引用
-
-```bibtex
-@article{wang20262411,
-  title  = {Repurposing Image Diffusion Models for Training-Free Music Style Transfer on Mel-spectrograms},
-  author = {Heehwan Wang and  Joonwoo Kwon and  Sooyoung Kim and  Jungwoo Seo and  Shinjae Yoo and  Yuewei Lin and  Jiook Cha},
-  journal = {arXiv preprint arXiv:2411.15913},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：8.2</span><span>原始：8.2</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

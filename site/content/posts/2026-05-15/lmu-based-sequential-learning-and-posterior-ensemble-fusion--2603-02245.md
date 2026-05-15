@@ -77,17 +77,6 @@ TocOpen: false
 
 摘要未报告具体指标数值，缺乏与更多基线（如Transformer）的对比；仅使用两个数据集，泛化性验证有限；未分析LMU在不同序列长度下的记忆衰减。
 
-## 📋 引用
-
-```bibtex
-@article{jazaeri20262603,
-  title  = {LMU-Based Sequential Learning and Posterior Ensemble Fusion for Cross-Domain Infant Cry Classification},
-  author = {Niloofar Jazaeri and  Hilmi R. Dajani and  Marco Janeczek and  Martin Bouchard},
-  journal = {arXiv preprint arXiv:2603.02245},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：6.8</span><span>原始：6.8</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

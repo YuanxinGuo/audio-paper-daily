@@ -78,17 +78,6 @@ TocOpen: false
 
 仅考虑多机器录音合并的简单场景，未探索更复杂的混合或动态机器身份变化。实验仅使用DCASE数据集，可能缺乏泛化性。未提出缓解性能下降的方法，仅分析问题。未报告计算效率或推理延迟。
 
-## 📋 引用
-
-```bibtex
-@article{wilkinghoff20262602,
-  title  = {How Much Does Machine Identity Matter in Anomalous Sound Detection at Test Time?},
-  author = {Kevin Wilkinghoff and  Keisuke Imoto and  Zheng-Hua Tan},
-  journal = {arXiv preprint arXiv:2602.16253},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：7.2</span><span>原始：7.2</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

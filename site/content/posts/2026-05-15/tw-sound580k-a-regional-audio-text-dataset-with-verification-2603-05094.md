@@ -78,17 +78,6 @@ TocOpen: false
 
 摘要未提供消融实验细节，未报告模型参数量、推理延迟等效率指标。数据集仅覆盖台湾华语，泛化性未知。对比基线仅为零样本，缺少与其他微调方法的比较。
 
-## 📋 引用
-
-```bibtex
-@article{xie20262603,
-  title  = {TW-Sound580K: A Regional Audio-Text Dataset with Verification-Guided Curation for Localized Audio-Language Modeling},
-  author = {Hao-Hui Xie and  Ho-Lam Chung and  Yi-Cheng Lin and  Ke-Han Lu and  Wenze Ren and  Xie Chen and  Hung-yi Lee},
-  journal = {arXiv preprint arXiv:2603.05094},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：7.8</span><span>原始：7.8</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

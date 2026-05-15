@@ -72,17 +72,6 @@ TocOpen: false
 
 缺乏客观量化指标（如RIR频谱误差、混响时间精度）对比；未与现有RIR生成方法（如物理模型、GAN）进行定量比较；数据集规模与多样性未说明；上下文学习的效果未通过消融实验验证。
 
-## 📋 引用
-
-```bibtex
-@article{kim20262603,
-  title  = {Adapting a Text-to-Audio Model for Room Impulse Response Generation},
-  author = {Kirak Kim and  Sungyoung Kim},
-  journal = {arXiv preprint arXiv:2603.09708},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：8.2</span><span>原始：7.2</span><span>+1 重点领域加权</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

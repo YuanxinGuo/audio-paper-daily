@@ -75,17 +75,6 @@ NAACA通过神经启发的振荡工作记忆模型，无需训练即可显著提
 
 仅在两个数据集上验证，缺乏大规模基准测试；未报告计算效率指标（如推理延迟、内存占用）；OWM的阈值设定可能依赖经验，缺乏自适应机制；未与其它无训练方法（如基于能量的检测器）对比。
 
-## 📋 引用
-
-```bibtex
-@article{yuan20262605,
-  title  = {NAACA: Training-Free NeuroAuditory Attentive Cognitive Architecture with Oscillatory Working Memory for Salience-Driven Attention Gating},
-  author = {Zhongju Yuan and  Geraint Wiggins and  Dick Botteldooren},
-  journal = {arXiv preprint arXiv:2605.13651},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：8.5</span><span>原始：8.5</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

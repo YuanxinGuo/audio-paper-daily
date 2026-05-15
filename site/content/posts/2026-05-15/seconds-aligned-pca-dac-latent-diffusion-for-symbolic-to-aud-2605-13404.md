@@ -76,17 +76,6 @@ TocOpen: false
 
 仅在私有鼓数据集上评估，缺乏公开基准对比；未报告推理延迟或模型参数量；波形L1指标不如回归基线，表明相位重建仍有挑战；未消融PCA维度选择的影响；未与端到端波形扩散方法比较。
 
-## 📋 引用
-
-```bibtex
-@article{soiledis20262605,
-  title  = {Seconds-Aligned PCA-DAC Latent Diffusion for Symbolic-to-Audio Drum Rendering},
-  author = {Konstantinos Soiledis and  Maximos Kaliakatsos Papakostas and  Dimos Makris and  Konstantinos Tsamis},
-  journal = {arXiv preprint arXiv:2605.13404},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：7.2</span><span>原始：7.2</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

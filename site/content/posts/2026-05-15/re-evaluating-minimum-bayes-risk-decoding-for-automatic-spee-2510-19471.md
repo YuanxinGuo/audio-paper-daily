@@ -87,17 +87,6 @@ MBR解码在ASR和ST任务上显著优于波束搜索，为离线高精度语音
 
 - **代码**：<https://github.com/CyberAgentAILab/mbr-for-asr>
 
-## 📋 引用
-
-```bibtex
-@article{jinnai20262510,
-  title  = {Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recognition},
-  author = {Yuu Jinnai},
-  journal = {arXiv preprint arXiv:2510.19471},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：7.5</span><span>原始：7.5</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

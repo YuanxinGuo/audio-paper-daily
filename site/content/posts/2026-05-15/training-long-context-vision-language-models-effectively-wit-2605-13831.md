@@ -79,17 +79,6 @@ MMProLong在128K上下文内长文档VQA提升7.1%，且无需额外训练即可
 
 实验仅基于Qwen2.5-VL-7B，未验证在其他架构（如LLaVA）上的可迁移性。训练数据未公开，可能影响复现。未报告推理延迟和显存占用等效率指标。长上下文泛化至512K但未测试更长上下文。
 
-## 📋 引用
-
-```bibtex
-@article{wang20262605,
-  title  = {Training Long-Context Vision-Language Models Effectively with Generalization Beyond 128K Context},
-  author = {Zhaowei Wang and  Lishu Luo and  Haodong Duan and  Weiwei Liu and  Sijin Wu and  Ji Luo and  Shen Yan and  Shuai Peng and  Sihang Yuan and  Chaoyi Huang and  Yi Lin and  Yangqiu Song},
-  journal = {arXiv preprint arXiv:2605.13831},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：8.5</span><span>原始：8.5</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

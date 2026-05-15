@@ -76,17 +76,6 @@ PresentAgent-2将演示生成从文档依赖的幻灯片制作扩展到查询驱
 - **代码**：<https://github.com/AIGeeksGroup/PresentAgent-2>
 - **项目主页**：<https://aigeeksgroup.github.io/PresentAgent-2>
 
-## 📋 引用
-
-```bibtex
-@article{wu20262605,
-  title  = {PresentAgent-2: Towards Generalist Multimodal Presentation Agents},
-  author = {Wei Wu and  Ziyang Xu and  Zeyu Zhang and  Yang Zhao and  Hao Tang},
-  journal = {arXiv preprint arXiv:2605.11363},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：7.2</span><span>原始：7.2</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

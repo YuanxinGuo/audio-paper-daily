@@ -81,17 +81,6 @@ CALM通过联合声学-语言建模显著提升多说话人ASR的个性化性能
 
 摘要未提及推理延迟和模型参数量；仅评估模拟混合数据，真实场景泛化性未知；未与近期端到端多说话人ASR模型（如WavLM+Serialized Output Training）对比；缺乏对说话人数量扩展性的分析。
 
-## 📋 引用
-
-```bibtex
-@article{shakeel20262601,
-  title  = {CALM: Joint Contextual Acoustic-Linguistic Modeling for Personalization of Multi-Speaker ASR},
-  author = {Muhammad Shakeel and  Yosuke Fukumoto and  Chikara Maeda and  Chyi-Jiunn Lin and  Shinji Watanabe},
-  journal = {arXiv preprint arXiv:2601.22792},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：9.2</span><span>原始：8.2</span><span>+1 重点领域加权</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

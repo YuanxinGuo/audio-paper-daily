@@ -76,17 +76,6 @@ TocOpen: false
 
 依赖外部音频库的覆盖度和匹配质量，可能对未见过的说话人或噪声环境泛化不足；未报告推理延迟和计算开销；仅针对语音检测任务，未验证是否可扩展至语音内容解码；缺乏与直接重建方法的公平对比。
 
-## 📋 引用
-
-```bibtex
-@article{xiao20262605,
-  title  = {Bypassing Direct Reconstruction: Speech Detection from MEG via Large-Scale Audio Retrieval},
-  author = {Boda Xiao and  Bo Wang and  Heping Cheng},
-  journal = {arXiv preprint arXiv:2605.13099},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：8.5</span><span>原始：8.5</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

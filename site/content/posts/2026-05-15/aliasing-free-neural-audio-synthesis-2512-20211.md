@@ -79,17 +79,6 @@ TocOpen: false
 - **项目主页**：<https://VocodexElysium.github.io/AliasingFreeNeuralAudioSynthesis/>
 - **Demo / 试听**：<https://VocodexElysium.github.io/AliasingFreeNeuralAudioSynthesis/>
 
-## 📋 引用
-
-```bibtex
-@article{gu20262512,
-  title  = {Aliasing-Free Neural Audio Synthesis},
-  author = {Yicheng Gu and  Junan Zhang and  Chaoren Wang and  Jerry Li and  Zhizheng Wu and  Lauri Juvela},
-  journal = {arXiv preprint arXiv:2512.20211},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：8.2</span><span>原始：8.2</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

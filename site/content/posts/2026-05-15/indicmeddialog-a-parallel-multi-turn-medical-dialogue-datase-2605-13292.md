@@ -72,17 +72,6 @@ TocOpen: false
 
 数据集依赖LLM生成和机器翻译，可能存在领域偏差；后处理虽修正部分错误，但翻译质量仍受限于TranslateGemma；未报告模型推理延迟和参数量；缺乏与更大规模模型的对比。
 
-## 📋 引用
-
-```bibtex
-@article{nigam20262605,
-  title  = {IndicMedDialog: A Parallel Multi-Turn Medical Dialogue Dataset for Accessible Healthcare in Indic Languages},
-  author = {Shubham Kumar Nigam and  Suparnojit Sarkar and  Piyush Patel},
-  journal = {arXiv preprint arXiv:2605.13292},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：7.2</span><span>原始：7.2</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

@@ -80,17 +80,6 @@ Text2Score通过两阶段框架有效生成结构化的乐谱，避免了文本-
 - **项目主页**：<https://keshavbhandari.github.io/portfolio/text2score>
 - **Demo / 试听**：<https://keshavbhandari.github.io/portfolio/text2score>
 
-## 📋 引用
-
-```bibtex
-@article{bhandari20262605,
-  title  = {Text2Score: Generating Sheet Music From Textual Prompts},
-  author = {Keshav Bhandari and  Sungkyun Chang and  Abhinaba Roy and  Francesca Ronchini and  Emmanouil Benetos and  Dorien Herremans and  Simon Colton},
-  journal = {arXiv preprint arXiv:2605.13431},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：7.8</span><span>原始：7.8</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>

@@ -77,17 +77,6 @@ MinT证明了通过仅移动LoRA适配器可以高效管理百万级策略，在
 
 论文未讨论适配器之间的冲突或干扰问题，也未提供端到端服务质量（如延迟SLA）的详细分析。此外，实验仅在特定模型架构（4B稠密、30B MoE）上验证，泛化性有待进一步研究。
 
-## 📋 引用
-
-```bibtex
-@article{lab20262605,
-  title  = {MinT: Managed Infrastructure for Training and Serving Millions of LLMs},
-  author = {Mind Lab and  Song Cao and  Vic Cao and  Andrew Chen and  Kaijie Chen and  Cleon Cheng and  Steven Chiang and  Kaixuan Fan and  Hera Feng and  Huan Feng and  Arthur Fu and  Jun Gao and  Hongquan Gu and  Aaron Guan and  Nolan Ho and  Mutian Hong and  Hailee Hou and  Peixuan Hua and  Charles Huang and  Miles Jiang and  Nora Jiang and  Yuyi Jiang and  Qiuyu Jin and  Fancy Kong and  Andrew Lei and  Kyrie Lei and  Alexy Li and  Lucian Li and  Ray Li and  Theo Li and  Zhihui Li and  Jiayi Lin and  Kairus Liu and  Kieran Liu and  Logan Liu and  Xiang Liu and  Irvine Lu and  Maeve Luo and  Runze Lv and  Pony Ma and  Verity Niu and  Anson Qiu and  Vincent Wang and  Rio Yang and  Maxwell Yao and  Carrie Ye and  Regis Ye and  Wenlin Ye and  Josh Ying and  Danney Zeng and  Yuhan Zhan and  Anya Zhang and  Di Zhang and  Ruijia Zhang and  Sueky Zhang and  Ya Zhang and  Wei Zhao and  Ada Zhou and  Changhai Zhou and  Yuhua Zhou and  Xinyue Zhu and  Murphy Zhuang},
-  journal = {arXiv preprint arXiv:2605.13779},
-  year   = {2026}
-}
-```
-
 ---
 
 <div class="paper-footer"><span>评分：8.5</span><span>原始：8.5</span><a href="/audio-paper-daily/posts/2026-05-15/">← 返回 2026-05-15 速递</a></div>
