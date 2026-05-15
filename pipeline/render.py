@@ -459,8 +459,14 @@ def render_for_date(date_str: str) -> Path | None:
     out.append("")
 
     md = "\n".join(out)
-    index_path = daily_dir / "index.md"
+    # IMPORTANT: must be `_index.md` (section index), NOT `index.md` (page bundle).
+    # With `index.md` Hugo treats sibling .md files as bundle resources, not pages.
+    index_path = daily_dir / "_index.md"
     index_path.write_text(md, encoding="utf-8")
+    # Clean up legacy index.md if present (from earlier broken runs).
+    legacy = daily_dir / "index.md"
+    if legacy.exists():
+        legacy.unlink()
     print(f"[render] wrote {index_path} ({len(rows)} papers, "
           f"{len(focus_rows)} focus)")
     return index_path
