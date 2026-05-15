@@ -33,32 +33,29 @@ ShowToc: false
 
 ### #语音增强
 
-<p class="empty-hint">今日无新论文命中，推荐回顾该方向的经典工作：</p>
-<div class="paper-card paper-card-classic">
-<div class="card-rank">📚</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="https://ieeexplore.ieee.org/document/6932438" target="_blank" rel="noopener">A Regression Approach to Speech Enhancement Based on Deep Neural Networks</a> <span class="classic-badge">经典</span>
+<a class="card-title" href="isonet-spatially-aware-audio-visual-target-speech-extraction-2605-14736/">IsoNet: Spatially-aware audio-visual target speech extraction in complex acoustic environments</a>
 <div class="card-meta">
-<span class="card-venue">TASLP 2015</span>
-<span class="tag-pill tag-pill-soft">#语音增强</span>
+<span class="card-score">9.2</span>
+<span class="tag-pill">#目标说话人提取</span>
 </div>
-<div class="card-tldr">首次系统验证 DNN 直接回归对数功率谱的语音增强范式，奠定后续大量 mask / mapping 方法的基础。</div>
-<div class="card-authors">Yong Xu, Jun Du, Li-Rong Dai, Chin-Hui Lee</div>
-</div></div>
-<div class="paper-card paper-card-classic">
-<div class="card-rank">📚</div>
-<div class="card-body">
-<a class="card-title" href="https://arxiv.org/abs/1809.07454" target="_blank" rel="noopener">Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking</a> <span class="classic-badge">经典</span>
-<div class="card-meta">
-<span class="card-venue">TASLP 2019</span>
-<span class="tag-pill tag-pill-soft">#语音增强</span>
-</div>
-<div class="card-tldr">时域端到端分离/增强里程碑，证明 1D 卷积可超越 STFT 域 IRM/IBM 上限。</div>
-<div class="card-authors">Yi Luo, Nima Mesgarani</div>
+<div class="card-tldr">IsoNet 提出一种面向紧凑麦克风阵列的视听目标语音提取系统，通过多通道 STFT、GCC-PHAT 空间线索和面部嵌入的融合，在低 SNR 下显著优于传统波束成形。</div>
 </div></div>
 
 ### #目标说话人提取
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="calm-joint-contextual-acoustic-linguistic-modeling-for-perso-2601-22792/">CALM: Joint Contextual Acoustic-Linguistic Modeling for Personalization of Multi-Speaker ASR</a>
+<div class="card-meta">
+<span class="card-score">9.5</span>
+<span class="tag-pill">#语音识别</span>
+</div>
+<div class="card-tldr">提出CALM框架，联合声学-语言建模实现多说话人ASR中的个性化，通过说话人嵌入提取和动态词汇偏置降低偏置词错误率。</div>
+</div></div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
