@@ -48,7 +48,7 @@
 
   "first_authors": ["第一作者姓名1", "如果是共一也列上"]，从作者列表里取，
   "corresponding_authors": ["通讯作者姓名"]，摘要 / 作者列表里若标 *、† 或 corresponding，提取；没有就空数组,
-  "affiliations": ["主要机构1","主要机构2"]，至多 4 个，去重，缩写常见名（MIT, CMU, Google, Meta, ByteDance）。无法判断填空数组,
+  "affiliations": ["主要机构中文名1","主要机构中文名2"]，至多 4 个，去重，**必须用中文名**。常见映射：MIT→麻省理工、CMU→卡内基梅隆大学、Stanford→斯坦福大学、Google/Google Research→谷歌、Meta/FAIR→Meta、Microsoft Research→微软研究院、ByteDance→字节跳动、Tencent→腾讯、Alibaba/DAMO→阿里巴巴达摩院、Tsinghua→清华大学、PKU→北京大学、CUHK→香港中文大学、HKUST→香港科技大学、SJTU→上海交通大学、ZJU→浙江大学、NTU→南洋理工大学、KAIST→韩国科学技术院、ETH→苏黎世联邦理工。若中文译名不通用（如小型实验室）保留英文原名即可。无法判断填空数组,
 
   "resources": {
     "code_url":     "github / gitlab / 项目代码仓库 URL，没有填空字符串",

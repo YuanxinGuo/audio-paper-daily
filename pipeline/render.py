@@ -105,39 +105,121 @@ def _format_authors(row) -> str:
 
 
 def _resource_buttons(row) -> str:
-    """Return a markdown HTML row of resource buttons."""
+    """Return a markdown HTML row of resource buttons.
+
+    The first row is a prominent "open-source banner" if any of code / HF /
+    project / demo URLs were extracted; otherwise we still show arXiv & PDF
+    in the standard pill row plus a muted "未发现公开代码" hint.
+    """
     res = _safe_json(row["resources"], {})
-    btns = []
-    arxiv_id = row["arxiv_id"]
-    btns.append(
+    code = res.get("code_url") or ""
+    hf = res.get("hf_url") or ""
+    proj = res.get("project_url") or ""
+    demo = res.get("demo_url") or ""
+    has_open = bool(code or hf or proj or demo)
+
+    parts: list[str] = []
+
+    # ── prominent open-source banner ─────────────────────────────────────
+    if has_open:
+        chips: list[str] = []
+        if code:
+            chips.append(
+                f'<a class="oc-chip oc-chip-code" href="{code}" '
+                f'target="_blank" rel="noopener">'
+                f'<span class="oc-icon">💻</span>'
+                f'<span class="oc-text"><span class="oc-label">代码仓库</span>'
+                f'<span class="oc-sub">{_short_url(code)}</span></span></a>'
+            )
+        if hf:
+            chips.append(
+                f'<a class="oc-chip oc-chip-hf" href="{hf}" '
+                f'target="_blank" rel="noopener">'
+                f'<span class="oc-icon">🤗</span>'
+                f'<span class="oc-text"><span class="oc-label">HuggingFace</span>'
+                f'<span class="oc-sub">{_short_url(hf)}</span></span></a>'
+            )
+        if proj:
+            chips.append(
+                f'<a class="oc-chip oc-chip-proj" href="{proj}" '
+                f'target="_blank" rel="noopener">'
+                f'<span class="oc-icon">🌐</span>'
+                f'<span class="oc-text"><span class="oc-label">项目主页</span>'
+                f'<span class="oc-sub">{_short_url(proj)}</span></span></a>'
+            )
+        if demo:
+            chips.append(
+                f'<a class="oc-chip oc-chip-demo" href="{demo}" '
+                f'target="_blank" rel="noopener">'
+                f'<span class="oc-icon">🔊</span>'
+                f'<span class="oc-text"><span class="oc-label">在线 Demo</span>'
+                f'<span class="oc-sub">{_short_url(demo)}</span></span></a>'
+            )
+        parts.append(
+            '<div class="opensource-banner">'
+            '<div class="oc-headline">'
+            '<span class="oc-pulse"></span>'
+            '<span class="oc-title">本论文已开源</span>'
+            '<span class="oc-hint">点击下方卡片直达对应资源</span>'
+            '</div>'
+            '<div class="oc-grid">' + "".join(chips) + '</div>'
+            '</div>'
+        )
+    else:
+        parts.append(
+            '<div class="opensource-banner opensource-banner-empty">'
+            '<span class="oc-icon-sm">🔒</span>'
+            '<span>暂未在摘要中发现公开代码或 demo</span>'
+            '</div>'
+        )
+
+    # ── plain pill row (always shows arXiv / PDF) ───────────────────────
+    btns = [
         f'<a class="rsrc rsrc-arxiv" href="{row["html_url"]}" target="_blank" '
-        f'rel="noopener">📄 arXiv</a>'
-    )
-    btns.append(
+        f'rel="noopener">📄 arXiv</a>',
         f'<a class="rsrc rsrc-pdf" href="{row["pdf_url"]}" target="_blank" '
-        f'rel="noopener">📑 PDF</a>'
-    )
-    if res.get("code_url"):
+        f'rel="noopener">📑 PDF</a>',
+    ]
+    if code:
         btns.append(
-            f'<a class="rsrc rsrc-code" href="{res["code_url"]}" target="_blank" '
+            f'<a class="rsrc rsrc-code" href="{code}" target="_blank" '
             f'rel="noopener">💻 代码</a>'
         )
-    if res.get("hf_url"):
+    if hf:
         btns.append(
-            f'<a class="rsrc rsrc-hf" href="{res["hf_url"]}" target="_blank" '
+            f'<a class="rsrc rsrc-hf" href="{hf}" target="_blank" '
             f'rel="noopener">🤗 HuggingFace</a>'
         )
-    if res.get("project_url"):
+    if proj:
         btns.append(
-            f'<a class="rsrc rsrc-proj" href="{res["project_url"]}" target="_blank" '
+            f'<a class="rsrc rsrc-proj" href="{proj}" target="_blank" '
             f'rel="noopener">🌐 项目主页</a>'
         )
-    if res.get("demo_url"):
+    if demo:
         btns.append(
-            f'<a class="rsrc rsrc-demo" href="{res["demo_url"]}" target="_blank" '
+            f'<a class="rsrc rsrc-demo" href="{demo}" target="_blank" '
             f'rel="noopener">🔊 Demo</a>'
         )
-    return '<div class="resources">' + "".join(btns) + "</div>"
+    parts.append('<div class="resources">' + "".join(btns) + "</div>")
+    return "\n".join(parts)
+
+
+def _short_url(u: str) -> str:
+    """Trim https://github.com/foo/bar/tree/main -> foo/bar."""
+    s = u.strip()
+    for prefix in ("https://", "http://"):
+        if s.startswith(prefix):
+            s = s[len(prefix):]
+            break
+    if s.startswith("www."):
+        s = s[4:]
+    if s.startswith("github.com/"):
+        s = s[len("github.com/"):]
+    elif s.startswith("huggingface.co/"):
+        s = "🤗 " + s[len("huggingface.co/"):]
+    if len(s) > 48:
+        s = s[:45] + "…"
+    return s
 
 
 def _bibtex(row) -> str:
