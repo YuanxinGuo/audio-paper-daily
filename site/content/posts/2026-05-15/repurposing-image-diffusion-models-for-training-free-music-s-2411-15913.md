@@ -3,7 +3,7 @@ title: "Repurposing Image Diffusion Models for Training-Free Music Style Transfe
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#扩散模型", "#无训练", "#梅尔频谱图", "#自注意力", "#音乐风格迁移"]
+tags: ["#音乐风格迁移"]
 summary: "提出Stylus，利用预训练图像扩散模型在梅尔频谱图上实现无需训练的音乐风格迁移，通过自注意力注入和相位保持重建提升质量。"
 ShowToc: true
 TocOpen: false

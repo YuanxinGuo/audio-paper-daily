@@ -3,7 +3,7 @@ title: "TiCo: Time-Controllable Spoken Dialogue Model"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#基准测试", "#强化学习", "#时间可控", "#语音对话模型", "#语音生成"]
+tags: ["#语音对话模型"]
 summary: "提出TiCo，通过语音时间标记和强化学习实现对话语音时长可控，在TiCo-Bench上时长误差降低2.7倍。"
 ShowToc: true
 TocOpen: false

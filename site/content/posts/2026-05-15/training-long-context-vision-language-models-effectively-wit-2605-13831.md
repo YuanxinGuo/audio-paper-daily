@@ -3,7 +3,7 @@ title: "Training Long-Context Vision-Language Models Effectively with Generaliza
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#持续预训练", "#数据混合", "#视觉语言模型", "#长上下文建模", "#长上下文视觉语言模型"]
+tags: ["#长上下文视觉语言模型"]
 summary: "系统研究长上下文视觉语言模型的持续预训练策略，发现长文档VQA优于OCR转录，平衡数据分布和检索优先是关键，仅用5B token将7B模型从32K扩展到128K上下文，并泛化至256K和512K。"
 ShowToc: true
 TocOpen: false

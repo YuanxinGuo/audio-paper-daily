@@ -3,7 +3,7 @@ title: "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#对话系统", "#端到端框架", "#评估基准", "#语音代理", "#语音代理评估"]
+tags: ["#语音代理评估"]
 summary: "提出EVA-Bench，一个端到端评估框架，通过机器人间对话模拟和复合指标EVA-A/EVA-X，系统评估语音代理的准确性和体验质量。"
 ShowToc: true
 TocOpen: false

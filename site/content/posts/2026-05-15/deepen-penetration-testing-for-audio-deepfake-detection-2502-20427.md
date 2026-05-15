@@ -3,7 +3,7 @@ title: "DeePen: Penetration Testing for Audio Deepfake Detection"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#信号处理", "#对抗攻击", "#渗透测试", "#音频深度伪造检测", "#鲁棒性评估"]
+tags: ["#音频深度伪造检测"]
 summary: "提出DeePen，一种无需先验知识的黑盒渗透测试方法，通过信号处理攻击评估音频深度伪造检测系统的鲁棒性，发现所有测试系统均存在弱点。"
 ShowToc: true
 TocOpen: false

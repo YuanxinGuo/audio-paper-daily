@@ -3,7 +3,7 @@ title: "MinT: Managed Infrastructure for Training and Serving Millions of LLMs"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#LoRA", "#分布式训练", "#大模型训练与推理", "#强化学习", "#模型服务"]
+tags: ["#大模型训练与推理"]
 summary: "提出MinT系统，通过LoRA适配器管理实现百万级策略的分布式训练与在线服务，显著降低资源开销。"
 ShowToc: true
 TocOpen: false

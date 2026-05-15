@@ -3,7 +3,7 @@ title: "Seconds-Aligned PCA-DAC Latent Diffusion for Symbolic-to-Audio Drum Rend
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#PCA压缩", "#潜在扩散模型", "#符号到音频", "#音频生成", "#鼓声合成"]
+tags: ["#音频生成"]
 summary: "提出Sec2Drum-DAC，利用PCA压缩DAC码本嵌入作为扩散目标，实现符号到音频的鼓声渲染，在谱和瞬态指标上优于基线。"
 ShowToc: true
 TocOpen: false

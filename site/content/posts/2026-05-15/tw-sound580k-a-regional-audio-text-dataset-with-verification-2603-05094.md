@@ -3,7 +3,7 @@ title: "TW-Sound580K: A Regional Audio-Text Dataset with Verification-Guided Cur
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#数据构建", "#方言语音", "#语音识别", "#音频语言模型"]
+tags: ["#语音识别"]
 summary: "提出TW-Sound580K台湾语音-文本指令数据集，通过验证-生成-批评协议和双ASR验证构建，微调DeSTA 2.5模型在TAU基准上提升6.5%准确率。"
 ShowToc: true
 TocOpen: false

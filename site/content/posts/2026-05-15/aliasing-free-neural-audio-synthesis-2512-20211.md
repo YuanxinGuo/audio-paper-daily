@@ -3,7 +3,7 @@ title: "Aliasing-Free Neural Audio Synthesis"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#抗混叠", "#神经声码器", "#神经编解码器", "#语音合成", "#高保真音频合成"]
+tags: ["#语音合成"]
 summary: "提出可微分抗混叠技术，集成到激活函数和上采样模块，构建Pupu-Vocoder和Pupu-Codec，在歌声、音乐和音频合成上超越现有系统。"
 ShowToc: true
 TocOpen: false

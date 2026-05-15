@@ -3,7 +3,7 @@ title: "NAACA: Training-Free NeuroAuditory Attentive Cognitive Architecture with
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#听觉注意力", "#工作记忆", "#显著性过滤", "#语音事件检测", "#音频语言模型"]
+tags: ["#语音事件检测"]
 summary: "提出一种免训练的神经听觉认知架构NAACA，通过振荡工作记忆模型实现基于显著性的注意力门控，显著提升音频语言模型在长时录音中的关键事件检测性能。"
 ShowToc: true
 TocOpen: false

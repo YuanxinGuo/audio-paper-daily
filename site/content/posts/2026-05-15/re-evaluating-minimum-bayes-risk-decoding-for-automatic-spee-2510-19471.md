@@ -3,7 +3,7 @@ title: "Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recogniti
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#Whisper", "#最小贝叶斯风险解码", "#波束搜索", "#语音识别"]
+tags: ["#语音识别"]
 summary: "本文系统评估了最小贝叶斯风险解码在ASR和语音翻译任务中的效果，发现其多数情况下优于波束搜索。"
 ShowToc: true
 TocOpen: false

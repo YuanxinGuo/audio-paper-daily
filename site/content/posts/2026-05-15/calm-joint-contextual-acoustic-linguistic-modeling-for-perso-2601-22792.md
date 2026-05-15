@@ -3,7 +3,7 @@ title: "CALM: Joint Contextual Acoustic-Linguistic Modeling for Personalization 
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#上下文偏置", "#多说话人ASR", "#目标说话人提取", "#端到端", "#语音识别"]
+tags: ["#语音识别"]
 summary: "提出CALM框架，联合声学-语言建模实现多说话人ASR中的个性化，通过说话人嵌入提取和动态词汇偏置降低偏置词错误率。"
 ShowToc: true
 TocOpen: false

@@ -3,7 +3,7 @@ title: "PresentAgent-2: Towards Generalist Multimodal Presentation Agents"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#基准测试", "#多模态智能体", "#多模态演示生成", "#对话系统", "#演示视频生成"]
+tags: ["#多模态演示生成"]
 summary: "提出一个智能体框架，从用户查询出发，自动研究、收集多模态资源并生成带对话和交互的演示视频。"
 ShowToc: true
 TocOpen: false

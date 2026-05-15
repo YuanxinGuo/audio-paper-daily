@@ -3,7 +3,7 @@ title: "Vividh-ASR: A Complexity-Tiered Benchmark and Optimization Dynamics for 
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#低资源语音识别", "#多语言ASR", "#微调策略", "#语音识别", "#课程学习"]
+tags: ["#语音识别"]
 summary: "提出Vividh-ASR基准，发现微调Whisper时存在录音室偏差，通过反向多阶段微调（R-MFT）使小模型匹配大模型性能。"
 ShowToc: true
 TocOpen: false

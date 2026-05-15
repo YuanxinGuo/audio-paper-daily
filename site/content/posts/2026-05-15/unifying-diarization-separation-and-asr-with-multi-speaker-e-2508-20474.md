@@ -3,7 +3,7 @@ title: "Unifying Diarization, Separation, and ASR with Multi-Speaker Encoder"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#共享编码器", "#多说话人ASR", "#联合训练", "#语音分离", "#说话人日志"]
+tags: ["#语音分离"]
 summary: "提出统一多说话人编码器（UME），通过共享语音基础编码器联合学习说话人日志、语音分离和多说话人ASR，在LibriMix上显著优于单任务基线。"
 ShowToc: true
 TocOpen: false

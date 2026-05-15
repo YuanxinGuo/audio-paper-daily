@@ -3,7 +3,7 @@ title: "Bypassing Direct Reconstruction: Speech Detection from MEG via Large-Sca
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#对比学习", "#脑磁图", "#语音检测", "#音频检索"]
+tags: ["#语音检测"]
 summary: "提出两阶段框架，通过大规模音频库检索而非直接重建，在LibriBrain语音检测任务中取得F1=0.962的SOTA。"
 ShowToc: true
 TocOpen: false

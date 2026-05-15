@@ -3,7 +3,7 @@ title: "How Much Does Machine Identity Matter in Anomalous Sound Detection at Te
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#异常声音检测", "#机器身份", "#评估协议", "#鲁棒性"]
+tags: ["#异常声音检测"]
 summary: "本文研究在测试时机器身份未知对异常声音检测性能的影响，提出一种最小化修改的评估协议，揭示标准机器级评估下隐藏的性能下降和方法差异。"
 ShowToc: true
 TocOpen: false

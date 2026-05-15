@@ -3,7 +3,7 @@ title: "LMU-Based Sequential Learning and Posterior Ensemble Fusion for Cross-Do
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#Legendre Memory Unit", "#后验融合", "#婴儿哭声分类", "#跨域泛化", "#音频分类"]
+tags: ["#音频分类"]
 summary: "提出结合多分支CNN、增强型LMU和校准后验融合的轻量框架，用于跨域婴儿哭声分类，在Baby2020和Baby Crying数据集上提升宏F1。"
 ShowToc: true
 TocOpen: false

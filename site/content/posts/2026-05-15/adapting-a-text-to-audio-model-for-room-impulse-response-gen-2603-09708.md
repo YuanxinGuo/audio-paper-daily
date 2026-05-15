@@ -3,7 +3,7 @@ title: "Adapting a Text-to-Audio Model for Room Impulse Response Generation"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#声学模拟", "#房间脉冲响应生成", "#文本到音频", "#语音增强", "#迁移学习"]
+tags: ["#语音增强"]
 summary: "首次将预训练文本到音频模型迁移至房间脉冲响应生成，利用视觉语言模型标注图像-RIR数据集，并引入上下文学习支持自由文本提示。"
 ShowToc: true
 TocOpen: false

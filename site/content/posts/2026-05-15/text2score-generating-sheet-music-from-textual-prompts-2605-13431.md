@@ -3,7 +3,7 @@ title: "Text2Score: Generating Sheet Music From Textual Prompts"
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#ABC记谱法", "#两阶段框架", "#乐谱生成", "#文本驱动音乐生成", "#符号音乐生成"]
+tags: ["#符号音乐生成"]
 summary: "提出Text2Score两阶段框架，通过LLM规划+生成模型执行，从文本提示生成乐谱，无需文本-音乐配对数据。"
 ShowToc: true
 TocOpen: false

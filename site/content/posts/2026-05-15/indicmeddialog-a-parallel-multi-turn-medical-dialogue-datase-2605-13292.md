@@ -3,7 +3,7 @@ title: "IndicMedDialog: A Parallel Multi-Turn Medical Dialogue Dataset for Acces
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#低资源语言", "#医疗对话", "#参数高效微调", "#多语言数据集"]
+tags: ["#医疗对话"]
 summary: "构建了一个覆盖英语和9种印度语言的平行多轮医疗对话数据集，并基于量化小语言模型微调得到IndicMedLM。"
 ShowToc: true
 TocOpen: false

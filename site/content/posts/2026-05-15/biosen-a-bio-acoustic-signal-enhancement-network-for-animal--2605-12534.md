@@ -3,7 +3,7 @@ title: "BioSEN: A Bio-acoustic Signal Enhancement Network for Animal Vocalizatio
 date: 2026-05-15T09:00:00+08:00
 draft: false
 categories: ["论文详情"]
-tags: ["#注意力机制", "#生物声学", "#语音增强", "#谐波增强"]
+tags: ["#语音增强"]
 summary: "提出BioSEN，一种针对动物发声的语音增强网络，通过多尺度双轴注意力、谐波增强和能量自适应门控，在三个生物声学数据集上以更低计算量达到或超越SOTA。"
 ShowToc: true
 TocOpen: false
