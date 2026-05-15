@@ -14,6 +14,18 @@ from pathlib import Path
 from config import POSTS_DIR, FOCUS_TAGS, site_url
 from db import connect, papers_for_date
 
+# Curated classic papers per focus area, used as fall-back when a
+# focus area has no fresh paper today.
+_CLASSICS_PATH = Path(__file__).parent / "classics.json"
+try:
+    CLASSICS: dict[str, list[dict]] = json.loads(
+        _CLASSICS_PATH.read_text(encoding="utf-8")
+    )
+    # Drop the leading "_comment" key if present.
+    CLASSICS = {k: v for k, v in CLASSICS.items() if not k.startswith("_")}
+except FileNotFoundError:
+    CLASSICS = {}
+
 MEDALS = ["🥇", "🥈", "🥉"]
 
 
@@ -507,25 +519,80 @@ def render_for_date(date_str: str) -> Path | None:
         out.append(f"| {tag} | {n}篇 | `{_bar(n, max_n)}` |")
     out.append("")
 
-    if focus_rows:
-        out.append("## 🎯 本站重点领域")
+    # ─── Focus areas (per-area: today's papers OR classic fallback) ─────
+    out.append("## 🎯 本站重点领域")
+    out.append("")
+    out.append("> 语音增强 · 目标说话人提取 · 语音分离 · 双耳音频 · 乐器分离")
+    out.append("")
+
+    # Group today's focus papers by main_task
+    by_task: dict[str, list[tuple[str, "sqlite3.Row"]]] = {}
+    for slug, r in focus_rows:
+        by_task.setdefault(r["main_task"], []).append((slug, r))
+
+    focus_order = ["#语音增强", "#目标说话人提取", "#语音分离",
+                   "#双耳音频", "#乐器分离"]
+    for area in focus_order:
+        todays = by_task.get(area, [])
+        out.append(f'### {area}')
         out.append("")
-        out.append("> 语音增强 · 目标说话人提取 · 语音分离 · 双耳音频 · 乐器分离")
-        out.append("")
-        for slug, r in focus_rows:
-            tldr = r["tldr"] or ""
-            out.append(f'<div class="paper-card paper-card-focus">')
-            out.append(f'<div class="card-rank">⭐</div>')
-            out.append(f'<div class="card-body">')
-            out.append(f'<a class="card-title" href="{slug}/">{r["title"]}</a>')
-            out.append(f'<div class="card-meta">')
-            out.append(f'<span class="card-score">{r["score"]:.1f}</span>')
-            out.append(f'<span class="tag-pill">{r["main_task"]}</span>')
-            out.append(f'</div>')
-            if tldr:
-                out.append(f'<div class="card-tldr">{tldr}</div>')
-            out.append(f'</div>')
-            out.append(f'</div>')
+        if todays:
+            for slug, r in todays:
+                tldr = r["tldr"] or ""
+                out.append('<div class="paper-card paper-card-focus">')
+                out.append('<div class="card-rank">⭐</div>')
+                out.append('<div class="card-body">')
+                out.append(f'<a class="card-title" href="{slug}/">{r["title"]}</a>')
+                out.append('<div class="card-meta">')
+                out.append(f'<span class="card-score">{r["score"]:.1f}</span>')
+                out.append(f'<span class="tag-pill">{r["main_task"]}</span>')
+                out.append('</div>')
+                if tldr:
+                    out.append(f'<div class="card-tldr">{tldr}</div>')
+                out.append('</div></div>')
+        else:
+            classics = (CLASSICS.get(area) or [])[:2]
+            if classics:
+                out.append(
+                    '<p class="empty-hint">今日无新论文命中，'
+                    '推荐回顾该方向的经典工作：</p>'
+                )
+                for cp in classics:
+                    title_c = cp.get("title", "").strip()
+                    authors = cp.get("authors", "")
+                    venue = cp.get("venue_year", "")
+                    url = cp.get("url") or (
+                        f"https://arxiv.org/abs/{cp['arxiv_id']}"
+                        if cp.get("arxiv_id") else ""
+                    )
+                    one_liner = cp.get("one_liner", "")
+                    out.append('<div class="paper-card paper-card-classic">')
+                    out.append('<div class="card-rank">📚</div>')
+                    out.append('<div class="card-body">')
+                    if url:
+                        out.append(
+                            f'<a class="card-title" href="{url}" '
+                            f'target="_blank" rel="noopener">{title_c}</a> '
+                            f'<span class="classic-badge">经典</span>'
+                        )
+                    else:
+                        out.append(
+                            f'<span class="card-title">{title_c}</span> '
+                            f'<span class="classic-badge">经典</span>'
+                        )
+                    out.append('<div class="card-meta">')
+                    if venue:
+                        out.append(f'<span class="card-venue">{venue}</span>')
+                    out.append(f'<span class="tag-pill tag-pill-soft">{area}</span>')
+                    out.append('</div>')
+                    if one_liner:
+                        out.append(f'<div class="card-tldr">{one_liner}</div>')
+                    if authors:
+                        out.append(f'<div class="card-authors">{authors}</div>')
+                    out.append('</div></div>')
+            else:
+                out.append('<p class="empty-hint">今日无新论文，'
+                           '也未配置该方向的经典清单。</p>')
         out.append("")
 
     out.append("## 📊 完整排行榜")

@@ -1,0 +1,210 @@
+{
+  "_comment": "Hand-curated list of classic / must-read papers per focus area. Used as fall-back when a focus area has no new papers on a given day. Each entry: title / authors / venue_year / arxiv_id (optional) / url / one_liner. Keep 3-6 papers per area. Edit freely.",
+
+  "#语音增强": [
+    {
+      "title": "A Regression Approach to Speech Enhancement Based on Deep Neural Networks",
+      "authors": "Yong Xu, Jun Du, Li-Rong Dai, Chin-Hui Lee",
+      "venue_year": "TASLP 2015",
+      "url": "https://ieeexplore.ieee.org/document/6932438",
+      "arxiv_id": "",
+      "one_liner": "首次系统验证 DNN 直接回归对数功率谱的语音增强范式，奠定后续大量 mask / mapping 方法的基础。"
+    },
+    {
+      "title": "Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking",
+      "authors": "Yi Luo, Nima Mesgarani",
+      "venue_year": "TASLP 2019",
+      "url": "https://arxiv.org/abs/1809.07454",
+      "arxiv_id": "1809.07454",
+      "one_liner": "时域端到端分离/增强里程碑，证明 1D 卷积可超越 STFT 域 IRM/IBM 上限。"
+    },
+    {
+      "title": "Demucs: Real Time Speech Enhancement in the Waveform Domain",
+      "authors": "Alexandre Défossez, Gabriel Synnaeve, Yossi Adi",
+      "venue_year": "Interspeech 2020",
+      "url": "https://arxiv.org/abs/2006.12847",
+      "arxiv_id": "2006.12847",
+      "one_liner": "波形域 U-Net + LSTM，在 CPU 上实时运行的强基线，工业部署常见参考。"
+    },
+    {
+      "title": "MetricGAN+: An Improved Version of MetricGAN for Speech Enhancement",
+      "authors": "Szu-Wei Fu, Cheng Yu, Tsun-An Hsieh, et al.",
+      "venue_year": "Interspeech 2021",
+      "url": "https://arxiv.org/abs/2104.03538",
+      "arxiv_id": "2104.03538",
+      "one_liner": "用 GAN 直接优化不可微的 PESQ / STOI 指标，是评测指标驱动训练的代表工作。"
+    },
+    {
+      "title": "Sepformer: Attention is All You Need in Speech Separation",
+      "authors": "Cem Subakan, Mirco Ravanelli, et al.",
+      "venue_year": "ICASSP 2021",
+      "url": "https://arxiv.org/abs/2010.13154",
+      "arxiv_id": "2010.13154",
+      "one_liner": "Transformer 双路结构在 WSJ0-2mix 拿下 22.3 SI-SDRi，分离/增强通用强基线。"
+    }
+  ],
+
+  "#目标说话人提取": [
+    {
+      "title": "VoiceFilter: Targeted Voice Separation by Speaker-Conditioned Spectrogram Masking",
+      "authors": "Quan Wang, Hannah Muckenhirn, Kevin Wilson, et al.",
+      "venue_year": "Interspeech 2019",
+      "url": "https://arxiv.org/abs/1810.04826",
+      "arxiv_id": "1810.04826",
+      "one_liner": "基于 d-vector 条件化的时频域目标说话人提取代表作，TSE 领域绕不开的基线。"
+    },
+    {
+      "title": "SpEx+: A Complete Time Domain Speaker Extraction Network",
+      "authors": "Meng Ge, Chenglin Xu, Longbiao Wang, Eng Siong Chng, Jianwu Dang, Haizhou Li",
+      "venue_year": "Interspeech 2020",
+      "url": "https://arxiv.org/abs/2005.04686",
+      "arxiv_id": "2005.04686",
+      "one_liner": "时域 TSE 系列里程碑，多尺度编码器 + 共享说话人编码器，长期占据 SOTA。"
+    },
+    {
+      "title": "SpeakerBeam: Speaker Aware Neural Network for Target Speaker Extraction",
+      "authors": "Marc Delcroix, Katerina Zmolikova, et al.",
+      "venue_year": "JSTSP 2019",
+      "url": "https://ieeexplore.ieee.org/document/8736286",
+      "arxiv_id": "",
+      "one_liner": "用辅助说话人特征做适应层的早期 TSE 方案，工业系统常用参考。"
+    },
+    {
+      "title": "WeSep: An Open-Source Toolkit for Speaker Extraction and Separation",
+      "authors": "Shuai Wang, et al.",
+      "venue_year": "Interspeech 2024",
+      "url": "https://arxiv.org/abs/2409.15799",
+      "arxiv_id": "2409.15799",
+      "one_liner": "开源 TSE / SS 工具包，包含 SpEx+ / VoiceFilter / TD-SpeakerBeam 等多种基线复现。"
+    }
+  ],
+
+  "#语音分离": [
+    {
+      "title": "Deep Clustering: Discriminative Embeddings for Segmentation and Separation",
+      "authors": "John R. Hershey, Zhuo Chen, Jonathan Le Roux, Shinji Watanabe",
+      "venue_year": "ICASSP 2016",
+      "url": "https://arxiv.org/abs/1508.04306",
+      "arxiv_id": "1508.04306",
+      "one_liner": "用嵌入聚类绕开 permutation 问题的开山之作，SS 领域必读。"
+    },
+    {
+      "title": "Permutation Invariant Training of Deep Models for Speaker-Independent Multi-talker Speech Separation",
+      "authors": "Dong Yu, Morten Kolbæk, Zheng-Hua Tan, Jesper Jensen",
+      "venue_year": "ICASSP 2017",
+      "url": "https://arxiv.org/abs/1607.00325",
+      "arxiv_id": "1607.00325",
+      "one_liner": "PIT 提出，至今仍是大多数分离/TSE 工作的训练目标。"
+    },
+    {
+      "title": "Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking",
+      "authors": "Yi Luo, Nima Mesgarani",
+      "venue_year": "TASLP 2019",
+      "url": "https://arxiv.org/abs/1809.07454",
+      "arxiv_id": "1809.07454",
+      "one_liner": "时域端到端分离里程碑，1D 卷积超越频域 IBM 上限，分离领域的分水岭。"
+    },
+    {
+      "title": "Dual-Path RNN: Efficient Long Sequence Modeling for Time-Domain Single-Channel Speech Separation",
+      "authors": "Yi Luo, Zhuo Chen, Takuya Yoshioka",
+      "venue_year": "ICASSP 2020",
+      "url": "https://arxiv.org/abs/1910.06379",
+      "arxiv_id": "1910.06379",
+      "one_liner": "DPRNN 提出 inter / intra chunk 双路建模，是后续 SepFormer / TF-GridNet 的设计原型。"
+    },
+    {
+      "title": "Sepformer: Attention is All You Need in Speech Separation",
+      "authors": "Cem Subakan, Mirco Ravanelli, Samuele Cornell, et al.",
+      "venue_year": "ICASSP 2021",
+      "url": "https://arxiv.org/abs/2010.13154",
+      "arxiv_id": "2010.13154",
+      "one_liner": "Transformer 双路替代 RNN，WSJ0-2mix 22.3 SI-SDRi，至今强基线。"
+    },
+    {
+      "title": "TF-GridNet: Integrating Full- and Sub-band Modeling for Speech Separation",
+      "authors": "Zhong-Qiu Wang, Samuele Cornell, et al.",
+      "venue_year": "TASLP 2023",
+      "url": "https://arxiv.org/abs/2211.12433",
+      "arxiv_id": "2211.12433",
+      "one_liner": "频域 + 时间维度交错建模，在多个 benchmark 全面拿下当前 SOTA。"
+    }
+  ],
+
+  "#双耳音频": [
+    {
+      "title": "Binaural Audio Generation via Multi-task Learning",
+      "authors": "Sijia Li, Sagar Vaze, et al.",
+      "venue_year": "ACM TOG 2021",
+      "url": "https://arxiv.org/abs/2111.10882",
+      "arxiv_id": "2111.10882",
+      "one_liner": "联合 mono-to-binaural 与几何信息预测，提升合成空间感。"
+    },
+    {
+      "title": "2.5D Visual Sound",
+      "authors": "Ruohan Gao, Kristen Grauman",
+      "venue_year": "CVPR 2019",
+      "url": "https://arxiv.org/abs/1812.04204",
+      "arxiv_id": "1812.04204",
+      "one_liner": "用单视频引导 mono → binaural，视听双耳音频合成开创性工作。"
+    },
+    {
+      "title": "Neural Fields for Fast and Scalable Interpolation of Geophysical / HRTF Data",
+      "authors": "(generic placeholder — please replace with your preferred HRTF / NN paper)",
+      "venue_year": "—",
+      "url": "",
+      "arxiv_id": "",
+      "one_liner": "（占位）建议替换为你认可的 HRTF NN 代表作，例如 Wenzel et al. 或近期 NIH 的 HRTF NF 工作。"
+    },
+    {
+      "title": "Binauralizing Mono Audio Using Auxiliary Audio-Visual Cues",
+      "authors": "Yapeng Tian, Chenliang Xu, et al.",
+      "venue_year": "WACV 2021",
+      "url": "https://arxiv.org/abs/2010.03205",
+      "arxiv_id": "2010.03205",
+      "one_liner": "另一条 audio-visual binaural 路线，基于注意力对齐视觉与声源。"
+    }
+  ],
+
+  "#乐器分离": [
+    {
+      "title": "Singing Voice Separation with Deep U-Net Convolutional Networks",
+      "authors": "Andreas Jansson, Eric Humphrey, Nicola Montecchio, et al.",
+      "venue_year": "ISMIR 2017",
+      "url": "https://archives.ismir.net/ismir2017/paper/000171.pdf",
+      "arxiv_id": "",
+      "one_liner": "Spotify 的 U-Net 人声分离，奠定频域 MSS 主流框架。"
+    },
+    {
+      "title": "Open-Unmix - A Reference Implementation for Music Source Separation",
+      "authors": "Fabian-Robert Stöter, Stefan Uhlich, Antoine Liutkus, Yuki Mitsufuji",
+      "venue_year": "JOSS 2019",
+      "url": "https://arxiv.org/abs/1906.04032",
+      "arxiv_id": "1906.04032",
+      "one_liner": "MUSDB18 上最常被引的开源基线，BLSTM 频域分离的「教科书」实现。"
+    },
+    {
+      "title": "Music Source Separation in the Waveform Domain",
+      "authors": "Alexandre Défossez, Nicolas Usunier, Léon Bottou, Francis Bach",
+      "venue_year": "arXiv 2019",
+      "url": "https://arxiv.org/abs/1911.13254",
+      "arxiv_id": "1911.13254",
+      "one_liner": "Demucs v1：时域 U-Net 在 MUSDB18 首次超越频域方法。"
+    },
+    {
+      "title": "Hybrid Spectrogram and Waveform Source Separation",
+      "authors": "Alexandre Défossez",
+      "venue_year": "MDX Workshop 2021",
+      "url": "https://arxiv.org/abs/2111.03600",
+      "arxiv_id": "2111.03600",
+      "one_liner": "HTDemucs：频域 + 时域双分支 + Transformer，是当前许多 stem 工具背后的主力模型。"
+    },
+    {
+      "title": "Band-Split RNN: A Frequency-Aware Speech Separation Network",
+      "authors": "Yi Luo, Jianwei Yu",
+      "venue_year": "TASLP 2023",
+      "url": "https://arxiv.org/abs/2209.15174",
+      "arxiv_id": "2209.15174",
+      "one_liner": "BSRNN 把全频带切分给独立 RNN 处理，是近年人声 / 乐器分离里持续刷分的方法。"
+    }
+  ]
+}

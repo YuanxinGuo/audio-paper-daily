@@ -415,6 +415,60 @@ a.focus-pill:hover {
 
 .focus-mark { color: var(--focus-1); }
 
+/* ───────────── classic paper card (fall-back) ───────────── */
+
+.paper-card-classic {
+  border-left: 3px solid;
+  border-image: linear-gradient(180deg, var(--grad-mid), var(--grad-warm)) 1;
+  background:
+    linear-gradient(135deg, rgba(168,85,247,0.04), rgba(245,158,11,0.04)),
+    var(--entry);
+}
+.paper-card-classic .card-rank {
+  color: var(--grad-mid);
+  font-size: 1.4rem;
+}
+.paper-card-classic .card-title {
+  color: var(--primary);
+}
+.paper-card-classic .card-title:hover {
+  background: linear-gradient(90deg, var(--grad-mid), var(--grad-warm));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.classic-badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--grad-mid), var(--grad-warm));
+  color: #fff;
+  vertical-align: middle;
+}
+.card-venue {
+  font-size: 0.82rem;
+  color: var(--secondary);
+  font-style: italic;
+}
+.card-authors {
+  font-size: 0.82rem;
+  color: var(--secondary);
+  margin-top: 0.3rem;
+  line-height: 1.5;
+}
+.empty-hint {
+  font-size: 0.92rem;
+  color: var(--secondary);
+  font-style: italic;
+  margin: 0.3rem 0 0.7rem 0;
+  padding: 0.5rem 0.9rem;
+  border-left: 2px solid var(--border);
+}
+
 /* ───────────── PILLS ───────────── */
 
 .tag-pill {
