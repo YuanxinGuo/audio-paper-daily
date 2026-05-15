@@ -126,13 +126,41 @@ def main() -> None:
     # ─── About strip ─────────────────────────────────────────────────────
     out.append("## 关于本站")
     out.append("")
-    out.append("- 数据源：[arXiv](https://arxiv.org/) eess.AS / cs.SD")
-    out.append("- 分析模型：DeepSeek `deepseek-chat`")
-    out.append("- 自动化：GitHub Actions（每日 09:00 北京时间）")
-    out.append("- 源码：<https://github.com/YuanxinGuo/audio-paper-daily>")
+    out.append('<div class="about-grid">')
+    out.append(
+        '<a class="about-card" href="https://arxiv.org/list/eess.AS/recent" target="_blank" rel="noopener">'
+        '<div class="about-icon">📚</div>'
+        '<div class="about-title">数据源</div>'
+        '<div class="about-detail">arXiv · eess.AS / cs.SD</div>'
+        '</a>'
+    )
+    out.append(
+        '<div class="about-card">'
+        '<div class="about-icon">🧠</div>'
+        '<div class="about-title">分析模型</div>'
+        '<div class="about-detail">DeepSeek <code>deepseek-chat</code></div>'
+        '</div>'
+    )
+    out.append(
+        '<div class="about-card">'
+        '<div class="about-icon">⏰</div>'
+        '<div class="about-title">自动调度</div>'
+        '<div class="about-detail">GitHub Actions · 每日 09:00 (北京)</div>'
+        '</div>'
+    )
+    out.append(
+        '<a class="about-card" href="https://github.com/YuanxinGuo/audio-paper-daily" target="_blank" rel="noopener">'
+        '<div class="about-icon">💻</div>'
+        '<div class="about-title">开源项目</div>'
+        '<div class="about-detail">github.com/YuanxinGuo/audio-paper-daily</div>'
+        '</a>'
+    )
+    out.append('</div>')
     out.append("")
-    out.append("> 评分由大语言模型基于摘要自动生成，仅供快速筛选。"
-               "请始终回到原文做最终判断。")
+    out.append('<div class="about-disclaimer">'
+               '⚠️ 评分由大语言模型基于论文摘要自动生成，仅供快速筛选参考。'
+               '请始终回到原文做最终判断。'
+               '</div>')
 
     HOME_PATH.write_text("\n".join(out), encoding="utf-8")
     print(f"[home] wrote {HOME_PATH}")

@@ -22,7 +22,11 @@ body {
   font-feature-settings: "ss01", "cv11";
 }
 
-/* ───────────── TOP NAV: active state + hover ───────────── */
+/* ───────────── TOP NAV: progressive 3-state highlight ─────────────
+   Default → transparent
+   Hover   → soft tinted background
+   Active  → filled gradient background + white text
+*/
 
 .nav .logo a,
 .header .logo a {
@@ -33,48 +37,46 @@ body {
 #menu {
   gap: 0.2rem;
 }
+
+/* baseline: transparent */
 #menu li a {
   position: relative;
-  padding: 0.45rem 0.85rem !important;
-  border-radius: 8px;
+  padding: 0.5rem 1rem !important;
+  border-radius: 999px;
   color: var(--secondary);
   font-weight: 500;
-  transition: var(--transition);
+  background: transparent;
+  transition: all 0.18s ease;
 }
-#menu li a span {
-  transition: var(--transition);
-  display: inline-block;
-}
+#menu li a span { display: inline-block; transition: color 0.18s ease; }
 
+/* hover: soft tinted bg, no big jump */
 #menu li a:hover {
   color: var(--primary);
   background: linear-gradient(135deg,
     rgba(99,102,241,0.10), rgba(236,72,153,0.10));
 }
 
-/* PaperMod adds class="active" on the inner span for the current page. */
-#menu li a:has(span.active) {
-  background: linear-gradient(135deg,
-    rgba(99,102,241,0.14), rgba(236,72,153,0.14));
-  box-shadow: inset 0 -2px 0 0 var(--grad-mid);
+/* active: filled gradient + white text. PaperMod adds `class="active"` on the inner span. */
+#menu li a:has(span.active),
+#menu li.active a {
+  background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
+  box-shadow: 0 4px 14px rgba(99,102,241,0.28);
 }
-
 #menu li a span.active {
-  background: linear-gradient(90deg, var(--grad-start), var(--grad-end));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: 700;
+  color: #fff !important;
+  font-weight: 600;
 }
 
-/* Subtle bottom underline for browsers without :has() support */
+/* No-:has() fallback so older browsers still get a visible underline */
 @supports not (selector(:has(*))) {
-  #menu li:has(span.active),
   #menu li a > span.active {
-    /* Fallback: outline the whole link area via box-shadow on the span */
-    border-bottom: 2px solid;
-    border-image: linear-gradient(90deg, var(--grad-start), var(--grad-end)) 1;
-    padding-bottom: 0.15rem;
+    color: #fff;
+    background: linear-gradient(135deg, var(--grad-start), var(--grad-end));
+    padding: 0.4rem 0.95rem;
+    margin: -0.5rem -1rem;
+    border-radius: 999px;
+    display: inline-block;
   }
 }
 
@@ -800,6 +802,81 @@ body {
   opacity: 0.7;
   font-size: 0.75em;
   margin-left: 0.25rem;
+}
+
+/* ───────────── home: about grid + disclaimer ───────────── */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 1.4rem 0;
+}
+
+.about-card {
+  display: block;
+  padding: 1.1rem 1.2rem;
+  border-radius: var(--card-radius);
+  background: var(--entry);
+  border: 1px solid var(--border);
+  text-decoration: none !important;
+  color: var(--primary) !important;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+.about-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg,
+    rgba(99,102,241,0.04), rgba(236,72,153,0.04));
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+a.about-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--grad-mid);
+  box-shadow: 0 6px 18px rgba(99,102,241,0.12);
+}
+a.about-card:hover::before { opacity: 1; }
+
+.about-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.about-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-bottom: 0.3rem;
+}
+.about-detail {
+  font-size: 0.92rem;
+  color: var(--primary);
+  line-height: 1.45;
+  word-break: break-word;
+}
+.about-detail code {
+  background: var(--code-bg);
+  padding: 0.05rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+.about-disclaimer {
+  margin-top: 0.6rem;
+  padding: 0.85rem 1.1rem;
+  border-radius: 10px;
+  background: var(--code-bg);
+  color: var(--secondary);
+  font-size: 0.86rem;
+  line-height: 1.6;
+  border-left: 3px solid var(--grad-warm);
 }
 
 /* ───────────── home recent section ───────────── */
