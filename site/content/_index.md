@@ -19,20 +19,20 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">9.5</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-07-24/">DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos</a>
-<div class="pick-tldr">提出DynFOA，利用条件扩散模型和3D场景重建从360度视频生成一阶环绕声，在动态和声学复杂场景中优于现有方法。</div>
-<div class="pick-meta"><span class="tag-pill">#空间音频生成</span><span>· 2026-07-24</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-07-27/">Listen, Do Not Copy: Internalizing Audio-Grounded Scaffold Context for Robust Omni-Model Speech Understanding</a>
+<div class="pick-tldr">提出音频接地脚手架上下文（AGSC），通过从音频构建线索而非直接提供文本答案，防止全模态模型在重叠噪声语音中作弊，显著降低词错误率。</div>
+<div class="pick-meta"><span class="tag-pill">#语音理解</span><span>· 2026-07-27</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">9.5</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-07-24</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-07-27</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-24/" class="btn-primary">查看 2026-07-24 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-27/" class="btn-primary">查看 2026-07-27 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
