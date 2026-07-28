@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.5</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-07-27/">Listen, Do Not Copy: Internalizing Audio-Grounded Scaffold Context for Robust Omni-Model Speech Understanding</a>
-<div class="pick-tldr">提出音频接地脚手架上下文（AGSC），通过从音频构建线索而非直接提供文本答案，防止全模态模型在重叠噪声语音中作弊，显著降低词错误率。</div>
-<div class="pick-meta"><span class="tag-pill">#语音理解</span><span>· 2026-07-27</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-07-28/">Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models</a>
+<div class="pick-tldr">提出统一开源框架MSST，支持多种音乐分离模型训练、评估与推理，集成滑动窗口、测试时增强、模型集成和LoRA微调等实用技术。</div>
+<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-07-28</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
 <div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.5</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-07-27</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-07-28</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-27/" class="btn-primary">查看 2026-07-27 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-28/" class="btn-primary">查看 2026-07-28 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-07-28/music-source-separation-training-msst-a-unified-framework-fo-2607-23395/">Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-07-28</span>
+</div>
+<div class="card-tldr">提出统一开源框架MSST，支持多种音乐分离模型训练、评估与推理，集成滑动窗口、测试时增强、模型集成和LoRA微调等实用技术。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-07-22</span>
 </div>
 <div class="card-tldr">提出几何感知动态卷积框架，将固定阵列语音增强模型扩展为阵列不变系统，在RealMAN数据集上验证有效性。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-07-21/unipase-a-generative-model-for-universal-speech-enhancement--2604-14606/">UniPASE: A Generative Model for Universal Speech Enhancement with High Fidelity and Low Hallucinations</a>
-<div class="card-meta">
-<span class="card-score">9.5</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-07-21</span>
-</div>
-<div class="card-tldr">UniPASE 基于低幻觉 PASE 框架，通过 DeWavLM-Omni 模块和 Adapter+Vocoder 结构实现多采样率通用语音增强，在 URGENT 2026 挑战赛客观评测中获第一。</div>
 </div>
 </div>
 
