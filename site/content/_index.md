@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-07-28/">Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models</a>
-<div class="pick-tldr">提出统一开源框架MSST，支持多种音乐分离模型训练、评估与推理，集成滑动窗口、测试时增强、模型集成和LoRA微调等实用技术。</div>
-<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-07-28</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-07-29/">LL-SDR: Low-Latency Speech enhancement through Discrete Representations</a>
+<div class="pick-tldr">提出LL-SDR，一种基于离散表示的语音增强框架，通过VO-RVQ解耦语音和噪声，并引入潜在空间判别器提升增强质量，实现低延迟高性能。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-07-29</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-07-28</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-07-29</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-28/" class="btn-primary">查看 2026-07-28 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-29/" class="btn-primary">查看 2026-07-29 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-07-29/ll-sdr-low-latency-speech-enhancement-through-discrete-repre-2603-20242/">LL-SDR: Low-Latency Speech enhancement through Discrete Representations</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-07-29</span>
+</div>
+<div class="card-tldr">提出LL-SDR，一种基于离散表示的语音增强框架，通过VO-RVQ解耦语音和噪声，并引入潜在空间判别器提升增强质量，实现低延迟高性能。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-07-29/faster-enhancer-c-a-dependency-free-int8-runtime-for-streami-2607-25350/">faster-enhancer.c: A Dependency-Free int8 Runtime for Streaming Speech Enhancement on Commodity CPUs</a>
+<div class="card-meta">
+<span class="card-score">8.5</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-07-29</span>
+</div>
+<div class="card-tldr">将流式语音增强模型FastEnhancer-Medium移植为纯C int8运行时，在CPU上实现3.3倍加速，且精度损失极小。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-07-29/spacing-out-on-the-reliability-of-binaural-music-source-sepa-2607-25919/">Spacing Out: On the Reliability of Binaural Music Source Separation Metrics</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-07-29</span>
+</div>
+<div class="card-tldr">通过感知实验评估双耳音乐源分离中客观空间失真指标与人类感知的相关性，发现ITD估计不可靠，需设计专用空间指标。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-07-24</span>
 </div>
 <div class="card-tldr">提出TF-MossFormer，在时频域结合卷积门控与局部-全局注意力，在WSJ0-2Mix上以5.9M参数达到22.6 dB SI-SDRi，超越此前方法。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-07-23/schr-odinger-bridge-mamba-for-one-step-speech-enhancement-2510-16834/">Schr\"odinger Bridge Mamba for One-Step Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">9.5</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-07-23</span>
-</div>
-<div class="card-tldr">提出Schrödinger Bridge Mamba，结合SB训练范式与Mamba架构，实现单步推理的高效语音增强。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-07-23/caps-a-cascaded-reconstruction-model-to-power-saving-in-hear-2607-19434/">CAPS: A Cascaded Reconstruction Model to Power Saving in Hearables Using Sub-Nyquist Sampling with Bandwidth Extension</a>
-<div class="card-meta">
-<span class="card-score">7.5</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-07-23</span>
-</div>
-<div class="card-tldr">提出CAPS级联重建模型，通过子奈奎斯特采样和低比特量化降低功耗3.3倍，同时保持语音可懂度。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-07-22/towards-array-invariant-speech-enhancement-via-geometry-awar-2607-18658/">Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-07-22</span>
-</div>
-<div class="card-tldr">提出几何感知动态卷积框架，将固定阵列语音增强模型扩展为阵列不变系统，在RealMAN数据集上验证有效性。</div>
 </div>
 </div>
 
