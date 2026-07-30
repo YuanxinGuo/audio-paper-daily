@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-07-29/">LL-SDR: Low-Latency Speech enhancement through Discrete Representations</a>
-<div class="pick-tldr">提出LL-SDR，一种基于离散表示的语音增强框架，通过VO-RVQ解耦语音和噪声，并引入潜在空间判别器提升增强质量，实现低延迟高性能。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-07-29</span></div>
+<div class="pick-score">8.5</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-07-30/">Unlocking Spatial Grounding in Large Audio-Visual Retrieval models</a>
+<div class="pick-tldr">提出LAIP框架，利用冻结的音视频检索模型中的中间视觉token实现高精度声源定位，无需额外标注。</div>
+<div class="pick-meta"><span class="tag-pill">#声源定位</span><span>· 2026-07-30</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-07-29</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.5</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-07-30</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-29/" class="btn-primary">查看 2026-07-29 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-30/" class="btn-primary">查看 2026-07-30 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
