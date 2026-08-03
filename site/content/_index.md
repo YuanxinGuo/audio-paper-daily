@@ -19,9 +19,9 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-07-31/">CrowdioSet and PaRIRset: Two Datasets Towards Live Music Source Separation</a>
-<div class="pick-tldr">提出两个新数据集CrowdioSet和PaRIRset，用于提升音乐源分离模型在真实现场录音中的泛化能力。</div>
-<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-07-31</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-03/">Unsupervised Single-Channel Speech Separation with Diffusion under Speaker-Embedding Guidance</a>
+<div class="pick-tldr">提出无监督单通道语音分离方法，利用扩散模型和说话人嵌入引导，在逆扩散过程中保持说话人一致性并分离不同说话人。</div>
+<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-08-03</span></div>
 </div>
 </div>
 
@@ -29,15 +29,27 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
 <div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-07-31</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-03</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-07-31/" class="btn-primary">查看 2026-07-31 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-03/" class="btn-primary">查看 2026-08-03 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-03/unsupervised-single-channel-speech-separation-with-diffusion-2509-24395/">Unsupervised Single-Channel Speech Separation with Diffusion under Speaker-Embedding Guidance</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-08-03</span>
+</div>
+<div class="card-tldr">提出无监督单通道语音分离方法，利用扩散模型和说话人嵌入引导，在逆扩散过程中保持说话人一致性并分离不同说话人。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-07-29</span>
 </div>
 <div class="card-tldr">将流式语音增强模型FastEnhancer-Medium移植为纯C int8运行时，在CPU上实现3.3倍加速，且精度损失极小。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-07-29/spacing-out-on-the-reliability-of-binaural-music-source-sepa-2607-25919/">Spacing Out: On the Reliability of Binaural Music Source Separation Metrics</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-07-29</span>
-</div>
-<div class="card-tldr">通过感知实验评估双耳音乐源分离中客观空间失真指标与人类感知的相关性，发现ITD估计不可靠，需设计专用空间指标。</div>
 </div>
 </div>
 
