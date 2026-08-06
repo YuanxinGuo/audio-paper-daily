@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-05/">PASE: Leveraging the Phonological Prior of WavLM for Low-Hallucination Generative Speech Enhancement</a>
-<div class="pick-tldr">提出PASE，利用WavLM的音韵先验进行生成式语音增强，显著降低语言和声学幻觉，提升感知质量。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-08-05</span></div>
+<div class="pick-score">7.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-06/">Visual Representation Matters: Exploiting Temporal Differences in Video-to-Audio Generation</a>
+<div class="pick-tldr">提出TD-V2A，利用时间差分作为关键表征，以最小架构改动提升视频到音频生成质量，超越对比音视频预训练方法。</div>
+<div class="pick-meta"><span class="tag-pill">#视频到音频生成</span><span>· 2026-08-06</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-05</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-06</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-05/" class="btn-primary">查看 2026-08-05 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-06/" class="btn-primary">查看 2026-08-06 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
