@@ -19,20 +19,20 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-07/">DELTA-TTS: Adapting Autoregressive Model into Diffusion Language Model for Text-to-Speech</a>
-<div class="pick-tldr">DELTA-TTS通过LoRA将自回归TTS转为扩散语言模型，实现置信度排序解码，提升速度与鲁棒性。</div>
-<div class="pick-meta"><span class="tag-pill">#语音合成</span><span>· 2026-08-07</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-08/">Vorch-Streamer: Extending Human Audio-Visual Generation to Real-Time Long-Form Streaming</a>
+<div class="pick-tldr">提出Vorch-Streamer后训练框架，通过混合教师强制与扩散强制、长时自强制及语音规划令牌，实现实时长时音视频流式生成。</div>
+<div class="pick-meta"><span class="tag-pill">#音视频生成</span><span>· 2026-08-08</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">3</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
 <div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-07</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-08</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-07/" class="btn-primary">查看 2026-08-07 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-08/" class="btn-primary">查看 2026-08-08 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
