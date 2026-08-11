@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-08/">Vorch-Streamer: Extending Human Audio-Visual Generation to Real-Time Long-Form Streaming</a>
-<div class="pick-tldr">提出Vorch-Streamer后训练框架，通过混合教师强制与扩散强制、长时自强制及语音规划令牌，实现实时长时音视频流式生成。</div>
-<div class="pick-meta"><span class="tag-pill">#音视频生成</span><span>· 2026-08-08</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-11/">Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement</a>
+<div class="pick-tldr">提出云-边协作的低计算多通道语音增强框架，通过延迟服务器输出、逐层特征增强和协作维纳滤波，显著提升边缘模型性能。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-08-11</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-08</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-11</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-08/" class="btn-primary">查看 2026-08-08 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-11/" class="btn-primary">查看 2026-08-11 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-11/cloud-boosted-low-compute-multi-channel-speech-enhancement-2608-07423/">Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-11</span>
+</div>
+<div class="card-tldr">提出云-边协作的低计算多通道语音增强框架，通过延迟服务器输出、逐层特征增强和协作维纳滤波，显著提升边缘模型性能。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-04</span>
 </div>
 <div class="card-tldr">提出正则化Schrödinger桥（RSB），通过失真-感知扰动缓解暴露偏差，在语音增强中兼顾保真度与感知质量。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-04/droneaudionet-noise-suppression-for-drone-audition-based-sea-2608-00875/">DRONEAUDIONET: Noise Suppression for Drone Audition-based Search and Rescue</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-04</span>
-</div>
-<div class="card-tldr">提出DRONEAUDIONET，将源分离模型重构为无人机噪声估计器，通过可学习掩码缩放和残差校正，在极低SNR下提升语音增强与下游分类性能。</div>
 </div>
 </div>
 
