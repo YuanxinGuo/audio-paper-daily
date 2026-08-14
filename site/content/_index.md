@@ -18,26 +18,74 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-13/">BiTSE: Binaural Target Speaker Extraction in Noisy Multi-Talker Environments for AR Glass Arrays</a>
-<div class="pick-tldr">提出BiTSE，利用目标说话人方位和语音活动信息，在双耳信号上实现鲁棒的目标说话人提取，在SPEAR数据集上优于传统方法。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-08-13</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-14/">RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation</a>
+<div class="pick-tldr">RT-SEMamba提出基于因果时频Mamba的实时语音增强模型，通过渐进式知识蒸馏将8层教师压缩为1层学生，在Voicebank-DEMAND上达到3.18 PESQ，速度提升2.75倍。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-08-14</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-13</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-14</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-13/" class="btn-primary">查看 2026-08-13 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-14/" class="btn-primary">查看 2026-08-14 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/rethinking-language-model-based-generative-speech-enhancemen-2608-12082/">Rethinking Language Model-Based Generative Speech Enhancement in the Latent Space of a Neural Audio Codec</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-14</span>
+</div>
+<div class="card-tldr">本文统一了六种基于语言模型的生成式语音增强范式，首次在统一实验设置下比较，并提出辅助损失微调策略提升主客观指标。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/rt-semamba-real-time-speech-enhancement-mamba-via-progressiv-2608-12099/">RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-14</span>
+</div>
+<div class="card-tldr">RT-SEMamba提出基于因果时频Mamba的实时语音增强模型，通过渐进式知识蒸馏将8层教师压缩为1层学生，在Voicebank-DEMAND上达到3.18 PESQ，速度提升2.75倍。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/hybrid-real-and-complex-valued-neural-network-architecture-f-2509-21185/">Hybrid Real- and Complex-Valued Neural Network Architecture for Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-14</span>
+</div>
+<div class="card-tldr">提出混合实值-复值神经网络用于单声道语音增强，在匹配参数下以更低计算量提升语音可懂度和质量。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/deep-learning-based-relative-transfer-matrix-estimation-for--2608-11627/">Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-14</span>
+</div>
+<div class="card-tldr">本文提出三种深度学习框架估计多源多麦克风的相对传递矩阵，在客观指标上优于传统协方差方法，并验证了其在语音增强中的有效性。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -48,54 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-13</span>
 </div>
 <div class="card-tldr">提出BiTSE，利用目标说话人方位和语音活动信息，在双耳信号上实现鲁棒的目标说话人提取，在SPEAR数据集上优于传统方法。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-12/dave-a-decoupled-audio-visual-enhancement-framework-for-real-2608-09288/">DAVE: A Decoupled Audio-Visual Enhancement Framework for Real-World Speech Separation</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-12</span>
-</div>
-<div class="card-tldr">DAVE提出解耦的音视频增强框架，通过大规模语料DAVE-Corpus和渐进多目标优化，在真实场景语音分离中提升鲁棒性。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-12/mitigating-over-suppression-in-speech-enhancement-via-infere-2608-07781/">Mitigating Over-Suppression in Speech Enhancement via Inference-Time Rethink-and-Refine Correction Module</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-12</span>
-</div>
-<div class="card-tldr">提出一种推理时重思与修正模块，通过ASR对齐识别过抑制区间并选择性重混，无需训练即可提升多种语音增强模型的感知质量和可懂度。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-12/dynamic-clustering-for-cross-segment-permutation-alignment-i-2608-09451/">Dynamic Clustering for Cross-Segment Permutation Alignment in Long Speech Separation</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-08-12</span>
-</div>
-<div class="card-tldr">提出一种免训练的动态聚类方法，利用说话人嵌入参考池对齐长语音分离中的跨段排列，作为即插即用后处理模块，在稀疏长语音场景中表现优异。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-11/cloud-boosted-low-compute-multi-channel-speech-enhancement-2608-07423/">Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-11</span>
-</div>
-<div class="card-tldr">提出云-边协作的低计算多通道语音增强框架，通过延迟服务器输出、逐层特征增强和协作维纳滤波，显著提升边缘模型性能。</div>
 </div>
 </div>
 
