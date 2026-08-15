@@ -19,25 +19,37 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-14/">RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation</a>
-<div class="pick-tldr">RT-SEMamba提出基于因果时频Mamba的实时语音增强模型，通过渐进式知识蒸馏将8层教师压缩为1层学生，在Voicebank-DEMAND上达到3.18 PESQ，速度提升2.75倍。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-08-14</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-15/">VoxAudio: Vocalized Audio Synthesis via Multi-Reward Autoregressive Flow Matching</a>
+<div class="pick-tldr">VoxAudio 提出因果自回归流匹配模型，通过分块因果分解、多奖励微调和带转写标注的语料库，实现语音与环境声融合的可控生成。</div>
+<div class="pick-meta"><span class="tag-pill">#音频生成</span><span>· 2026-08-15</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-14</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-15</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-14/" class="btn-primary">查看 2026-08-14 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-15/" class="btn-primary">查看 2026-08-15 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-15/hybridsb-moe-dual-domain-schr-odinger-bridges-with-scene-ada-2608-12715/">HybridSB-MoE: Dual-Domain Schr\"odinger Bridges with Scene-Adaptive Expert Routing for Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-15</span>
+</div>
+<div class="card-tldr">提出双域Schrödinger桥与场景自适应专家路由的语音增强框架，在VoiceBank+DEMAND上以更少采样步数超越扩散与SB基线。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-14</span>
 </div>
 <div class="card-tldr">本文提出三种深度学习框架估计多源多麦克风的相对传递矩阵，在客观指标上优于传统协方差方法，并验证了其在语音增强中的有效性。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-13/bitse-binaural-target-speaker-extraction-in-noisy-multi-talk-2608-10106/">BiTSE: Binaural Target Speaker Extraction in Noisy Multi-Talker Environments for AR Glass Arrays</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-08-13</span>
-</div>
-<div class="card-tldr">提出BiTSE，利用目标说话人方位和语音活动信息，在双耳信号上实现鲁棒的目标说话人提取，在SPEAR数据集上优于传统方法。</div>
 </div>
 </div>
 
