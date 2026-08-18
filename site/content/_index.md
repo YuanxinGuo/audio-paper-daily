@@ -19,25 +19,49 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-15/">VoxAudio: Vocalized Audio Synthesis via Multi-Reward Autoregressive Flow Matching</a>
-<div class="pick-tldr">VoxAudio 提出因果自回归流匹配模型，通过分块因果分解、多奖励微调和带转写标注的语料库，实现语音与环境声融合的可控生成。</div>
-<div class="pick-meta"><span class="tag-pill">#音频生成</span><span>· 2026-08-15</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-18/">BAT: Learning to Reason about Spatial Sounds with Large Language Models</a>
+<div class="pick-tldr">BAT结合双耳声学场景分析模型与LLM，实现空间声音推理，并构建了空间声音QA数据集SpatialSoundQA。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-08-18</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-15</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-18</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-15/" class="btn-primary">查看 2026-08-15 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-18/" class="btn-primary">查看 2026-08-18 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-18/bat-learning-to-reason-about-spatial-sounds-with-large-langu-2402-01591/">BAT: Learning to Reason about Spatial Sounds with Large Language Models</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-08-18</span>
+</div>
+<div class="card-tldr">BAT结合双耳声学场景分析模型与LLM，实现空间声音推理，并构建了空间声音QA数据集SpatialSoundQA。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-18/singer-informed-vocal-source-separation-for-multi-singer-mus-2608-14516/">Singer-Informed Vocal Source Separation for Multi-Singer Music Mixtures</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-08-18</span>
+</div>
+<div class="card-tldr">提出基于歌手注册嵌入的引导分离框架，通过特征拼接或FiLM调制，在多歌手混合中显著提升目标歌手提取质量。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-14</span>
 </div>
 <div class="card-tldr">RT-SEMamba提出基于因果时频Mamba的实时语音增强模型，通过渐进式知识蒸馏将8层教师压缩为1层学生，在Voicebank-DEMAND上达到3.18 PESQ，速度提升2.75倍。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/hybrid-real-and-complex-valued-neural-network-architecture-f-2509-21185/">Hybrid Real- and Complex-Valued Neural Network Architecture for Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-14</span>
-</div>
-<div class="card-tldr">提出混合实值-复值神经网络用于单声道语音增强，在匹配参数下以更低计算量提升语音可懂度和质量。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/deep-learning-based-relative-transfer-matrix-estimation-for--2608-11627/">Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-14</span>
-</div>
-<div class="card-tldr">本文提出三种深度学习框架估计多源多麦克风的相对传递矩阵，在客观指标上优于传统协方差方法，并验证了其在语音增强中的有效性。</div>
 </div>
 </div>
 
