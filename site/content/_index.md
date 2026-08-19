@@ -18,26 +18,74 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-18/">BAT: Learning to Reason about Spatial Sounds with Large Language Models</a>
-<div class="pick-tldr">BAT结合双耳声学场景分析模型与LLM，实现空间声音推理，并构建了空间声音QA数据集SpatialSoundQA。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-08-18</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-19/">Numerical and perceptual validity of synthetic Head-Related Transfer Functions at scale</a>
+<div class="pick-tldr">大规模评估合成HRTF在数值与感知上的有效性，发现合成HRTF在行为定位上与实测相当，优于KEMAR，但存在低频后部误差。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-08-19</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-18</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-19</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-18/" class="btn-primary">查看 2026-08-18 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-19/" class="btn-primary">查看 2026-08-19 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/numerical-and-perceptual-validity-of-synthetic-head-related--2608-16722/">Numerical and perceptual validity of synthetic Head-Related Transfer Functions at scale</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-08-19</span>
+</div>
+<div class="card-tldr">大规模评估合成HRTF在数值与感知上的有效性，发现合成HRTF在行为定位上与实测相当，优于KEMAR，但存在低频后部误差。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/separate-first-then-associate-a-two-stage-approach-for-real--2608-14812/">Separate First, Then Associate: A Two-Stage Approach for Real-World Audio-Visual Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-19</span>
+</div>
+<div class="card-tldr">提出分离-关联两阶段方法，先用音频-only模型分离多说话人混合，再用音频-视觉CLIP匹配目标人脸视频，提升真实场景AVSE性能。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/navigating-speech-enhancement-for-real-time-mri-a-systematic-2608-16125/">Navigating Speech Enhancement for Real-Time MRI: A Systematic Assessment of Signal Quality, Source Preservation, and Downstream Tasks</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-19</span>
+</div>
+<div class="card-tldr">系统评估三种通用语音增强系统在实时MRI语音上的效果，发现增强效果因任务而异，不能一概而论。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/a-novel-binaural-cue-preservation-loss-for-dnn-based-binaura-2608-16299/">A Novel Binaural Cue Preservation Loss for DNN-Based Binaural Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-08-19</span>
+</div>
+<div class="card-tldr">提出两种双耳线索保持损失，直接惩罚掩蔽引起的左右频谱关系失真，联合建模ILD和IPD，在保持降噪性能的同时减少失真并改善ILD保持。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -48,54 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-18</span>
 </div>
 <div class="card-tldr">BAT结合双耳声学场景分析模型与LLM，实现空间声音推理，并构建了空间声音QA数据集SpatialSoundQA。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-18/singer-informed-vocal-source-separation-for-multi-singer-mus-2608-14516/">Singer-Informed Vocal Source Separation for Multi-Singer Music Mixtures</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-08-18</span>
-</div>
-<div class="card-tldr">提出基于歌手注册嵌入的引导分离框架，通过特征拼接或FiLM调制，在多歌手混合中显著提升目标歌手提取质量。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-15/hybridsb-moe-dual-domain-schr-odinger-bridges-with-scene-ada-2608-12715/">HybridSB-MoE: Dual-Domain Schr\"odinger Bridges with Scene-Adaptive Expert Routing for Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-15</span>
-</div>
-<div class="card-tldr">提出双域Schrödinger桥与场景自适应专家路由的语音增强框架，在VoiceBank+DEMAND上以更少采样步数超越扩散与SB基线。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/rethinking-language-model-based-generative-speech-enhancemen-2608-12082/">Rethinking Language Model-Based Generative Speech Enhancement in the Latent Space of a Neural Audio Codec</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-14</span>
-</div>
-<div class="card-tldr">本文统一了六种基于语言模型的生成式语音增强范式，首次在统一实验设置下比较，并提出辅助损失微调策略提升主客观指标。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-14/rt-semamba-real-time-speech-enhancement-mamba-via-progressiv-2608-12099/">RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-14</span>
-</div>
-<div class="card-tldr">RT-SEMamba提出基于因果时频Mamba的实时语音增强模型，通过渐进式知识蒸馏将8层教师压缩为1层学生，在Voicebank-DEMAND上达到3.18 PESQ，速度提升2.75倍。</div>
 </div>
 </div>
 
