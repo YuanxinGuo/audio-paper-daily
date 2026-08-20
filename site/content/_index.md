@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-19/">Numerical and perceptual validity of synthetic Head-Related Transfer Functions at scale</a>
-<div class="pick-tldr">大规模评估合成HRTF在数值与感知上的有效性，发现合成HRTF在行为定位上与实测相当，优于KEMAR，但存在低频后部误差。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-08-19</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-20/">FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations</a>
+<div class="pick-tldr">FireRedTTS3通过冻结的语义教师网络正则化连续语音表示，实现稳定可控的语音生成与编辑，在多项基准上取得最优。</div>
+<div class="pick-meta"><span class="tag-pill">#语音生成</span><span>· 2026-08-20</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-19</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">8</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-20</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-19/" class="btn-primary">查看 2026-08-19 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-20/" class="btn-primary">查看 2026-08-20 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
