@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-20/">FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations</a>
-<div class="pick-tldr">FireRedTTS3通过冻结的语义教师网络正则化连续语音表示，实现稳定可控的语音生成与编辑，在多项基准上取得最优。</div>
-<div class="pick-meta"><span class="tag-pill">#语音生成</span><span>· 2026-08-20</span></div>
+<div class="pick-score">7.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-21/">Generalized Audio-Driven Synthesis of Precise Drummer Motion</a>
+<div class="pick-tldr">提出扩散框架生成与音频精确对齐的鼓手动作，双目标损失解耦骨骼完整性与鼓棒精度，并引入新评估指标。</div>
+<div class="pick-meta"><span class="tag-pill">#音乐驱动动画</span><span>· 2026-08-21</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">8</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
 <div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-20</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-21</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-20/" class="btn-primary">查看 2026-08-20 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-21/" class="btn-primary">查看 2026-08-21 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
