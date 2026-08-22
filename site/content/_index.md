@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">7.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-21/">Generalized Audio-Driven Synthesis of Precise Drummer Motion</a>
-<div class="pick-tldr">提出扩散框架生成与音频精确对齐的鼓手动作，双目标损失解耦骨骼完整性与鼓棒精度，并引入新评估指标。</div>
-<div class="pick-meta"><span class="tag-pill">#音乐驱动动画</span><span>· 2026-08-21</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-22/">Fourier is Frontier: Frequency-Aware Autoencoding for High-Fidelity Music Reconstruction</a>
+<div class="pick-tldr">提出 ear-VAE2，一种基于复数 STFT 的频域自编码器，通过频率感知激活和双耳感知精化器，在音乐重建中显著提升高保真度。</div>
+<div class="pick-meta"><span class="tag-pill">#音频生成</span><span>· 2026-08-22</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-21</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-22</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-21/" class="btn-primary">查看 2026-08-21 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-22/" class="btn-primary">查看 2026-08-22 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-22/linearly-constrained-deep-beamformer-for-multi-speaker-scena-2605-21141/">Linearly Constrained Deep Beamformer for Multi-Speaker Scenarios</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-22</span>
+</div>
+<div class="card-tldr">提出一种深度波束成形框架，通过自适应多损失约束直接估计满足线性空间约束的波束权重，在多说话人场景中优于经典LCMV。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-19</span>
 </div>
 <div class="card-tldr">提出两种双耳线索保持损失，直接惩罚掩蔽引起的左右频谱关系失真，联合建模ILD和IPD，在保持降噪性能的同时减少失真并改善ILD保持。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-18/bat-learning-to-reason-about-spatial-sounds-with-large-langu-2402-01591/">BAT: Learning to Reason about Spatial Sounds with Large Language Models</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-08-18</span>
-</div>
-<div class="card-tldr">BAT结合双耳声学场景分析模型与LLM，实现空间声音推理，并构建了空间声音QA数据集SpatialSoundQA。</div>
 </div>
 </div>
 
