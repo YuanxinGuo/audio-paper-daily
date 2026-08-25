@@ -18,26 +18,74 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-22/">Fourier is Frontier: Frequency-Aware Autoencoding for High-Fidelity Music Reconstruction</a>
-<div class="pick-tldr">提出 ear-VAE2，一种基于复数 STFT 的频域自编码器，通过频率感知激活和双耳感知精化器，在音乐重建中显著提升高保真度。</div>
-<div class="pick-meta"><span class="tag-pill">#音频生成</span><span>· 2026-08-22</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-25/">SlimDiffuSE: Towards Efficient Diffusion-Based Speech Enhancement using Slimmable Networks</a>
+<div class="pick-tldr">提出SlimDiffuSE，利用可伸缩网络在扩散生成过程中动态调整网络宽度，在保持语音增强性能的同时大幅降低计算复杂度。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-08-25</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-22</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-25</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-22/" class="btn-primary">查看 2026-08-22 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-25/" class="btn-primary">查看 2026-08-25 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/mu-net-ultra-low-memory-and-low-complexity-speech-enhancemen-2608-21155/">{\mu}Net: Ultra-Low-Memory and Low-Complexity Speech Enhancement for Embedded Digital Signal Processors</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-25</span>
+</div>
+<div class="card-tldr">提出μNet，一种仅需90KB内存和28MMACs的超低资源语音增强模型，支持4ms低延迟和全整数运算，性能与同复杂度SOTA相当。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/slimdiffuse-towards-efficient-diffusion-based-speech-enhance-2608-21188/">SlimDiffuSE: Towards Efficient Diffusion-Based Speech Enhancement using Slimmable Networks</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-25</span>
+</div>
+<div class="card-tldr">提出SlimDiffuSE，利用可伸缩网络在扩散生成过程中动态调整网络宽度，在保持语音增强性能的同时大幅降低计算复杂度。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/training-deepfilternet-with-accurate-room-acoustic-simulatio-2608-20971/">Training DeepFilterNet with Accurate Room Acoustic Simulations Improves Single-Channel Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-25</span>
+</div>
+<div class="card-tldr">本文比较了不同真实感的合成RIR数据集对DeepFilterNet3语音增强训练的影响，发现高保真模拟数据能提升客观指标并显著降低ASR词错误率。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/audioworldsim-realistic-binaural-audio-datasets-for-world-mo-2608-21075/">AudioWorldSim: Realistic Binaural Audio Datasets For World Models</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-08-25</span>
+</div>
+<div class="card-tldr">AudioWorldSim 是一个基于 SoundSpaces 2.0 的开源平台，用于自动生成真实双耳音频数据集，支持世界模型研究。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -48,54 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-22</span>
 </div>
 <div class="card-tldr">提出一种深度波束成形框架，通过自适应多损失约束直接估计满足线性空间约束的波束权重，在多说话人场景中优于经典LCMV。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/numerical-and-perceptual-validity-of-synthetic-head-related--2608-16722/">Numerical and perceptual validity of synthetic Head-Related Transfer Functions at scale</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-08-19</span>
-</div>
-<div class="card-tldr">大规模评估合成HRTF在数值与感知上的有效性，发现合成HRTF在行为定位上与实测相当，优于KEMAR，但存在低频后部误差。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/separate-first-then-associate-a-two-stage-approach-for-real--2608-14812/">Separate First, Then Associate: A Two-Stage Approach for Real-World Audio-Visual Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-19</span>
-</div>
-<div class="card-tldr">提出分离-关联两阶段方法，先用音频-only模型分离多说话人混合，再用音频-视觉CLIP匹配目标人脸视频，提升真实场景AVSE性能。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/navigating-speech-enhancement-for-real-time-mri-a-systematic-2608-16125/">Navigating Speech Enhancement for Real-Time MRI: A Systematic Assessment of Signal Quality, Source Preservation, and Downstream Tasks</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-19</span>
-</div>
-<div class="card-tldr">系统评估三种通用语音增强系统在实时MRI语音上的效果，发现增强效果因任务而异，不能一概而论。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-19/a-novel-binaural-cue-preservation-loss-for-dnn-based-binaura-2608-16299/">A Novel Binaural Cue Preservation Loss for DNN-Based Binaural Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-08-19</span>
-</div>
-<div class="card-tldr">提出两种双耳线索保持损失，直接惩罚掩蔽引起的左右频谱关系失真，联合建模ILD和IPD，在保持降噪性能的同时减少失真并改善ILD保持。</div>
 </div>
 </div>
 
