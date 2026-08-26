@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-25/">SlimDiffuSE: Towards Efficient Diffusion-Based Speech Enhancement using Slimmable Networks</a>
-<div class="pick-tldr">提出SlimDiffuSE，利用可伸缩网络在扩散生成过程中动态调整网络宽度，在保持语音增强性能的同时大幅降低计算复杂度。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-08-25</span></div>
+<div class="pick-score">9.5</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-26/">FlowSep 2: Self-Supervised Flow Matching for Language-Queried Audio Source Separation</a>
+<div class="pick-tldr">FlowSep2 提出基于流匹配的生成式语言查询音频分离模型，利用自监督流匹配范式提升复杂声学场景下的分离性能。</div>
+<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-08-26</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
 <div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-25</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.5</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-26</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-25/" class="btn-primary">查看 2026-08-25 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-26/" class="btn-primary">查看 2026-08-26 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-26/flowsep-2-self-supervised-flow-matching-for-language-queried-2608-22111/">FlowSep 2: Self-Supervised Flow Matching for Language-Queried Audio Source Separation</a>
+<div class="card-meta">
+<span class="card-score">9.5</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-08-26</span>
+</div>
+<div class="card-tldr">FlowSep2 提出基于流匹配的生成式语言查询音频分离模型，利用自监督流匹配范式提升复杂声学场景下的分离性能。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-26/lipsam-lipschitz-continuous-neural-networks-for-convergent-p-2608-23038/">LipsAM: Lipschitz-continuous Neural Networks for Convergent Plug-and-Play Audio Signal Recovery</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-26</span>
+</div>
+<div class="card-tldr">本文为音频信号处理中的幅度修改器（AM）建立了Lipschitz连续性的充要条件，提出LipsAM架构，并用于即插即用语音去混响，保证算法收敛。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-26/automatic-curation-of-large-scale-high-quality-multi-categor-2510-07840/">Automatic Curation of Large-Scale, High-Quality, Multi-Category Music Source Separation Dataset</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-08-26</span>
+</div>
+<div class="card-tldr">提出ACMID大规模多类别音乐源分离数据集，通过自动清洗提升数据质量，扩展至7-stem分离，显著提升SOTA模型性能。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-25</span>
 </div>
 <div class="card-tldr">提出SlimDiffuSE，利用可伸缩网络在扩散生成过程中动态调整网络宽度，在保持语音增强性能的同时大幅降低计算复杂度。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/training-deepfilternet-with-accurate-room-acoustic-simulatio-2608-20971/">Training DeepFilterNet with Accurate Room Acoustic Simulations Improves Single-Channel Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-25</span>
-</div>
-<div class="card-tldr">本文比较了不同真实感的合成RIR数据集对DeepFilterNet3语音增强训练的影响，发现高保真模拟数据能提升客观指标并显著降低ASR词错误率。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/audioworldsim-realistic-binaural-audio-datasets-for-world-mo-2608-21075/">AudioWorldSim: Realistic Binaural Audio Datasets For World Models</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-08-25</span>
-</div>
-<div class="card-tldr">AudioWorldSim 是一个基于 SoundSpaces 2.0 的开源平台，用于自动生成真实双耳音频数据集，支持世界模型研究。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-22/linearly-constrained-deep-beamformer-for-multi-speaker-scena-2605-21141/">Linearly Constrained Deep Beamformer for Multi-Speaker Scenarios</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-22</span>
-</div>
-<div class="card-tldr">提出一种深度波束成形框架，通过自适应多损失约束直接估计满足线性空间约束的波束权重，在多说话人场景中优于经典LCMV。</div>
 </div>
 </div>
 
