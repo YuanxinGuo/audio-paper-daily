@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.5</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-26/">FlowSep 2: Self-Supervised Flow Matching for Language-Queried Audio Source Separation</a>
-<div class="pick-tldr">FlowSep2 提出基于流匹配的生成式语言查询音频分离模型，利用自监督流匹配范式提升复杂声学场景下的分离性能。</div>
-<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-08-26</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-27/">CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation</a>
+<div class="pick-tldr">提出因果GAN空间音频声码器CSAVocoder，通过空间适配器和一致性判别器提升空间保真度，支持实时流式推理。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-08-27</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.5</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-26</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-27</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-26/" class="btn-primary">查看 2026-08-26 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-27/" class="btn-primary">查看 2026-08-27 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-27/csavocoder-a-causal-spatial-audio-vocoder-towards-real-time--2608-25404/">CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-08-27</span>
+</div>
+<div class="card-tldr">提出因果GAN空间音频声码器CSAVocoder，通过空间适配器和一致性判别器提升空间保真度，支持实时流式推理。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-25</span>
 </div>
 <div class="card-tldr">提出μNet，一种仅需90KB内存和28MMACs的超低资源语音增强模型，支持4ms低延迟和全整数运算，性能与同复杂度SOTA相当。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/slimdiffuse-towards-efficient-diffusion-based-speech-enhance-2608-21188/">SlimDiffuSE: Towards Efficient Diffusion-Based Speech Enhancement using Slimmable Networks</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-25</span>
-</div>
-<div class="card-tldr">提出SlimDiffuSE，利用可伸缩网络在扩散生成过程中动态调整网络宽度，在保持语音增强性能的同时大幅降低计算复杂度。</div>
 </div>
 </div>
 
