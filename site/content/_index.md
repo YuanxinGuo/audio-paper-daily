@@ -18,26 +18,50 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-27/">CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation</a>
-<div class="pick-tldr">提出因果GAN空间音频声码器CSAVocoder，通过空间适配器和一致性判别器提升空间保真度，支持实时流式推理。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-08-27</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-08-28/">Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling</a>
+<div class="pick-tldr">提出ADEPS，一种基于扩散后验采样的阵列无关Ambisonics编码框架，通过嵌入物理采集模型实现任意阵列拓扑的零样本编码。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-08-28</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-27</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-08-28</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-27/" class="btn-primary">查看 2026-08-27 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-28/" class="btn-primary">查看 2026-08-28 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-28/array-agnostic-ambisonics-encoding-via-diffusion-posterior-s-2608-24558/">Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-08-28</span>
+</div>
+<div class="card-tldr">提出ADEPS，一种基于扩散后验采样的阵列无关Ambisonics编码框架，通过嵌入物理采集模型实现任意阵列拓扑的零样本编码。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-08-28/gan-based-joint-dereverberation-and-directional-filtering-2608-26403/">GAN-based Joint Dereverberation and Directional Filtering</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-08-28</span>
+</div>
+<div class="card-tldr">提出联合去混响与方向性滤波的NDDF方法，用GAN实现，优于级联基线，并引入仅依赖输入输出信号的指向性模式估计方法。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-26</span>
 </div>
 <div class="card-tldr">本文为音频信号处理中的幅度修改器（AM）建立了Lipschitz连续性的充要条件，提出LipsAM架构，并用于即插即用语音去混响，保证算法收敛。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-26/automatic-curation-of-large-scale-high-quality-multi-categor-2510-07840/">Automatic Curation of Large-Scale, High-Quality, Multi-Category Music Source Separation Dataset</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-08-26</span>
-</div>
-<div class="card-tldr">提出ACMID大规模多类别音乐源分离数据集，通过自动清洗提升数据质量，扩展至7-stem分离，显著提升SOTA模型性能。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-25/mu-net-ultra-low-memory-and-low-complexity-speech-enhancemen-2608-21155/">{\mu}Net: Ultra-Low-Memory and Low-Complexity Speech Enhancement for Embedded Digital Signal Processors</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-25</span>
-</div>
-<div class="card-tldr">提出μNet，一种仅需90KB内存和28MMACs的超低资源语音增强模型，支持4ms低延迟和全整数运算，性能与同复杂度SOTA相当。</div>
 </div>
 </div>
 
