@@ -19,25 +19,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-08-31/">Low-Power End-to-End Cochlear Implant Speech Denoising with Spiking Neural Networks</a>
-<div class="pick-tldr">提出一种受Deep ACE启发的SNN，同时进行语音增强和人工耳蜗编码，在保持VSTOI和SNRi性能的同时，能耗降低六倍以上。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-08-31</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-01/">Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers</a>
+<div class="pick-tldr">提出Ouroboros后门攻击框架，利用语音增强模型的理想干净输出作为自然触发器，无需外部注入即可在推理时激活后门。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-01</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">5</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-08-31</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-01</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-08-31/" class="btn-primary">查看 2026-08-31 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-01/" class="btn-primary">查看 2026-09-01 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-01/parallel-time-band-mixing-with-learned-observation-adding-fo-2608-30326/">Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-01</span>
+</div>
+<div class="card-tldr">提出基于并行时间-频带混合器（PTBM）的语音增强前端，消除循环依赖，提升ASR鲁棒性，仅0.96M参数。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-01/ouroboros-self-referential-backdoor-attacks-on-speech-enhanc-2608-30329/">Ouroboros: Self-Referential Backdoor Attacks on Speech Enhancement via Clean Audio Triggers</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-01</span>
+</div>
+<div class="card-tldr">提出Ouroboros后门攻击框架，利用语音增强模型的理想干净输出作为自然触发器，无需外部注入即可在推理时激活后门。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-01/towards-balanced-spectral-reconstruction-spectrally-adaptive-2608-30739/">Towards Balanced Spectral Reconstruction: Spectrally Adaptive Loss for Streaming Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-01</span>
+</div>
+<div class="card-tldr">提出两种频谱加权STFT损失函数，改善流式语音增强中高频过度衰减，实现更均衡的频谱重建。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-08-31</span>
 </div>
 <div class="card-tldr">本文提出通过增强个性化HRTF来提升音乐中乐器分离的空间线索，听觉模型预测显示对正常听力有益，但对听力损失者效果减弱。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-28/array-agnostic-ambisonics-encoding-via-diffusion-posterior-s-2608-24558/">Array-Agnostic Ambisonics Encoding via Diffusion Posterior Sampling</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-08-28</span>
-</div>
-<div class="card-tldr">提出ADEPS，一种基于扩散后验采样的阵列无关Ambisonics编码框架，通过嵌入物理采集模型实现任意阵列拓扑的零样本编码。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-28/gan-based-joint-dereverberation-and-directional-filtering-2608-26403/">GAN-based Joint Dereverberation and Directional Filtering</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-08-28</span>
-</div>
-<div class="card-tldr">提出联合去混响与方向性滤波的NDDF方法，用GAN实现，优于级联基线，并引入仅依赖输入输出信号的指向性模式估计方法。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-08-27/csavocoder-a-causal-spatial-audio-vocoder-towards-real-time--2608-25404/">CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-08-27</span>
-</div>
-<div class="card-tldr">提出因果GAN空间音频声码器CSAVocoder，通过空间适配器和一致性判别器提升空间保真度，支持实时流式推理。</div>
 </div>
 </div>
 
