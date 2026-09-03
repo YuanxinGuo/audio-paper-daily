@@ -19,25 +19,49 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-02/">XVAE-WMT: Explainable Wavelet-Temporal Variational Autoencoder for Blind Source Separation of Heart and Lung Sounds</a>
-<div class="pick-tldr">提出无监督可解释生成式AI模型XVAE-WMT，结合VAE、小波变换和时序一致性损失，实现心音与肺音盲源分离，无需配对干净数据。</div>
-<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-09-02</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-03/">Binaural Sound Event Localization and Detection based on HRTF Cues for Humanoid Robots</a>
+<div class="pick-tldr">提出双耳声音事件定位与检测任务及合成基准数据集，并设计BTFF特征与CRNN模型BiSELDnet，实现多声源联合检测与定位。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-09-03</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">9</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-02</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-03</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-02/" class="btn-primary">查看 2026-09-02 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-03/" class="btn-primary">查看 2026-09-03 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-03/binaural-sound-event-localization-and-detection-based-on-hrt-2507-20530/">Binaural Sound Event Localization and Detection based on HRTF Cues for Humanoid Robots</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-09-03</span>
+</div>
+<div class="card-tldr">提出双耳声音事件定位与检测任务及合成基准数据集，并设计BTFF特征与CRNN模型BiSELDnet，实现多声源联合检测与定位。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-03/removing-speech-keeping-activities-a-privacy-firewall-for-ac-2609-02376/">Removing Speech, Keeping Activities: A Privacy Firewall for Acoustic Sensing in Assisted Living</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-03</span>
+</div>
+<div class="card-tldr">提出基于U-Net的隐私防火墙，从环境音频中去除语音而保留活动声音，在合成数据上训练，实现0%可检测语音且保持活动识别性能。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-02</span>
 </div>
 <div class="card-tldr">提出U-PAST，一种在复数谱域进行自注意力建模的Transformer-U-Net混合架构，用于单通道语音增强，在参数效率上优于大型基线。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-02/cleaner-speech-weaker-generalization-revisiting-pitt-derived-2609-00276/">Cleaner Speech, Weaker Generalization: Revisiting Pitt-Derived Benchmarks for Alzheimer's Disease Detection</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-02</span>
-</div>
-<div class="card-tldr">本文系统评估语音增强和数据集筛选对阿尔茨海默病检测的影响，发现增强数据提升域内性能但损害跨域泛化，提示“更干净”的数据集不一定更可靠。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-01/parallel-time-band-mixing-with-learned-observation-adding-fo-2608-30326/">Parallel Time-Band Mixing with Learned Observation-Adding for Robust ASR Front-Ends</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-01</span>
-</div>
-<div class="card-tldr">提出基于并行时间-频带混合器（PTBM）的语音增强前端，消除循环依赖，提升ASR鲁棒性，仅0.96M参数。</div>
 </div>
 </div>
 
