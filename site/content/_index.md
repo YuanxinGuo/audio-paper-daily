@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-09/">Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models</a>
-<div class="pick-tldr">提出模块化流式音视频前端AV-STE，在噪声和重叠语音下恢复语义语音token，冻结下游对话模型，提升响应连贯性。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-09</span></div>
+<div class="pick-score">8.6</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-10/">Teacher-Free Self-Distilled Consistency Trajectory Learning for Fast Speech Enhancement</a>
+<div class="pick-tldr">用EMA自蒸馏替代外部教师，实现无教师一致性轨迹语音增强，VoiceBank+DEMAND上PESQ 3.01、SI-SDR 19.07 dB。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-10</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-09</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.6</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-10</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-09/" class="btn-primary">查看 2026-09-09 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-10/" class="btn-primary">查看 2026-09-10 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-10/teacher-free-self-distilled-consistency-trajectory-learning--2609-10392/">Teacher-Free Self-Distilled Consistency Trajectory Learning for Fast Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.6</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-10</span>
+</div>
+<div class="card-tldr">用EMA自蒸馏替代外部教师，实现无教师一致性轨迹语音增强，VoiceBank+DEMAND上PESQ 3.01、SI-SDR 19.07 dB。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-07</span>
 </div>
 <div class="card-tldr">提出判别流匹配，用判别模型表示替代时间条件，在语音增强和图像去噪上超越CFM和扩散基线。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-07/beyond-sdr-how-music-source-separation-reshapes-rhythm-relev-2609-04224/">Beyond SDR: How Music Source Separation Reshapes Rhythm-Relevant Signal Properties</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-09-07</span>
-</div>
-<div class="card-tldr">本文评估四种音乐源分离器对鼓点节奏关键信号属性的影响，发现SDR无法反映瞬态和动态失真，模型排名会反转。</div>
 </div>
 </div>
 
