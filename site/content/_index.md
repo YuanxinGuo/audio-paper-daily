@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.6</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-10/">Teacher-Free Self-Distilled Consistency Trajectory Learning for Fast Speech Enhancement</a>
-<div class="pick-tldr">用EMA自蒸馏替代外部教师，实现无教师一致性轨迹语音增强，VoiceBank+DEMAND上PESQ 3.01、SI-SDR 19.07 dB。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-10</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-11/">Active noise cancellation on open-ear smart glasses</a>
+<div class="pick-tldr">用眼镜框上8麦克风阵列与开放式扬声器，神经网络估计耳旁噪声并实时生成反噪声，实现无入耳误差麦克风的开放式主动降噪。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-11</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.6</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-10</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-11</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-10/" class="btn-primary">查看 2026-09-10 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-11/" class="btn-primary">查看 2026-09-11 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-10/teacher-free-self-distilled-consistency-trajectory-learning--2609-10392/">Teacher-Free Self-Distilled Consistency Trajectory Learning for Fast Speech Enhancement</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-11/xiaomi-cocktailasr-1-technical-report-2609-11274/">Xiaomi-CocktailASR-1 Technical Report</a>
 <div class="card-meta">
-<span class="card-score">8.6</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-10</span>
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-09-11</span>
 </div>
-<div class="card-tldr">用EMA自蒸馏替代外部教师，实现无教师一致性轨迹语音增强，VoiceBank+DEMAND上PESQ 3.01、SI-SDR 19.07 dB。</div>
+<div class="card-tldr">小米提出基于LLM的端到端目标说话人ASR，用参考语音作声纹提示直接转写目标说话人，无需语音分离，并支持拒识与CoT推理。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-09/noise-adaptive-streaming-audio-visual-speech-token-enhanceme-2609-08390/">Noise Adaptive Streaming Audio-Visual Speech Token Enhancement for Robust Full-Duplex Spoken Dialogue Models</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-11/cyclic-mpdr-beamforming-for-suppression-of-almost-cyclostati-2510-18391/">Cyclic MPDR Beamforming for Suppression of Almost-Cyclostationary Acoustic Interference</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
 <span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-09</span>
+<span class="card-date">2026-09-11</span>
 </div>
-<div class="card-tldr">提出模块化流式音视频前端AV-STE，在噪声和重叠语音下恢复语义语音token，冻结下游对话模型，提升响应连贯性。</div>
+<div class="card-tldr">提出循环MPDR波束成形，利用近周期噪声在谐波频率间的谱相关性，联合空域与频域抑制发动机/风扇类干扰。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-09/beyond-localisation-accuracy-sensorimotor-effects-of-hrtf-in-2609-08422/">Beyond Localisation Accuracy: Sensorimotor Effects of HRTF Individualisation</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-11/active-noise-cancellation-on-open-ear-smart-glasses-2604-05519/">Active noise cancellation on open-ear smart glasses</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-11</span>
+</div>
+<div class="card-tldr">用眼镜框上8麦克风阵列与开放式扬声器，神经网络估计耳旁噪声并实时生成反噪声，实现无入耳误差麦克风的开放式主动降噪。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-11/downstream-task-aware-unified-source-separation-2609-11092/">Downstream-Task-Aware Unified Source Separation</a>
 <div class="card-meta">
 <span class="card-score">8.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-09-09</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-11</span>
 </div>
-<div class="card-tldr">通过听觉引导的视觉搜索任务，发现个性化HRTF在无回声条件下能加快反应时间约200ms，主要影响运动启动，表明HRTF个性化对感觉运动行为有影响。</div>
+<div class="card-tldr">在 TUSS 框架上扩展提示，加入下游任务信息并按提示切换损失，使单模型兼顾 ASR 鲁棒性与通用增强质量。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-07/grounded-decoding-for-autoregressive-speech-enhancement-via--2609-04245/">Grounded Decoding for Autoregressive Speech Enhancement via Adaptive Code-Space Grounding and Local LLM Refinement</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-11/econv-tasnet-efficient-conv-tasnet-for-effective-speech-sepa-2609-11342/">EConv-TasNet: Efficient Conv-TasNet for Effective Speech Separation</a>
 <div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-07</span>
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-09-11</span>
 </div>
-<div class="card-tldr">提出证据接地生成式语音增强框架，结合确定性估计与LLM自回归生成，通过SNR条件接地和局部细化提升低信噪比感知质量。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-07/discriminative-flow-matching-beyond-time-conditioning-in-gen-2609-04525/">Discriminative Flow Matching: Beyond Time-Conditioning in Generative Restoration via Flow-State Representations</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-07</span>
-</div>
-<div class="card-tldr">提出判别流匹配，用判别模型表示替代时间条件，在语音增强和图像去噪上超越CFM和扩散基线。</div>
+<div class="card-tldr">提出 eConv-TasNet，用分组早分裂与多组特征聚合模块，在三个公开基准上以更小模型和更快推理提升 SI-SNRi。</div>
 </div>
 </div>
 
