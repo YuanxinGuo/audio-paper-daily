@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-11/">Active noise cancellation on open-ear smart glasses</a>
-<div class="pick-tldr">用眼镜框上8麦克风阵列与开放式扬声器，神经网络估计耳旁噪声并实时生成反噪声，实现无入耳误差麦克风的开放式主动降噪。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-11</span></div>
+<div class="pick-score">7.0</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-12/">RetroThinker: Enabling Retrospective Thinking in Speech LLMs</a>
+<div class="pick-tldr">RetroThinker 通过多阶段后训练让流式 SpeechLLM 在推理中自我验证并前向修正 CoT 步骤，在 GSM8K 上以相近延迟提升 11% 绝对准确率。</div>
+<div class="pick-meta"><span class="tag-pill">#语音识别</span><span>· 2026-09-12</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-11</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">1</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">7.0</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-12</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-11/" class="btn-primary">查看 2026-09-11 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-12/" class="btn-primary">查看 2026-09-12 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
