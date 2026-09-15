@@ -19,25 +19,49 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-14/">Real-Time Music Source Separation on a Low-Power Audio DSP</a>
-<div class="pick-tldr">在2MB SRAM、2.07 GMAC/s的低功耗音频DSP上实现实时音乐源分离，MUSDB18-HQ达4.70 dB cSDR，10.43 ms/11.6 ms hop。</div>
-<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-09-14</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-15/">Directivity-Conditioned Low-Latency Neural Filtering for Speech Enhancement in Hearing Aids</a>
+<div class="pick-tldr">面向助听器的10ms低延迟DNN，用FiLM在推理时调节指向性模式，并设计保持跨通道频谱关系的损失函数。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-15</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">5</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-14</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-15</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-14/" class="btn-primary">查看 2026-09-14 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-15/" class="btn-primary">查看 2026-09-15 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-15/directivity-conditioned-low-latency-neural-filtering-for-spe-2609-15760/">Directivity-Conditioned Low-Latency Neural Filtering for Speech Enhancement in Hearing Aids</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-15</span>
+</div>
+<div class="card-tldr">面向助听器的10ms低延迟DNN，用FiLM在推理时调节指向性模式，并设计保持跨通道频谱关系的损失函数。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-15/dualspecse-a-dual-path-speech-enhancement-network-integratin-2609-13911/">DualSpecSE: A Dual-Path Speech Enhancement Network Integrating Mel and Complex Spectrograms</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-15</span>
+</div>
+<div class="card-tldr">提出双分支语音增强网络，Mel 分支供 ASR、复数谱分支做高保真重建，通过交互与融合模块交换信息。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-14</span>
 </div>
 <div class="card-tldr">用重尾分布（GGD 与 Student's t）替换 FCASA 中的高斯方差建模，联合学习多通道盲源分离与远场说话人日志，DER/JER 一致下降。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-14/location-based-training-with-complementary-folded-linear-ord-2609-12629/">Location-based Training with Complementary Folded Linear Orderings for Multichannel Speech Separation</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-09-14</span>
-</div>
-<div class="card-tldr">针对平面阵列多通道语音分离，提出折叠线性排序的LBT-FLO，用方位角引导打分集成多个排序，缓解环形排序的环绕不连续问题。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-14/continue-adapt-or-yield-in-turn-adaptation-to-overlapping-sp-2609-13117/">Continue, Adapt, or Yield: In-Turn Adaptation to Overlapping Speech in Full-Duplex Agents</a>
-<div class="card-meta">
-<span class="card-score">6.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-09-14</span>
-</div>
-<div class="card-tldr">提出 Duplex Cue 评测框架，将全双工语音代理对听者插话的响应分为继续、轮内适应与让出三类，并用 300 条真实对话线索对比人类与 PersonaPlex。</div>
 </div>
 </div>
 
