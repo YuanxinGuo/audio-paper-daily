@@ -19,25 +19,49 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-15/">Directivity-Conditioned Low-Latency Neural Filtering for Speech Enhancement in Hearing Aids</a>
-<div class="pick-tldr">面向助听器的10ms低延迟DNN，用FiLM在推理时调节指向性模式，并设计保持跨通道频谱关系的损失函数。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-15</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-16/">Ring Mixing with Auxiliary Signal-to-Consistency-Error Ratio Loss for Unsupervised Denoising in Speech Separation</a>
+<div class="pick-tldr">提出 ring mixing 批次策略与 SCER 辅助损失，打破分离损失对称性，使系统仅用含噪录音即可学会去噪。</div>
+<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-09-16</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-15</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-16</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-15/" class="btn-primary">查看 2026-09-15 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-16/" class="btn-primary">查看 2026-09-16 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-16/ring-mixing-with-auxiliary-signal-to-consistency-error-ratio-2604-08415/">Ring Mixing with Auxiliary Signal-to-Consistency-Error Ratio Loss for Unsupervised Denoising in Speech Separation</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-09-16</span>
+</div>
+<div class="card-tldr">提出 ring mixing 批次策略与 SCER 辅助损失，打破分离损失对称性，使系统仅用含噪录音即可学会去噪。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-16/probing-layer-wise-robustness-and-sensitivity-of-speech-enha-2512-00482/">Probing Layer-Wise Robustness and Sensitivity of Speech Enhancement Models</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-16</span>
+</div>
+<div class="card-tldr">用CKA逐层探测MUSE、MP-SENet、Demucs在SNR与C50退化下的表征鲁棒性与敏感性，发现深度非均匀性由增强目标诱导。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-14</span>
 </div>
 <div class="card-tldr">DriftSE 将语音增强建模为潜空间分布漂移平衡问题，用双潜空间（语义+声学）漂移实现 1 NFE 一步增强，并支持无配对跨数据集训练。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-14/real-time-music-source-separation-on-a-low-power-audio-dsp-2609-12201/">Real-Time Music Source Separation on a Low-Power Audio DSP</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-09-14</span>
-</div>
-<div class="card-tldr">在2MB SRAM、2.07 GMAC/s的低功耗音频DSP上实现实时音乐源分离，MUSDB18-HQ达4.70 dB cSDR，10.43 ms/11.6 ms hop。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-14/neural-multichannel-distant-speaker-diarization-with-heavy-t-2609-12154/">Neural Multichannel Distant Speaker Diarization with Heavy-tailed Source Separation Model</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-09-14</span>
-</div>
-<div class="card-tldr">用重尾分布（GGD 与 Student's t）替换 FCASA 中的高斯方差建模，联合学习多通道盲源分离与远场说话人日志，DER/JER 一致下降。</div>
 </div>
 </div>
 
