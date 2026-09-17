@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-16/">Ring Mixing with Auxiliary Signal-to-Consistency-Error Ratio Loss for Unsupervised Denoising in Speech Separation</a>
-<div class="pick-tldr">提出 ring mixing 批次策略与 SCER 辅助损失，打破分离损失对称性，使系统仅用含噪录音即可学会去噪。</div>
-<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-09-16</span></div>
+<div class="pick-score">8.0</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-17/">G-Mamba: Sparse Graph-Guided Mamba for Audio-Visual Speech Enhancement</a>
+<div class="pick-tldr">用稀疏异构图引导 Mamba 主干做轻量音视频语音增强，在 LRS3 噪声条件下达 13.091 dB SI-SDR，计算量仅 3.45 G MACs。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-17</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
 <div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-16</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.0</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-17</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-16/" class="btn-primary">查看 2026-09-16 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-17/" class="btn-primary">查看 2026-09-17 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-17/g-mamba-sparse-graph-guided-mamba-for-audio-visual-speech-en-2609-18009/">G-Mamba: Sparse Graph-Guided Mamba for Audio-Visual Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.0</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-17</span>
+</div>
+<div class="card-tldr">用稀疏异构图引导 Mamba 主干做轻量音视频语音增强，在 LRS3 噪声条件下达 13.091 dB SI-SDR，计算量仅 3.45 G MACs。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-17/mask-based-speech-enhancement-for-spatial-audio-a-comparison-2609-18532/">Mask-Based Speech Enhancement for Spatial Audio: A Comparison of Ambisonics, Beamforming, and Microphone Channels</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-17</span>
+</div>
+<div class="card-tldr">系统比较麦克风、波束成形与Ambisonics三种域上做时频掩蔽的语音增强，揭示增强与空间保真度的权衡。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-17/absolute-quality-ratings-of-speech-enhancement-systems-by-li-2609-18714/">Absolute Quality Ratings of Speech Enhancement Systems by Listeners of Different Ages and Degrees of Hearing Loss</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-17</span>
+</div>
+<div class="card-tldr">对比40名年轻正常听力与67名老年（含不同程度听力损失）听者对语音增强系统的主观绝对质量评分，发现老年组对系统间差异的区分度明显收缩。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-16</span>
 </div>
 <div class="card-tldr">用CKA逐层探测MUSE、MP-SENet、Demucs在SNR与C50退化下的表征鲁棒性与敏感性，发现深度非均匀性由增强目标诱导。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-15/directivity-conditioned-low-latency-neural-filtering-for-spe-2609-15760/">Directivity-Conditioned Low-Latency Neural Filtering for Speech Enhancement in Hearing Aids</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-15</span>
-</div>
-<div class="card-tldr">面向助听器的10ms低延迟DNN，用FiLM在推理时调节指向性模式，并设计保持跨通道频谱关系的损失函数。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-15/dualspecse-a-dual-path-speech-enhancement-network-integratin-2609-13911/">DualSpecSE: A Dual-Path Speech Enhancement Network Integrating Mel and Complex Spectrograms</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-15</span>
-</div>
-<div class="card-tldr">提出双分支语音增强网络，Mel 分支供 ASR、复数谱分支做高保真重建，通过交互与融合模块交换信息。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-14/driftse-speech-enhancement-with-generative-drifting-2609-12252/">DriftSE: Speech Enhancement with Generative Drifting</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-14</span>
-</div>
-<div class="card-tldr">DriftSE 将语音增强建模为潜空间分布漂移平衡问题，用双潜空间（语义+声学）漂移实现 1 NFE 一步增强，并支持无配对跨数据集训练。</div>
 </div>
 </div>
 
