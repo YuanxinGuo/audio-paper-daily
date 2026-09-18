@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.0</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-17/">G-Mamba: Sparse Graph-Guided Mamba for Audio-Visual Speech Enhancement</a>
-<div class="pick-tldr">用稀疏异构图引导 Mamba 主干做轻量音视频语音增强，在 LRS3 噪声条件下达 13.091 dB SI-SDR，计算量仅 3.45 G MACs。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-17</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-18/">Beyond the Stability--Plasticity Frontier in Streaming Target Speaker Extraction</a>
+<div class="pick-tldr">提出锚定快权重（AFW）记忆，通过闭环元训练说话人状态动态，突破流式目标说话人提取的稳定性-可塑性前沿。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-09-18</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.0</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-17</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-18</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-17/" class="btn-primary">查看 2026-09-17 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-18/" class="btn-primary">查看 2026-09-18 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-18/beyond-the-stability-plasticity-frontier-in-streaming-target-2609-20463/">Beyond the Stability--Plasticity Frontier in Streaming Target Speaker Extraction</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-09-18</span>
+</div>
+<div class="card-tldr">提出锚定快权重（AFW）记忆，通过闭环元训练说话人状态动态，突破流式目标说话人提取的稳定性-可塑性前沿。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-16</span>
 </div>
 <div class="card-tldr">提出 ring mixing 批次策略与 SCER 辅助损失，打破分离损失对称性，使系统仅用含噪录音即可学会去噪。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-16/probing-layer-wise-robustness-and-sensitivity-of-speech-enha-2512-00482/">Probing Layer-Wise Robustness and Sensitivity of Speech Enhancement Models</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-16</span>
-</div>
-<div class="card-tldr">用CKA逐层探测MUSE、MP-SENet、Demucs在SNR与C50退化下的表征鲁棒性与敏感性，发现深度非均匀性由增强目标诱导。</div>
 </div>
 </div>
 
