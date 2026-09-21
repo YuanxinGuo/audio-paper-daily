@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-18/">Beyond the Stability--Plasticity Frontier in Streaming Target Speaker Extraction</a>
-<div class="pick-tldr">提出锚定快权重（AFW）记忆，通过闭环元训练说话人状态动态，突破流式目标说话人提取的稳定性-可塑性前沿。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-09-18</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-21/">HAMMER: Harmonic-Aware Parallel Context Modeling and Discriminator-Free Perceptual Optimization for Speech Enhancement</a>
+<div class="pick-tldr">提出谐波感知的 TF-HAM 模块与无判别器的 MEPR 感知优化，在 VoiceBank+DEMAND 上以 2.39M 参数达 3.69 PESQ。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-21</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-18</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-21</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-18/" class="btn-primary">查看 2026-09-18 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-21/" class="btn-primary">查看 2026-09-21 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-21/hammer-harmonic-aware-parallel-context-modeling-and-discrimi-2609-21171/">HAMMER: Harmonic-Aware Parallel Context Modeling and Discriminator-Free Perceptual Optimization for Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-21</span>
+</div>
+<div class="card-tldr">提出谐波感知的 TF-HAM 模块与无判别器的 MEPR 感知优化，在 VoiceBank+DEMAND 上以 2.39M 参数达 3.69 PESQ。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-21/blinc-blind-calibration-for-training-free-speech-enhancement-2609-21898/">BLINC: Blind Calibration For Training-Free Speech Enhancement Adaptation</a>
+<div class="card-meta">
+<span class="card-score">8.0</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-21</span>
+</div>
+<div class="card-tldr">BLINC 提出免训练的测试时自适应方法，用直方图匹配把预测时频掩码重映射到双峰目标分布，无需反向传播即可提升语音增强跨域表现。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-21/investigating-the-performance-and-energy-costs-of-replicatin-2609-21918/">Investigating the Performance and Energy Costs of Replicating Band-Split RNN for Music Source Separation</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-09-21</span>
+</div>
+<div class="card-tldr">复现 BSRNN 音乐源分离全流程，系统研究预处理、优化与结构设计选择，并报告能耗成本，公开代码与预训练模型。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-17</span>
 </div>
 <div class="card-tldr">用稀疏异构图引导 Mamba 主干做轻量音视频语音增强，在 LRS3 噪声条件下达 13.091 dB SI-SDR，计算量仅 3.45 G MACs。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-17/mask-based-speech-enhancement-for-spatial-audio-a-comparison-2609-18532/">Mask-Based Speech Enhancement for Spatial Audio: A Comparison of Ambisonics, Beamforming, and Microphone Channels</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-17</span>
-</div>
-<div class="card-tldr">系统比较麦克风、波束成形与Ambisonics三种域上做时频掩蔽的语音增强，揭示增强与空间保真度的权衡。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-17/absolute-quality-ratings-of-speech-enhancement-systems-by-li-2609-18714/">Absolute Quality Ratings of Speech Enhancement Systems by Listeners of Different Ages and Degrees of Hearing Loss</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-17</span>
-</div>
-<div class="card-tldr">对比40名年轻正常听力与67名老年（含不同程度听力损失）听者对语音增强系统的主观绝对质量评分，发现老年组对系统间差异的区分度明显收缩。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-16/ring-mixing-with-auxiliary-signal-to-consistency-error-ratio-2604-08415/">Ring Mixing with Auxiliary Signal-to-Consistency-Error Ratio Loss for Unsupervised Denoising in Speech Separation</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-09-16</span>
-</div>
-<div class="card-tldr">提出 ring mixing 批次策略与 SCER 辅助损失，打破分离损失对称性，使系统仅用含噪录音即可学会去噪。</div>
 </div>
 </div>
 
