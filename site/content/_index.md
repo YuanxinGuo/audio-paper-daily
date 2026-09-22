@@ -19,20 +19,20 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-21/">HAMMER: Harmonic-Aware Parallel Context Modeling and Discriminator-Free Perceptual Optimization for Speech Enhancement</a>
-<div class="pick-tldr">提出谐波感知的 TF-HAM 模块与无判别器的 MEPR 感知优化，在 VoiceBank+DEMAND 上以 2.39M 参数达 3.69 PESQ。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-21</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-22/">Bearings: Self-Supervised Soundfield Embeddings from First-Order Ambisonics</a>
+<div class="pick-tldr">用一阶Ambisonics自监督预训练掩码自编码器，学得可复用的声场嵌入，与冻结单通道声学编码器拼接即可实现声事件定位与检测。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-09-22</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">7</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-21</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-22</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-21/" class="btn-primary">查看 2026-09-21 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-22/" class="btn-primary">查看 2026-09-22 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-21/hammer-harmonic-aware-parallel-context-modeling-and-discrimi-2609-21171/">HAMMER: Harmonic-Aware Parallel Context Modeling and Discriminator-Free Perceptual Optimization for Speech Enhancement</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-22/generative-learning-for-ambisonic-upscaling-2609-23479/">Generative Learning for Ambisonic Upscaling</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-21</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-09-22</span>
 </div>
-<div class="card-tldr">提出谐波感知的 TF-HAM 模块与无判别器的 MEPR 感知优化，在 VoiceBank+DEMAND 上以 2.39M 参数达 3.69 PESQ。</div>
+<div class="card-tldr">将 Ambisonics 升阶视为生成任务，用 Score-based 与 Flow Matching 从低阶估计高阶分量，混响下优于判别式基线。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-21/blinc-blind-calibration-for-training-free-speech-enhancement-2609-21898/">BLINC: Blind Calibration For Training-Free Speech Enhancement Adaptation</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-22/bearings-self-supervised-soundfield-embeddings-from-first-or-2609-23152/">Bearings: Self-Supervised Soundfield Embeddings from First-Order Ambisonics</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-09-22</span>
+</div>
+<div class="card-tldr">用一阶Ambisonics自监督预训练掩码自编码器，学得可复用的声场嵌入，与冻结单通道声学编码器拼接即可实现声事件定位与检测。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-22/omniecho-spatial-audio-understanding-for-embodied-agents-2609-23407/">OmniEcho: Spatial Audio Understanding for Embodied Agents</a>
+<div class="card-meta">
+<span class="card-score">8.5</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-09-22</span>
+</div>
+<div class="card-tldr">提出 OmniEchoBench 空间视听基准与 OmniEcho 全模态模型，用 FOA 空间编码器实现声源定位与声引导导航。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-22/litecass-a-lightweight-end-to-end-network-for-real-time-ster-2609-23453/">LiteCASS: A Lightweight End-to-End Network for Real-Time Stereo Cinematic Audio Source Separation</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-09-22</span>
+</div>
+<div class="card-tldr">LiteCASS 用两个紧凑 U-Net 加 STFT 子带重排，实现 1.06M 参数、0.72G MACs/s 的实时立体声电影音源分离。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-22/adaptive-depth-and-expert-refinement-for-efficient-speech-en-2609-22824/">Adaptive Depth and Expert Refinement for Efficient Speech Enhancement</a>
 <div class="card-meta">
 <span class="card-score">8.0</span>
 <span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-21</span>
+<span class="card-date">2026-09-22</span>
 </div>
-<div class="card-tldr">BLINC 提出免训练的测试时自适应方法，用直方图匹配把预测时频掩码重映射到双峰目标分布，无需反向传播即可提升语音增强跨域表现。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-21/investigating-the-performance-and-energy-costs-of-replicatin-2609-21918/">Investigating the Performance and Energy Costs of Replicating Band-Split RNN for Music Source Separation</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-09-21</span>
-</div>
-<div class="card-tldr">复现 BSRNN 音乐源分离全流程，系统研究预处理、优化与结构设计选择，并报告能耗成本，公开代码与预训练模型。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-18/beyond-the-stability-plasticity-frontier-in-streaming-target-2609-20463/">Beyond the Stability--Plasticity Frontier in Streaming Target Speaker Extraction</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-09-18</span>
-</div>
-<div class="card-tldr">提出锚定快权重（AFW）记忆，通过闭环元训练说话人状态动态，突破流式目标说话人提取的稳定性-可塑性前沿。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-17/g-mamba-sparse-graph-guided-mamba-for-audio-visual-speech-en-2609-18009/">G-Mamba: Sparse Graph-Guided Mamba for Audio-Visual Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.0</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-17</span>
-</div>
-<div class="card-tldr">用稀疏异构图引导 Mamba 主干做轻量音视频语音增强，在 LRS3 噪声条件下达 13.091 dB SI-SDR，计算量仅 3.45 G MACs。</div>
+<div class="card-tldr">提出 ADER，用自适应深度控制器与条件专家路由实现输入相关的渐进式语音增强，在 VCTK-DEMAND 上大幅削减参数量与计算量。</div>
 </div>
 </div>
 
