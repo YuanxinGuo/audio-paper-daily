@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-23/">SE-MSB: End-to-End Unpaired Speech Enhancement using Mamba Schr\"odinger Bridges</a>
-<div class="pick-tldr">用 Mamba 扩散模型实现端到端无配对语音增强，基于 Diffusion Schrödinger Bridge 学习干净与退化语音分布间的随机传输。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-23</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-24/">Neural Field-of-View for Binaural Signal Matching with Wearable Microphone Arrays</a>
+<div class="pick-tldr">用CRNN从可穿戴阵列信号端到端学习FoV参数，替代显式声源定位，改善高DRR下的双耳信号匹配质量。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-09-24</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-23</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-24</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-23/" class="btn-primary">查看 2026-09-23 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-24/" class="btn-primary">查看 2026-09-24 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-24/neural-field-of-view-for-binaural-signal-matching-with-weara-2609-28343/">Neural Field-of-View for Binaural Signal Matching with Wearable Microphone Arrays</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-09-24</span>
+</div>
+<div class="card-tldr">用CRNN从可穿戴阵列信号端到端学习FoV参数，替代显式声源定位，改善高DRR下的双耳信号匹配质量。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-24/lend-me-an-ear-speech-enhancement-using-a-robotic-arm-with-a-2602-17818/">Lend me an Ear: Speech Enhancement Using a Robotic Arm with a Microphone Array</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-24</span>
+</div>
+<div class="card-tldr">将16麦克风阵列装在7自由度机械臂上，通过声源定位与视觉引导重配置阵列几何，结合MVDR波束成形与DNN时频掩蔽提升增强效果。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-24/sona-personalized-soundscape-mediation-to-support-people-wit-2604-00447/">Sona: Personalized Soundscape Mediation to Support People with Sound Sensitivity</a>
+<div class="card-meta">
+<span class="card-score">6.5</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-24</span>
+</div>
+<div class="card-tldr">Sona 是一个移动端个性化声景调节系统，可实时选择性衰减用户指定的多种重叠声音，并支持免重训练的自定义目标添加。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-09-23</span>
 </div>
 <div class="card-tldr">用 Mamba 扩散模型实现端到端无配对语音增强，基于 Diffusion Schrödinger Bridge 学习干净与退化语音分布间的随机传输。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-23/mambavoice-lightweight-audiovisual-singing-voice-separation--2609-26635/">MambaVoice: Lightweight Audiovisual Singing Voice Separation Via A Hybrid Mamba-Transformer Model</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-09-23</span>
-</div>
-<div class="card-tldr">MambaVoice 用 Mamba-Transformer 混合骨干加视听融合，轻量地做目标歌声分离，16.2M 参数在 Acappella 上达 14.18 dB SDR。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-23/inter-speaker-relative-cues-for-two-stage-text-guided-target-2603-01316/">Inter-Speaker Relative Cues for Two-Stage Text-Guided Target Speech Extraction</a>
-<div class="card-meta">
-<span class="card-score">8.0</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-09-23</span>
-</div>
-<div class="card-tldr">提出两阶段文本引导目标说话人提取框架，用相对线索替代绝对类别线索，先分离候选源再用文本分类器选目标。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-23/challenges-of-multi-speaker-extraction-for-real-conversation-2609-25948/">Challenges of Multi-Speaker Extraction for Real Conversational Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-09-23</span>
-</div>
-<div class="card-tldr">针对真实多方对话中静音过多与注册语音失配问题，提出新损失函数缓解静音影响，STOI从0.55提升至0.60。</div>
 </div>
 </div>
 
