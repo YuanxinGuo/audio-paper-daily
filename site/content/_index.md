@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-24/">Neural Field-of-View for Binaural Signal Matching with Wearable Microphone Arrays</a>
-<div class="pick-tldr">用CRNN从可穿戴阵列信号端到端学习FoV参数，替代显式声源定位，改善高DRR下的双耳信号匹配质量。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-09-24</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-25/">Exploring a Single Autoregressive LLM for Unified Target Speech Extraction across Synchronous and Asynchronous Cues</a>
+<div class="pick-tldr">用单个自回归 LLM 主干统一处理同步（唇动/手势）与异步（注册音频/文本）线索的目标说话人提取，并提出 self-enrollment 机制。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-09-25</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-24</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">7</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-25</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-24/" class="btn-primary">查看 2026-09-24 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-25/" class="btn-primary">查看 2026-09-25 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-24/neural-field-of-view-for-binaural-signal-matching-with-weara-2609-28343/">Neural Field-of-View for Binaural Signal Matching with Wearable Microphone Arrays</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/damsep-distance-aware-monaural-source-separation-using-multi-2609-29749/">DAMSEP: Distance-Aware Monaural Source Separation using Multi-RIR Estimation</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-09-25</span>
+</div>
+<div class="card-tldr">DAMSEP 首次端到端联合做单通道语音分离与多源 RIR 估计，用 RIR 的 DRR 推断声源远近顺序，并发布 HETMIXR 数据集。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/beyond-model-size-redesigning-lisennet-for-embedded-speech-e-2609-29866/">Beyond Model Size: Redesigning LiSenNet for embedded speech enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-25</span>
+</div>
+<div class="card-tldr">将37k参数的子带双路径LiSenNet重构为NPU兼容的静态int8图，在STM32上以RTF 0.30实时运行且PESQ不降。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/exploring-a-single-autoregressive-llm-for-unified-target-spe-2609-29238/">Exploring a Single Autoregressive LLM for Unified Target Speech Extraction across Synchronous and Asynchronous Cues</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-09-25</span>
+</div>
+<div class="card-tldr">用单个自回归 LLM 主干统一处理同步（唇动/手势）与异步（注册音频/文本）线索的目标说话人提取，并提出 self-enrollment 机制。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/configurable-bandwidth-time-frequency-modeling-for-efficient-2609-29463/">Configurable-Bandwidth Time-Frequency Modeling for Efficient Full-Band Speech Enhancement Across Sampling Rates</a>
+<div class="card-meta">
+<span class="card-score">8.6</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-25</span>
+</div>
+<div class="card-tldr">提出 TF-Refiner，将深度分析带宽与全带输入输出解耦，用单套参数跨 16/48 kHz 及未见采样率做全带语音增强。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/does-per-frame-early-exit-pay-a-compute-matched-study-of-dyn-2609-29867/">Does per-frame early exit pay? A compute-matched study of dynamic depth for on-device speech enhancement</a>
 <div class="card-meta">
 <span class="card-score">8.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-09-24</span>
-</div>
-<div class="card-tldr">用CRNN从可穿戴阵列信号端到端学习FoV参数，替代显式声源定位，改善高DRR下的双耳信号匹配质量。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-24/lend-me-an-ear-speech-enhancement-using-a-robotic-arm-with-a-2602-17818/">Lend me an Ear: Speech Enhancement Using a Robotic Arm with a Microphone Array</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
 <span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-24</span>
+<span class="card-date">2026-09-25</span>
 </div>
-<div class="card-tldr">将16麦克风阵列装在7自由度机械臂上，通过声源定位与视觉引导重配置阵列几何，结合MVDR波束成形与DNN时频掩蔽提升增强效果。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-24/sona-personalized-soundscape-mediation-to-support-people-wit-2604-00447/">Sona: Personalized Soundscape Mediation to Support People with Sound Sensitivity</a>
-<div class="card-meta">
-<span class="card-score">6.5</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-24</span>
-</div>
-<div class="card-tldr">Sona 是一个移动端个性化声景调节系统，可实时选择性衰减用户指定的多种重叠声音，并支持免重训练的自定义目标添加。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-23/hrtf-upsampling-across-varying-measurement-configurations-wi-2609-25995/">HRTF Upsampling Across Varying Measurement Configurations with Geometry-Aware Query-Conditioned Aggregation</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-09-23</span>
-</div>
-<div class="card-tldr">提出GeoAtt，用单一模型对多种稀疏测量配置做HRTF上采样，几何感知查询条件聚合加Conformer频域建模，在SONICOM上取得最低LSD。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-23/se-msb-end-to-end-unpaired-speech-enhancement-using-mamba-sc-2609-26000/">SE-MSB: End-to-End Unpaired Speech Enhancement using Mamba Schr\"odinger Bridges</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-23</span>
-</div>
-<div class="card-tldr">用 Mamba 扩散模型实现端到端无配对语音增强，基于 Diffusion Schrödinger Bridge 学习干净与退化语音分布间的随机传输。</div>
+<div class="card-tldr">研究逐帧早退在端侧语音增强中是否划算，用监督所有中间深度并微调输出头的方式，得到比同算力静态模型更优的Pareto前沿。</div>
 </div>
 </div>
 
