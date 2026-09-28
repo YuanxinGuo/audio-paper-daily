@@ -19,20 +19,20 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-25/">Exploring a Single Autoregressive LLM for Unified Target Speech Extraction across Synchronous and Asynchronous Cues</a>
-<div class="pick-tldr">用单个自回归 LLM 主干统一处理同步（唇动/手势）与异步（注册音频/文本）线索的目标说话人提取，并提出 self-enrollment 机制。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-09-25</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-28/">Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information</a>
+<div class="pick-tldr">提出首个基于真实双人对话的在线音视频目标说话人提取基准，并用语音LLM预测目标未来语音活动来引导低延迟分离器。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-09-28</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">7</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-25</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-28</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-25/" class="btn-primary">查看 2026-09-25 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-28/" class="btn-primary">查看 2026-09-28 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/damsep-distance-aware-monaural-source-separation-using-multi-2609-29749/">DAMSEP: Distance-Aware Monaural Source Separation using Multi-RIR Estimation</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-09-25</span>
-</div>
-<div class="card-tldr">DAMSEP 首次端到端联合做单通道语音分离与多源 RIR 估计，用 RIR 的 DRR 推断声源远近顺序，并发布 HETMIXR 数据集。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/beyond-model-size-redesigning-lisennet-for-embedded-speech-e-2609-29866/">Beyond Model Size: Redesigning LiSenNet for embedded speech enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-25</span>
-</div>
-<div class="card-tldr">将37k参数的子带双路径LiSenNet重构为NPU兼容的静态int8图，在STM32上以RTF 0.30实时运行且PESQ不降。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/exploring-a-single-autoregressive-llm-for-unified-target-spe-2609-29238/">Exploring a Single Autoregressive LLM for Unified Target Speech Extraction across Synchronous and Asynchronous Cues</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/adapting-personalized-speech-enhancement-for-low-latency-aud-2609-30631/">Adapting Personalized Speech Enhancement for Low-Latency Audio-Visual Target-Speaker Extraction</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
 <span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-09-25</span>
+<span class="card-date">2026-09-28</span>
 </div>
-<div class="card-tldr">用单个自回归 LLM 主干统一处理同步（唇动/手势）与异步（注册音频/文本）线索的目标说话人提取，并提出 self-enrollment 机制。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/configurable-bandwidth-time-frequency-modeling-for-efficient-2609-29463/">Configurable-Bandwidth Time-Frequency Modeling for Efficient Full-Band Speech Enhancement Across Sampling Rates</a>
-<div class="card-meta">
-<span class="card-score">8.6</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-25</span>
-</div>
-<div class="card-tldr">提出 TF-Refiner，将深度分析带宽与全带输入输出解耦，用单套参数跨 16/48 kHz 及未见采样率做全带语音增强。</div>
+<div class="card-tldr">从个性化语音增强模型出发，加入嘴部视觉特征并联合微调，实现20ms延迟的在线音视频目标说话人提取，误混率从46%降至1.6%。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-25/does-per-frame-early-exit-pay-a-compute-matched-study-of-dyn-2609-29867/">Does per-frame early exit pay? A compute-matched study of dynamic depth for on-device speech enhancement</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/dialogue-based-streaming-audio-visual-target-speaker-extract-2609-30774/">Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information</a>
 <div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-25</span>
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-09-28</span>
 </div>
-<div class="card-tldr">研究逐帧早退在端侧语音增强中是否划算，用监督所有中间深度并微调输出头的方式，得到比同算力静态模型更优的Pareto前沿。</div>
+<div class="card-tldr">提出首个基于真实双人对话的在线音视频目标说话人提取基准，并用语音LLM预测目标未来语音活动来引导低延迟分离器。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/coupled-meta-adaptive-filtering-for-active-noise-control-und-2609-30945/">Coupled Meta-Adaptive Filtering for Active Noise Control Under Time-Varying Acoustic Paths</a>
+<div class="card-meta">
+<span class="card-score">8.3</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-28</span>
+</div>
+<div class="card-tldr">提出耦合元自适应滤波ANC方法，联合学习控制滤波器与声路径跟踪，在时变声路径下提升降噪与稳定性。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/music-source-separation-via-stem-discovery-2609-30912/">Music Source Separation via Stem Discovery</a>
+<div class="card-meta">
+<span class="card-score">8.0</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-09-28</span>
+</div>
+<div class="card-tldr">MuS3D 用音频查询迭代发现混音中的活跃音源，正确检测时匹配手动查询基线并超越文本查询 SOTA。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/room-impulse-response-embeddings-for-speech-enhancement-in-n-2609-31041/">Room Impulse Response Embeddings for Speech Enhancement in Noisy and Reverberant Environments</a>
+<div class="card-meta">
+<span class="card-score">8.0</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-28</span>
+</div>
+<div class="card-tldr">自监督学习 RIR 嵌入，用教师-学生蒸馏从含噪混响语音中提取，条件化增强模型并降低 WER。</div>
 </div>
 </div>
 
