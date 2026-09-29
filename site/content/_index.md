@@ -19,20 +19,20 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-28/">Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information</a>
-<div class="pick-tldr">提出首个基于真实双人对话的在线音视频目标说话人提取基准，并用语音LLM预测目标未来语音活动来引导低延迟分离器。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-09-28</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-09-29/">Unsupervised Speech Enhancement via Drifting</a>
+<div class="pick-tldr">提出输入条件化漂移方法，在非配对无监督语音增强中通过锚编码器和键编码器保留输入的语言内容与说话人身份。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-09-29</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">9</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-28</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-09-29</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-28/" class="btn-primary">查看 2026-09-28 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-29/" class="btn-primary">查看 2026-09-29 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/adapting-personalized-speech-enhancement-for-low-latency-aud-2609-30631/">Adapting Personalized Speech Enhancement for Low-Latency Audio-Visual Target-Speaker Extraction</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/perceptual-quality-loss-or-loss-of-perceptual-quality-2609-35054/">Perceptual Quality Loss or Loss of Perceptual Quality?</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-09-28</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-29</span>
 </div>
-<div class="card-tldr">从个性化语音增强模型出发，加入嘴部视觉特征并联合微调，实现20ms延迟的在线音视频目标说话人提取，误混率从46%降至1.6%。</div>
+<div class="card-tldr">系统检验 PESQ 辅助损失对语音增强模型的影响，发现其虽提升 PESQ 分数，却降低主观听感偏好，并揭示 CSIG/CBAK/COVL 被 PESQ 主导。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/dialogue-based-streaming-audio-visual-target-speaker-extract-2609-30774/">Dialogue-Based Streaming Audio-Visual Target Speaker Extraction with Predictive Dialogue Information</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/unsupervised-speech-enhancement-via-drifting-2609-34662/">Unsupervised Speech Enhancement via Drifting</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-09-28</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-09-29</span>
 </div>
-<div class="card-tldr">提出首个基于真实双人对话的在线音视频目标说话人提取基准，并用语音LLM预测目标未来语音活动来引导低延迟分离器。</div>
+<div class="card-tldr">提出输入条件化漂移方法，在非配对无监督语音增强中通过锚编码器和键编码器保留输入的语言内容与说话人身份。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/coupled-meta-adaptive-filtering-for-active-noise-control-und-2609-30945/">Coupled Meta-Adaptive Filtering for Active Noise Control Under Time-Varying Acoustic Paths</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/unified-target-speaker-asr-with-text-and-enrollment-speech-c-2609-33853/">Unified Target-Speaker ASR with Text and Enrollment Speech Cues</a>
+<div class="card-meta">
+<span class="card-score">8.5</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-09-29</span>
+</div>
+<div class="card-tldr">提出统一双线索TS-ASR框架，单模型支持文本线索、注册语音或两者，用交叉注意力条件模块与负线索采样，五字文本线索下CER降至8.80%。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/remixit-tse-progressive-synthetic-to-real-adaptation-for-tar-2609-35118/">RemixIT-TSE: Progressive Synthetic-to-Real Adaptation for Target Speech Extraction via Target-Aware Supervision and Remixing</a>
 <div class="card-meta">
 <span class="card-score">8.3</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-28</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-09-29</span>
 </div>
-<div class="card-tldr">提出耦合元自适应滤波ANC方法，联合学习控制滤波器与声路径跟踪，在时变声路径下提升降噪与稳定性。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/music-source-separation-via-stem-discovery-2609-30912/">Music Source Separation via Stem Discovery</a>
-<div class="card-meta">
-<span class="card-score">8.0</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-09-28</span>
-</div>
-<div class="card-tldr">MuS3D 用音频查询迭代发现混音中的活跃音源，正确检测时匹配手动查询基线并超越文本查询 SOTA。</div>
+<div class="card-tldr">将 RemixIT 从语音增强扩展到目标说话人提取，用两阶段渐进式合成到真实域适应，在 REAL-TSE 挑战赛上显著提升。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-28/room-impulse-response-embeddings-for-speech-enhancement-in-n-2609-31041/">Room Impulse Response Embeddings for Speech Enhancement in Noisy and Reverberant Environments</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/domain-incremental-learning-for-generative-speech-enhancemen-2609-34901/">Domain-Incremental Learning for Generative Speech Enhancement</a>
 <div class="card-meta">
-<span class="card-score">8.0</span>
+<span class="card-score">8.2</span>
 <span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-28</span>
+<span class="card-date">2026-09-29</span>
 </div>
-<div class="card-tldr">自监督学习 RIR 嵌入，用教师-学生蒸馏从含噪混响语音中提取，条件化增强模型并降低 WER。</div>
+<div class="card-tldr">提出基于语言模型生成式语音增强骨干的域增量学习框架，用轻量 LoRA 适配新声学域，缓解灾难性遗忘。</div>
 </div>
 </div>
 
