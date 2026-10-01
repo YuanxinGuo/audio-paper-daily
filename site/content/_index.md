@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-09-30/">Beyond Acoustic Prefixes: Persistent Access to Serialized Acoustic Memory for LLM-Based Multi-Talker Speech Recognition</a>
-<div class="pick-tldr">将 onset 序列化从输出目标扩展到声学条件通路，用外部串行声学记忆加门控残差交叉注意力，让 LLM 在生成全程持续访问说话人声学证据。</div>
-<div class="pick-meta"><span class="tag-pill">#语音识别</span><span>· 2026-09-30</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-01/">Trigger Sound Suppression for Misophonia</a>
+<div class="pick-tldr">面向恐音症，构建10类触发声数据集，用流式双路网络按one-hot/multi-hot条件选择性抑制1-3种触发声，30人听测验证降低不适。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-01</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-09-30</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-01</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-09-30/" class="btn-primary">查看 2026-09-30 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-01/" class="btn-primary">查看 2026-10-01 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-30/signal-independent-and-signal-dependent-neural-ambisonic-mat-2609-37691/">Signal-Independent and Signal-Dependent Neural Ambisonic Matrix Encoding for Arbitrary Arrays with Variable Microphone Counts</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/duspar-dual-state-sparsifying-recurrent-unit-with-feedback-m-2609-39237/">DuSpaR: Dual-State Sparsifying Recurrent Unit with Feedback Modulation for Compute-Efficient Speech Processing</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-01</span>
+</div>
+<div class="card-tldr">提出双状态稀疏循环单元 DuSpaR，通过 ReLU 稀疏化与动态跳零，在 KWS/SLU/SE 三任务上以更少算力达到或超过 GRU。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/trigger-sound-suppression-for-misophonia-2609-36351/">Trigger Sound Suppression for Misophonia</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-01</span>
+</div>
+<div class="card-tldr">面向恐音症，构建10类触发声数据集，用流式双路网络按one-hot/multi-hot条件选择性抑制1-3种触发声，30人听测验证降低不适。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/bin2ambi-learning-ambisonic-soundfield-reconstruction-from-h-2609-39732/">Bin2Ambi: Learning Ambisonic Soundfield Reconstruction from Head-Tracked Binaural Audio</a>
 <div class="card-meta">
 <span class="card-score">8.0</span>
 <span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-09-30</span>
+<span class="card-date">2026-10-01</span>
 </div>
-<div class="card-tldr">用共享麦克风级处理与掩码自注意力实现可变麦克风数量的阵列无关Ambisonic矩阵编码，含信号无关与信号相关两种变体。</div>
+<div class="card-tldr">提出 Bin2Ambi 新任务：用智能耳机同时采集的双耳音频与头动数据重建 Ambisonics 声场，缓解前后混淆与锥形混淆区误差。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-30/enabling-immersive-audio-visual-experience-from-any-video-2609-36295/">Enabling Immersive Audio-Visual Experience from Any Video</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/improving-predicted-mos-scores-not-perceived-quality-multi-p-2609-39028/">Improving Predicted MOS Scores, Not Perceived Quality: Multi-Predictor Test-Time Optimization of Enhanced Speech</a>
 <div class="card-meta">
 <span class="card-score">7.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-09-30</span>
-</div>
-<div class="card-tldr">OmniDream 无需训练，将单目无声视频转为可自由环视、声源空间对齐的沉浸式视听体验。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/perceptual-quality-loss-or-loss-of-perceptual-quality-2609-35054/">Perceptual Quality Loss or Loss of Perceptual Quality?</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
 <span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-29</span>
+<span class="card-date">2026-10-01</span>
 </div>
-<div class="card-tldr">系统检验 PESQ 辅助损失对语音增强模型的影响，发现其虽提升 PESQ 分数，却降低主观听感偏好，并揭示 CSIG/CBAK/COVL 被 PESQ 主导。</div>
+<div class="card-tldr">首次系统分析语音增强的测试时MOS优化：多预测器分数被抬高，但MUSHRA主观听感无改善。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/unsupervised-speech-enhancement-via-drifting-2609-34662/">Unsupervised Speech Enhancement via Drifting</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/how-reliable-are-predicted-mos-for-reproducing-human-system--2609-39032/">How Reliable Are Predicted MOS for Reproducing Human System-Level Preferences in Speech Enhancement?</a>
 <div class="card-meta">
-<span class="card-score">8.8</span>
+<span class="card-score">7.8</span>
 <span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-09-29</span>
+<span class="card-date">2026-10-01</span>
 </div>
-<div class="card-tldr">提出输入条件化漂移方法，在非配对无监督语音增强中通过锚编码器和键编码器保留输入的语言内容与说话人身份。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-09-29/unified-target-speaker-asr-with-text-and-enrollment-speech-c-2609-33853/">Unified Target-Speaker ASR with Text and Enrollment Speech Cues</a>
-<div class="card-meta">
-<span class="card-score">8.5</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-09-29</span>
-</div>
-<div class="card-tldr">提出统一双线索TS-ASR框架，单模型支持文本线索、注册语音或两者，用交叉注意力条件模块与负线索采样，五字文本线索下CER降至8.80%。</div>
+<div class="card-tldr">提出系统级偏好准确率SPA，衡量MOS预测模型能否复现人类对语音增强系统的偏好排序，发现单模型SPA从9.4%到76.8%差异巨大。</div>
 </div>
 </div>
 
