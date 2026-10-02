@@ -18,26 +18,74 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-01/">Trigger Sound Suppression for Misophonia</a>
-<div class="pick-tldr">面向恐音症，构建10类触发声数据集，用流式双路网络按one-hot/multi-hot条件选择性抑制1-3种触发声，30人听测验证降低不适。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-01</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-02/">Soundwich: Video Generation with Layered and Controllable Audio</a>
+<div class="pick-tldr">Soundwich 无需训练，把冻结的音视频流匹配模型改造成可生成多条同步、可独立编辑音频轨（人声/音乐/音效/环境）的框架。</div>
+<div class="pick-meta"><span class="tag-pill">#音频生成</span><span>· 2026-10-02</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
 <div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-01</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-02</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-01/" class="btn-primary">查看 2026-10-01 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-02/" class="btn-primary">查看 2026-10-02 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-02/place-positional-latent-adaptation-via-conditioned-embedding-2610-00630/">PLACE: Positional Latent Adaptation via Conditioned Embeddings for Binaural Audio Generation</a>
+<div class="card-meta">
+<span class="card-score">8.0</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-02</span>
+</div>
+<div class="card-tldr">PLACE 在预训练 AudioX 上加入感知编码器特征与条件低秩适配，用 ILD/ITD 监督生成双耳音频。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-02/frequency-weighted-soft-constrained-spatially-selective-acti-2610-00721/">Frequency-Weighted Soft-Constrained Spatially Selective Active Noise Control for Open-Fitting Hearables</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-02</span>
+</div>
+<div class="card-tldr">将软约束空间选择性主动噪声控制推广到频率相关加权，用LTASS或oracle加权在低失真下同时提升可懂度与音质。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-02/supervising-sound-localization-by-in-the-wild-egomotion-2610-01388/">Supervising Sound Localization by In-the-wild Egomotion</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-02</span>
+</div>
+<div class="card-tldr">用视频中相机自运动作为弱监督信号，训练双耳音频模型预测声源方向，并构建真实场景音视频数据集。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-02/rms-aqa-a-two-stage-spatial-audio-question-answering-benchma-2610-00935/">RMS-AQA: A Two-Stage Spatial Audio Question Answering Benchmark for Real-World Domestic Environments</a>
+<div class="card-meta">
+<span class="card-score">7.0</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-02</span>
+</div>
+<div class="card-tldr">提出 RMS-AQA 两阶段空间音频问答基准，用真实 FOA 录音与 RIR 合成数据评估音频语言模型的事件定位与时空推理能力。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -48,54 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-10-01</span>
 </div>
 <div class="card-tldr">提出双状态稀疏循环单元 DuSpaR，通过 ReLU 稀疏化与动态跳零，在 KWS/SLU/SE 三任务上以更少算力达到或超过 GRU。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/trigger-sound-suppression-for-misophonia-2609-36351/">Trigger Sound Suppression for Misophonia</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-01</span>
-</div>
-<div class="card-tldr">面向恐音症，构建10类触发声数据集，用流式双路网络按one-hot/multi-hot条件选择性抑制1-3种触发声，30人听测验证降低不适。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/bin2ambi-learning-ambisonic-soundfield-reconstruction-from-h-2609-39732/">Bin2Ambi: Learning Ambisonic Soundfield Reconstruction from Head-Tracked Binaural Audio</a>
-<div class="card-meta">
-<span class="card-score">8.0</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-01</span>
-</div>
-<div class="card-tldr">提出 Bin2Ambi 新任务：用智能耳机同时采集的双耳音频与头动数据重建 Ambisonics 声场，缓解前后混淆与锥形混淆区误差。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/improving-predicted-mos-scores-not-perceived-quality-multi-p-2609-39028/">Improving Predicted MOS Scores, Not Perceived Quality: Multi-Predictor Test-Time Optimization of Enhanced Speech</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-01</span>
-</div>
-<div class="card-tldr">首次系统分析语音增强的测试时MOS优化：多预测器分数被抬高，但MUSHRA主观听感无改善。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-01/how-reliable-are-predicted-mos-for-reproducing-human-system--2609-39032/">How Reliable Are Predicted MOS for Reproducing Human System-Level Preferences in Speech Enhancement?</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-01</span>
-</div>
-<div class="card-tldr">提出系统级偏好准确率SPA，衡量MOS预测模型能否复现人类对语音增强系统的偏好排序，发现单模型SPA从9.4%到76.8%差异巨大。</div>
 </div>
 </div>
 
