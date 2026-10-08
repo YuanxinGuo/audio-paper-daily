@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.5</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-07/">Rethinking Training Targets, Architectures and Data Quality for Universal Speech Enhancement</a>
-<div class="pick-tldr">系统重审通用语音增强的训练目标、架构与数据质量，提出时移无回声目标与两阶段框架，在 URGENT 2025 非盲测集达 SOTA。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-10-07</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-08/">SEA-LM: Egocentric Spatial Audio Understanding for Wearable Microphone Arrays</a>
+<div class="pick-tldr">提出 SEA-LM，用 FOACODER 编码智能眼镜阵列的一阶 Ambisonics，训练 MLLM 完成定位与空间选择性转录。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-10-08</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.5</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-07</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-08</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-07/" class="btn-primary">查看 2026-10-07 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-08/" class="btn-primary">查看 2026-10-08 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-07/rethinking-training-targets-architectures-and-data-quality-f-2603-02641/">Rethinking Training Targets, Architectures and Data Quality for Universal Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">9.5</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-07</span>
-</div>
-<div class="card-tldr">系统重审通用语音增强的训练目标、架构与数据质量，提出时移无回声目标与两阶段框架，在 URGENT 2025 非盲测集达 SOTA。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-07/seal-mixture-closed-additive-reconstruction-and-refinement-a-2610-07047/">SEAL: Mixture-Closed Additive Reconstruction and Refinement-Aware Expert Routing for Efficient Speech Separation</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/sea-lm-egocentric-spatial-audio-understanding-for-wearable-m-2610-05610/">SEA-LM: Egocentric Spatial Audio Understanding for Wearable Microphone Arrays</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-10-07</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-08</span>
 </div>
-<div class="card-tldr">SEAL 用时频域零和加性残差重建替代有界乘法掩蔽，并用稀疏专家路由按 token 分配六个残差专家，在 EchoSet 上以更少参数与 MACs 超过 TIGER。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-07/audiovisual-joint-learning-for-end-to-end-hearing-aids-2610-08579/">Audiovisual joint learning for end-to-end hearing aids</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-07</span>
-</div>
-<div class="card-tldr">提出 AV-NeuroAMP，端到端融合含噪语音、目标说话人视频与听力图，联合完成语音增强、个性化放大与动态范围压缩。</div>
+<div class="card-tldr">提出 SEA-LM，用 FOACODER 编码智能眼镜阵列的一阶 Ambisonics，训练 MLLM 完成定位与空间选择性转录。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-07/restore-separate-restore-a-modular-framework-for-music-sourc-2610-08284/">Restore, Separate, Restore: A Modular Framework for Music Source Restoration</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/vm-arraydps-virtual-microphone-augmented-diffusion-posterior-2610-09334/">VM-ARRAYDPS: Virtual Microphone Augmented Diffusion Posterior Sampling for Unsupervised Blind Speech Separation</a>
 <div class="card-meta">
 <span class="card-score">8.2</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-10-07</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-10-08</span>
 </div>
-<div class="card-tldr">提出三阶段模块化框架，先修复混合信号、再分离八种乐器、最后对每个stem做残差修复，在MSR Challenge上逐级提升。</div>
+<div class="card-tldr">用虚拟麦克风增强扩散后验采样，为无监督盲源分离提供额外多通道一致性约束，2/3说话人任务均优于ArrayDPS。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-05/gaanet-global-guided-asymmetric-attention-network-for-audio--2610-02752/">GAANet: Global-guided Asymmetric Attention Network for Audio-Visual Speech Separation</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/lift-se-linguistic-inference-followed-by-flow-transformation-2610-09963/">LIFT-SE: Linguistic Inference Followed by Flow Transformation for Generative Speech Enhancement</a>
 <div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-10-05</span>
+<span class="card-score">8.0</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-08</span>
 </div>
-<div class="card-tldr">提出非对称多尺度融合与全局引导注意力，用于音视频语音分离，LRS2 上达 16.5 dB SI-SNRi，仅 3.3M 参数。</div>
+<div class="card-tldr">LIFT-SE 用两阶段生成框架，先自回归预测干净 codec token，再用条件流匹配细化连续 latent，缓解强噪声混响下的语言幻觉。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/direction-preserving-spatial-audio-signal-enhancement-in-the-2610-09701/">Direction-preserving Spatial Audio Signal Enhancement in The Spherical Harmonic Domain</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-08</span>
+</div>
+<div class="card-tldr">在球谐域提出方向保持的多输出波束成形空间音频增强算法，在保留目标声场的同时保留残余干扰的空间线索。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/a-study-on-improving-multi-class-audio-source-separation-via-2610-10025/">A Study on Improving Multi-class Audio Source Separation Via Decoupled CLAP Query Optimization and an Automated Data Engine</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-10-08</span>
+</div>
+<div class="card-tldr">提出自动化数据引擎清洗训练数据，并用两阶段优化类特定 CLAP 控制信号，提升多类音频源分离性能。</div>
 </div>
 </div>
 
