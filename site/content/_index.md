@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-08/">SEA-LM: Egocentric Spatial Audio Understanding for Wearable Microphone Arrays</a>
-<div class="pick-tldr">提出 SEA-LM，用 FOACODER 编码智能眼镜阵列的一阶 Ambisonics，训练 MLLM 完成定位与空间选择性转录。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-10-08</span></div>
+<div class="pick-score">8.5</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-09/">MiDashengLM-Spatial: Unifying General Audio Understanding and Spatial Awareness</a>
+<div class="pick-tldr">小米提出首个开源统一音频语言模型 MiDashengLM-Spatial，通过 Spatial-Dasheng 编码器与语义-空间分层条件模块，同时支持通用音频理解与空间感知。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-10-09</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-08</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">5</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.5</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-09</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-08/" class="btn-primary">查看 2026-10-08 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-09/" class="btn-primary">查看 2026-10-09 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/sea-lm-egocentric-spatial-audio-understanding-for-wearable-m-2610-05610/">SEA-LM: Egocentric Spatial Audio Understanding for Wearable Microphone Arrays</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-09/midashenglm-spatial-unifying-general-audio-understanding-and-2610-11156/">MiDashengLM-Spatial: Unifying General Audio Understanding and Spatial Awareness</a>
 <div class="card-meta">
-<span class="card-score">8.8</span>
+<span class="card-score">8.5</span>
 <span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-08</span>
+<span class="card-date">2026-10-09</span>
 </div>
-<div class="card-tldr">提出 SEA-LM，用 FOACODER 编码智能眼镜阵列的一阶 Ambisonics，训练 MLLM 完成定位与空间选择性转录。</div>
+<div class="card-tldr">小米提出首个开源统一音频语言模型 MiDashengLM-Spatial，通过 Spatial-Dasheng 编码器与语义-空间分层条件模块，同时支持通用音频理解与空间感知。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/vm-arraydps-virtual-microphone-augmented-diffusion-posterior-2610-09334/">VM-ARRAYDPS: Virtual Microphone Augmented Diffusion Posterior Sampling for Unsupervised Blind Speech Separation</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-09/prolombard-structured-multi-scale-modeling-for-normal-to-lom-2609-04828/">ProLombard: Structured Multi-Scale Modeling for Normal-to-Lombard Speech Conversion</a>
 <div class="card-meta">
 <span class="card-score">8.2</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-10-08</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-09</span>
 </div>
-<div class="card-tldr">用虚拟麦克风增强扩散后验采样，为无监督盲源分离提供额外多通道一致性约束，2/3说话人任务均优于ArrayDPS。</div>
+<div class="card-tldr">ProLombard 用语句-音素-帧三级多尺度建模做正常语音到 Lombard 语音转换，通过 ASE 与音素级解耦提升可懂度与音质。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/lift-se-linguistic-inference-followed-by-flow-transformation-2610-09963/">LIFT-SE: Linguistic Inference Followed by Flow Transformation for Generative Speech Enhancement</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-09/smoothconv-and-duplexconv-complementary-mandarin-multi-party-2610-11150/">SmoothConv and DuplexConv: Complementary Mandarin Multi-Party Conversational Speech Corpora for Speech Interaction</a>
 <div class="card-meta">
 <span class="card-score">8.0</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-08</span>
-</div>
-<div class="card-tldr">LIFT-SE 用两阶段生成框架，先自回归预测干净 codec token，再用条件流匹配细化连续 latent，缓解强噪声混响下的语言幻觉。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/direction-preserving-spatial-audio-signal-enhancement-in-the-2610-09701/">Direction-preserving Spatial Audio Signal Enhancement in The Spherical Harmonic Domain</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-08</span>
-</div>
-<div class="card-tldr">在球谐域提出方向保持的多输出波束成形空间音频增强算法，在保留目标声场的同时保留残余干扰的空间线索。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-08/a-study-on-improving-multi-class-audio-source-separation-via-2610-10025/">A Study on Improving Multi-class Audio Source Separation Via Decoupled CLAP Query Optimization and an Automated Data Engine</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
 <span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-10-08</span>
+<span class="card-date">2026-10-09</span>
 </div>
-<div class="card-tldr">提出自动化数据引擎清洗训练数据，并用两阶段优化类特定 CLAP 控制信号，提升多类音频源分离性能。</div>
+<div class="card-tldr">发布 SmoothConv 与 DuplexConv 两个共 2100 小时中文多方对话语料，含同步说话人级音轨与细粒度标注，并给出分离/MSASR/轮次检测基准。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-09/savu-bench-a-real-world-benchmark-for-spatial-audio-visual-u-2610-10624/">SAVU-BENCH: A Real-World Benchmark for Spatial Audio-Visual Understanding</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-09</span>
+</div>
+<div class="card-tldr">提出真实场景音视频空间理解基准 SAVU-Bench，含七项任务与诊断集，发现音频空间感知是主要瓶颈。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-09/egovoice-proactive-spoken-assistance-from-egocentric-multimo-2610-12248/">EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams</a>
+<div class="card-meta">
+<span class="card-score">7.5</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-10-09</span>
+</div>
+<div class="card-tldr">构建第一人称多模态流下的主动语音助手框架，用语音分离与重合成清洗HoloAssist音频，微调全模态LLM并用DPO优化干预时机。</div>
 </div>
 </div>
 
