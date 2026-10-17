@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-16/">Hear, Localize, and Reason: Spatially Aware Scene Understanding for Audio-Visual LLMs</a>
-<div class="pick-tldr">提出 HLR-AVSceneQA 基准与 HLR-LLM，用双耳空间分支加单耳语义分支，让 AV-LLM 能听、定位并推理声源与视觉场景关系。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-10-16</span></div>
+<div class="pick-score">6.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-17/">Backward Compatibility in Zero-Bit Neural Audio Watermarking</a>
+<div class="pick-tldr">形式化零比特音频水印的向后兼容问题，用冻结旧嵌入器链训练新检测器，并用角度多样性损失抑制嵌入器坍缩。</div>
+<div class="pick-meta"><span class="tag-pill">#音频水印</span><span>· 2026-10-17</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-16</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">1</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">6.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-17</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-16/" class="btn-primary">查看 2026-10-16 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-17/" class="btn-primary">查看 2026-10-17 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
