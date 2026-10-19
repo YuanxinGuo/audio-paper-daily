@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">6.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-17/">Backward Compatibility in Zero-Bit Neural Audio Watermarking</a>
-<div class="pick-tldr">形式化零比特音频水印的向后兼容问题，用冻结旧嵌入器链训练新检测器，并用角度多样性损失抑制嵌入器坍缩。</div>
-<div class="pick-meta"><span class="tag-pill">#音频水印</span><span>· 2026-10-17</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-19/">PromptSep-Speaker: Generative Target Speaker Extraction via Multimodal Prompting and Semantic Alignment</a>
+<div class="pick-tldr">用潜扩散生成式框架统一四种目标线索（时序、文本、注册音频、说话人描述）做目标说话人提取，并用冻结 WavLM 对齐损失监督交叉注意力。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-19</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">1</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">6.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-17</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-19</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-17/" class="btn-primary">查看 2026-10-17 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-19/" class="btn-primary">查看 2026-10-19 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-19/promptsep-speaker-generative-target-speaker-extraction-via-m-2610-23066/">PromptSep-Speaker: Generative Target Speaker Extraction via Multimodal Prompting and Semantic Alignment</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-19</span>
+</div>
+<div class="card-tldr">用潜扩散生成式框架统一四种目标线索（时序、文本、注册音频、说话人描述）做目标说话人提取，并用冻结 WavLM 对齐损失监督交叉注意力。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-19/d-composer-language-modeling-for-simultaneous-drum-transcrip-2610-22535/">D-Composer: Language Modeling for Simultaneous Drum Transcription and Sound Event Decomposition</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-10-19</span>
+</div>
+<div class="card-tldr">用自回归语言模型把鼓录音分解为带标签的单次击打事件与起始时间，统一鼓转录与音源分解。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-19/tv-audioremover-joint-text-visual-guided-sound-removal-with--2609-25864/">TV-AudioRemover: Joint Text-Visual Guided Sound Removal with Multi-Task Hard-Mixture Curriculum</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-19</span>
+</div>
+<div class="card-tldr">用编辑后视频与文本指令联合引导，从混合音轨中移除被删物体对应的声音，并构建百万级数据集与评测基准。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-10-16</span>
 </div>
 <div class="card-tldr">提出 HLR-AVSceneQA 基准与 HLR-LLM，用双耳空间分支加单耳语义分支，让 AV-LLM 能听、定位并推理声源与视觉场景关系。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-16/cf-avss-a-coarse-to-fine-audio-visual-speech-separation-fram-2610-21773/">CF-AVSS: A Coarse-to-Fine Audio-Visual Speech Separation Framework with Target-Speaker Refinement and Post-Fusion for Real-World AVSE Challenge</a>
-<div class="card-meta">
-<span class="card-score">8.0</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-16</span>
-</div>
-<div class="card-tldr">提出由粗到细两阶段音视频语音增强框架，用双视觉流SPAV-TFGridNet粗估，再用TFGridNet精炼并后融合，在Real-World AVSE Challenge两赛道CER最低。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-16/rethinking-batch-composition-promoting-feature-diversity-for-2610-21803/">Rethinking Batch Composition: Promoting Feature Diversity for Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-16</span>
-</div>
-<div class="card-tldr">提出按干净语音声学特征分位数的分层小批量采样策略，强制每个 batch 内特征均衡，无需改动模型即可提升语音增强指标。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-15/hrtf-upsampling-and-personalization-via-neural-operators-2610-20400/">HRTF Upsampling and Personalization via Neural Operators</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-15</span>
-</div>
-<div class="card-tldr">提出神经算子 SPARO，将稀疏方向 HRTF 测量映射为可任意查询的连续 HRTF 场，实现空间上采样与个性化。</div>
 </div>
 </div>
 
