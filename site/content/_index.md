@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-19/">PromptSep-Speaker: Generative Target Speaker Extraction via Multimodal Prompting and Semantic Alignment</a>
-<div class="pick-tldr">用潜扩散生成式框架统一四种目标线索（时序、文本、注册音频、说话人描述）做目标说话人提取，并用冻结 WavLM 对齐损失监督交叉注意力。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-19</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-20/">MS-Bench: A Condition-Stratified Multi-Speaker ASR Benchmark</a>
+<div class="pick-tldr">提出按说话人数、重叠率、相似度、轮次间隔、声学质量五维分层的多说话人ASR基准MS-Bench，揭示聚合指标掩盖的失败模式。</div>
+<div class="pick-meta"><span class="tag-pill">#语音识别</span><span>· 2026-10-20</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-19</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-20</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-19/" class="btn-primary">查看 2026-10-19 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-20/" class="btn-primary">查看 2026-10-20 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
