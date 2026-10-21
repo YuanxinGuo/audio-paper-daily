@@ -18,26 +18,50 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-20/">MS-Bench: A Condition-Stratified Multi-Speaker ASR Benchmark</a>
-<div class="pick-tldr">提出按说话人数、重叠率、相似度、轮次间隔、声学质量五维分层的多说话人ASR基准MS-Bench，揭示聚合指标掩盖的失败模式。</div>
-<div class="pick-meta"><span class="tag-pill">#语音识别</span><span>· 2026-10-20</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-21/">SLM-SS: Token-Based Speech Separation with Speech Language Models</a>
+<div class="pick-tldr">用神经编解码器离散化语音，以自回归 SLM 预测零阶 token 建立说话人顺序，再用非自回归模块精修高阶残差码本，实现生成式语音分离。</div>
+<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-10-21</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-20</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-21</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-20/" class="btn-primary">查看 2026-10-20 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-21/" class="btn-primary">查看 2026-10-21 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-21/binaural-audio-visual-instance-segmentation-2609-32180/">Binaural Audio-Visual Instance Segmentation</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-21</span>
+</div>
+<div class="card-tldr">提出双耳视听实例分割新任务BiAVIS，用双耳空间线索把发声实例从同类物体中区分开，并构建两个基准。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-21/slm-ss-token-based-speech-separation-with-speech-language-mo-2610-27785/">SLM-SS: Token-Based Speech Separation with Speech Language Models</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-10-21</span>
+</div>
+<div class="card-tldr">用神经编解码器离散化语音，以自回归 SLM 预测零阶 token 建立说话人顺序，再用非自回归模块精修高阶残差码本，实现生成式语音分离。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-10-19</span>
 </div>
 <div class="card-tldr">用编辑后视频与文本指令联合引导，从混合音轨中移除被删物体对应的声音，并构建百万级数据集与评测基准。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-16/snoar-self-training-with-noise-filtering-observation-adding--2610-20863/">SNOAR: Self-training with Noise filtering, Observation adding, and Remixing for Speech Denoising Without Clean References</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-16</span>
-</div>
-<div class="card-tldr">提出SNOAR自训练框架，通过差分噪声滤波与观测回加修正教师估计，在无干净参考下实现接近监督的语音降噪。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-16/hear-localize-and-reason-spatially-aware-scene-understanding-2610-21588/">Hear, Localize, and Reason: Spatially Aware Scene Understanding for Audio-Visual LLMs</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-16</span>
-</div>
-<div class="card-tldr">提出 HLR-AVSceneQA 基准与 HLR-LLM，用双耳空间分支加单耳语义分支，让 AV-LLM 能听、定位并推理声源与视觉场景关系。</div>
 </div>
 </div>
 
