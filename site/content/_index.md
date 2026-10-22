@@ -19,25 +19,73 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-21/">SLM-SS: Token-Based Speech Separation with Speech Language Models</a>
-<div class="pick-tldr">用神经编解码器离散化语音，以自回归 SLM 预测零阶 token 建立说话人顺序，再用非自回归模块精修高阶残差码本，实现生成式语音分离。</div>
-<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-10-21</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-22/">MuseFlow-TSE: Music-Aware Target Speech Extraction via Cross-Source Band-Splitting and Data-to-Data Flow Matching</a>
+<div class="pick-tldr">提出判别式删除+生成式插入两阶段框架，在含音乐场景下用跨源频带分割与数据到数据流匹配精修目标说话人。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-22</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-21</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-22</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-21/" class="btn-primary">查看 2026-10-21 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-22/" class="btn-primary">查看 2026-10-22 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/geometry-conditioned-target-speaker-extraction-based-on-spat-2610-29778/">Geometry-Conditioned Target Speaker Extraction based on spatial features incorporating acoustic propagation principles</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-22</span>
+</div>
+<div class="card-tldr">用目标导向矢量和GCC-PHAT空间掩码替代抽象位置编码，为GCSSF提供几何条件，提升任意阵列下的目标说话人提取。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/neurocodec-eeg-guided-latent-domain-generative-model-for-hig-2610-29815/">NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity Target Speaker Extraction</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-22</span>
+</div>
+<div class="card-tldr">首个在神经音频编解码器潜空间做EEG引导目标说话人提取的生成式框架，支持44.1kHz宽带重建与因果流式。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/museflow-tse-music-aware-target-speech-extraction-via-cross--2610-29119/">MuseFlow-TSE: Music-Aware Target Speech Extraction via Cross-Source Band-Splitting and Data-to-Data Flow Matching</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-22</span>
+</div>
+<div class="card-tldr">提出判别式删除+生成式插入两阶段框架，在含音乐场景下用跨源频带分割与数据到数据流匹配精修目标说话人。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/xingchen-unife-a-unified-generative-speech-front-end-via-com-2610-29164/">XingChen-UniFE: A Unified Generative Speech Front-End via Complementary Acoustic-Semantic Modeling</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-22</span>
+</div>
+<div class="card-tldr">提出双流编码器融合语义与声学表征，驱动大音频语言模型统一完成通用语音修复与目标说话人提取。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -48,54 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-10-21</span>
 </div>
 <div class="card-tldr">提出双耳视听实例分割新任务BiAVIS，用双耳空间线索把发声实例从同类物体中区分开，并构建两个基准。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-21/slm-ss-token-based-speech-separation-with-speech-language-mo-2610-27785/">SLM-SS: Token-Based Speech Separation with Speech Language Models</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-10-21</span>
-</div>
-<div class="card-tldr">用神经编解码器离散化语音，以自回归 SLM 预测零阶 token 建立说话人顺序，再用非自回归模块精修高阶残差码本，实现生成式语音分离。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-19/promptsep-speaker-generative-target-speaker-extraction-via-m-2610-23066/">PromptSep-Speaker: Generative Target Speaker Extraction via Multimodal Prompting and Semantic Alignment</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-19</span>
-</div>
-<div class="card-tldr">用潜扩散生成式框架统一四种目标线索（时序、文本、注册音频、说话人描述）做目标说话人提取，并用冻结 WavLM 对齐损失监督交叉注意力。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-19/d-composer-language-modeling-for-simultaneous-drum-transcrip-2610-22535/">D-Composer: Language Modeling for Simultaneous Drum Transcription and Sound Event Decomposition</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-10-19</span>
-</div>
-<div class="card-tldr">用自回归语言模型把鼓录音分解为带标签的单次击打事件与起始时间，统一鼓转录与音源分解。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-19/tv-audioremover-joint-text-visual-guided-sound-removal-with--2609-25864/">TV-AudioRemover: Joint Text-Visual Guided Sound Removal with Multi-Task Hard-Mixture Curriculum</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-19</span>
-</div>
-<div class="card-tldr">用编辑后视频与文本指令联合引导，从混合音轨中移除被删物体对应的声音，并构建百万级数据集与评测基准。</div>
 </div>
 </div>
 
