@@ -18,26 +18,50 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-22/">MuseFlow-TSE: Music-Aware Target Speech Extraction via Cross-Source Band-Splitting and Data-to-Data Flow Matching</a>
-<div class="pick-tldr">提出判别式删除+生成式插入两阶段框架，在含音乐场景下用跨源频带分割与数据到数据流匹配精修目标说话人。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-22</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-23/">When Do Self-Supervised Representations Help Speech Restoration?</a>
+<div class="pick-tldr">本文质疑SSL特征净化在语音修复中总是有益，发现严重退化下感知相关性崩塌，并提出ERI将修复骨干中间特征注入SSL以缓解该问题。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-10-23</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">4</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-22</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-23</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-22/" class="btn-primary">查看 2026-10-22 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-23/" class="btn-primary">查看 2026-10-23 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-23/hc-ainet-an-auditory-inspired-network-with-harmonic-compensa-2610-30818/">HC-AINet: An Auditory-Inspired Network with Harmonic Compensation for Low-Complexity Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-23</span>
+</div>
+<div class="card-tldr">提出谐波补偿的听觉启发网络 HC-AINet，用 ERB 子带与谐波增益分支在 0.27M 参数下于 VoiceBank-DEMAND 取得 PESQ 3.20。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-23/when-do-self-supervised-representations-help-speech-restorat-2610-30869/">When Do Self-Supervised Representations Help Speech Restoration?</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-23</span>
+</div>
+<div class="card-tldr">本文质疑SSL特征净化在语音修复中总是有益，发现严重退化下感知相关性崩塌，并提出ERI将修复骨干中间特征注入SSL以缓解该问题。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-10-22</span>
 </div>
 <div class="card-tldr">提出判别式删除+生成式插入两阶段框架，在含音乐场景下用跨源频带分割与数据到数据流匹配精修目标说话人。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/xingchen-unife-a-unified-generative-speech-front-end-via-com-2610-29164/">XingChen-UniFE: A Unified Generative Speech Front-End via Complementary Acoustic-Semantic Modeling</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-22</span>
-</div>
-<div class="card-tldr">提出双流编码器融合语义与声学表征，驱动大音频语言模型统一完成通用语音修复与目标说话人提取。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-21/binaural-audio-visual-instance-segmentation-2609-32180/">Binaural Audio-Visual Instance Segmentation</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-21</span>
-</div>
-<div class="card-tldr">提出双耳视听实例分割新任务BiAVIS，用双耳空间线索把发声实例从同类物体中区分开，并构建两个基准。</div>
 </div>
 </div>
 
