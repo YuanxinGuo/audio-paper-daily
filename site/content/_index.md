@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-23/">When Do Self-Supervised Representations Help Speech Restoration?</a>
-<div class="pick-tldr">本文质疑SSL特征净化在语音修复中总是有益，发现严重退化下感知相关性崩塌，并提出ERI将修复骨干中间特征注入SSL以缓解该问题。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-10-23</span></div>
+<div class="pick-score">7.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-24/">Signed Wasserstein distance for room impulse response comparison</a>
+<div class="pick-tldr">提出基于最优传输的带符号 Wasserstein 距离，用于比较房间冲激响应，并在可微镜像源模型中做房间参数优化。</div>
+<div class="pick-meta"><span class="tag-pill">#房间冲激响应生成</span><span>· 2026-10-24</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-23</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">1</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">7.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-24</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-23/" class="btn-primary">查看 2026-10-23 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-24/" class="btn-primary">查看 2026-10-24 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
