@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">7.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-24/">Signed Wasserstein distance for room impulse response comparison</a>
-<div class="pick-tldr">提出基于最优传输的带符号 Wasserstein 距离，用于比较房间冲激响应，并在可微镜像源模型中做房间参数优化。</div>
-<div class="pick-meta"><span class="tag-pill">#房间冲激响应生成</span><span>· 2026-10-24</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-26/">Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</a>
+<div class="pick-tldr">提出 RealSSA 真实场景音视频目标说话人提取基准与 Falcon 因果轻量方法，单次编解码多尺度分离，参数量降 91.9%。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-26</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">1</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">7.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-24</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">7</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-26</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-24/" class="btn-primary">查看 2026-10-24 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-26/" class="btn-primary">查看 2026-10-26 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-23/hc-ainet-an-auditory-inspired-network-with-harmonic-compensa-2610-30818/">HC-AINet: An Auditory-Inspired Network with Harmonic Compensation for Low-Complexity Speech Enhancement</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/nectar-automatic-negative-clue-estimation-via-centroid-space-2610-32133/">NECTAR: Automatic Negative Clue Estimation via Centroid-Space Mapping for Target Speaker Extraction</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-26</span>
+</div>
+<div class="card-tldr">利用混合语音质心位于各说话人质心中点的性质，自动估计干扰说话人负线索用于目标说话人提取。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/semac-spherical-energy-matching-ambisonics-codec-for-efficie-2610-32981/">SEMAC: Spherical Energy Matching Ambisonics Codec for Efficient Higher-Order Ambisonics Compression</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-26</span>
+</div>
+<div class="card-tldr">用低阶传输通道加全阶方向能量包络重建高阶Ambisonics，在512/768 kbit/s下MUSHRA优于Opus CMF-3。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/efficient-streaming-audio-visual-target-speaker-extraction-f-2610-32749/">Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-10-26</span>
+</div>
+<div class="card-tldr">提出 RealSSA 真实场景音视频目标说话人提取基准与 Falcon 因果轻量方法，单次编解码多尺度分离，参数量降 91.9%。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/noisy-target-training-meets-drifting-for-weakly-supervised-s-2610-32870/">Noisy Target Training Meets Drifting for Weakly-Supervised Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.3</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-26</span>
+</div>
+<div class="card-tldr">在NyTT框架上加入Sinkhorn drifting损失，用无配对干净语音约束增强输出分布，减少残留噪声。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/mg-repa-multi-granularity-representation-alignment-for-gener-2610-32161/">MG-REPA: Multi-Granularity Representation Alignment for Generative Target Speaker Extraction</a>
 <div class="card-meta">
 <span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-23</span>
-</div>
-<div class="card-tldr">提出谐波补偿的听觉启发网络 HC-AINet，用 ERB 子带与谐波增益分支在 0.27M 参数下于 VoiceBank-DEMAND 取得 PESQ 3.20。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-23/when-do-self-supervised-representations-help-speech-restorat-2610-30869/">When Do Self-Supervised Representations Help Speech Restoration?</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-23</span>
-</div>
-<div class="card-tldr">本文质疑SSL特征净化在语音修复中总是有益，发现严重退化下感知相关性崩塌，并提出ERI将修复骨干中间特征注入SSL以缓解该问题。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/geometry-conditioned-target-speaker-extraction-based-on-spat-2610-29778/">Geometry-Conditioned Target Speaker Extraction based on spatial features incorporating acoustic propagation principles</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
 <span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-22</span>
+<span class="card-date">2026-10-26</span>
 </div>
-<div class="card-tldr">用目标导向矢量和GCC-PHAT空间掩码替代抽象位置编码，为GCSSF提供几何条件，提升任意阵列下的目标说话人提取。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/neurocodec-eeg-guided-latent-domain-generative-model-for-hig-2610-29815/">NeuroCodec: EEG-Guided Latent-Domain Generative Model for High-Fidelity Target Speaker Extraction</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-22</span>
-</div>
-<div class="card-tldr">首个在神经音频编解码器潜空间做EEG引导目标说话人提取的生成式框架，支持44.1kHz宽带重建与因果流式。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-22/museflow-tse-music-aware-target-speech-extraction-via-cross--2610-29119/">MuseFlow-TSE: Music-Aware Target Speech Extraction via Cross-Source Band-Splitting and Data-to-Data Flow Matching</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-22</span>
-</div>
-<div class="card-tldr">提出判别式删除+生成式插入两阶段框架，在含音乐场景下用跨源频带分割与数据到数据流匹配精修目标说话人。</div>
+<div class="card-tldr">提出多粒度表征对齐 MG-REPA，用帧级 SSL 与句级说话人验证模型双分支对齐，加速生成式目标说话人提取训练收敛。</div>
 </div>
 </div>
 
