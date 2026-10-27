@@ -19,25 +19,73 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-26/">Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</a>
-<div class="pick-tldr">提出 RealSSA 真实场景音视频目标说话人提取基准与 Falcon 因果轻量方法，单次编解码多尺度分离，参数量降 91.9%。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-10-26</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-10-27/">Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion</a>
+<div class="pick-tldr">提出AMBIT统一框架，用可执行ScenePlan与Transfusion主干实现原生FOA空间音频生成与编辑。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-10-27</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">7</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">6</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-26</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-10-27</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-26/" class="btn-primary">查看 2026-10-26 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-27/" class="btn-primary">查看 2026-10-27 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-27/spatial-audio-generation-and-editing-with-executable-plans-a-2610-34415/">Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-27</span>
+</div>
+<div class="card-tldr">提出AMBIT统一框架，用可执行ScenePlan与Transfusion主干实现原生FOA空间音频生成与编辑。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-27/timuse-text-initialized-masked-semantic-token-modeling-for-u-2610-34814/">TIMUSE: Text-Initialized Masked Semantic Token Modeling for Universal Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">8.6</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-10-27</span>
+</div>
+<div class="card-tldr">用文本预训练扩散语言模型经LoRA恢复语义token，再用条件流匹配重建24kHz语音，兼顾感知质量与内容保真。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-27/av-qtss-class-query-target-sound-spatialization-in-multi-sou-2610-34401/">AV-QTSS: Class-Query Target Sound Spatialization in Multi-Source 360$^\circ$ Videos</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-27</span>
+</div>
+<div class="card-tldr">给定单声道多源混合、360°视频与类别查询，定位并渲染出目标声源的FOA空间音频。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-10-27/graph-neural-network-for-wide-area-6dof-ambisonic-rendering-2610-35741/">Graph Neural Network for Wide-Area 6DoF Ambisonic Rendering</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-10-27</span>
+</div>
+<div class="card-tldr">用轻量图神经网络替代DirAC几何插值权重，实现稀疏Ambisonics录音的宽区域6DoF空间音频渲染。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -48,54 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-10-26</span>
 </div>
 <div class="card-tldr">利用混合语音质心位于各说话人质心中点的性质，自动估计干扰说话人负线索用于目标说话人提取。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/semac-spherical-energy-matching-ambisonics-codec-for-efficie-2610-32981/">SEMAC: Spherical Energy Matching Ambisonics Codec for Efficient Higher-Order Ambisonics Compression</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-26</span>
-</div>
-<div class="card-tldr">用低阶传输通道加全阶方向能量包络重建高阶Ambisonics，在512/768 kbit/s下MUSHRA优于Opus CMF-3。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/efficient-streaming-audio-visual-target-speaker-extraction-f-2610-32749/">Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-26</span>
-</div>
-<div class="card-tldr">提出 RealSSA 真实场景音视频目标说话人提取基准与 Falcon 因果轻量方法，单次编解码多尺度分离，参数量降 91.9%。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/noisy-target-training-meets-drifting-for-weakly-supervised-s-2610-32870/">Noisy Target Training Meets Drifting for Weakly-Supervised Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">8.3</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-26</span>
-</div>
-<div class="card-tldr">在NyTT框架上加入Sinkhorn drifting损失，用无配对干净语音约束增强输出分布，减少残留噪声。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-26/mg-repa-multi-granularity-representation-alignment-for-gener-2610-32161/">MG-REPA: Multi-Granularity Representation Alignment for Generative Target Speaker Extraction</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-26</span>
-</div>
-<div class="card-tldr">提出多粒度表征对齐 MG-REPA，用帧级 SSL 与句级说话人验证模型双分支对齐，加速生成式目标说话人提取训练收敛。</div>
 </div>
 </div>
 
