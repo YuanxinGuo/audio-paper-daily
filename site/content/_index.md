@@ -18,26 +18,50 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-10-30/">Array-Agnostic High-Order Ambisonics Encoding via Diffusion Posterior Sampling</a>
-<div class="pick-tldr">用阵列无关的Ambisonics扩散先验加显式物理采集模型，通过score blending实现零样本编码与升阶。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-10-30</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-02/">Self-Supervised Object-Centric Representation for Multi-Task Audio Analysis</a>
+<div class="pick-tldr">用 slot attention 自监督重建 AST patch 嵌入，得到目标中心表示，统一支撑分类、检测与分离。</div>
+<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-11-02</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-10-30</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-02</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-10-30/" class="btn-primary">查看 2026-10-30 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-02/" class="btn-primary">查看 2026-11-02 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-02/voxlock-target-speaker-extraction-for-voice-agents-without-a-2610-40727/">VoxLock: Target-Speaker Extraction for Voice Agents Without an Enrollment Step</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-11-02</span>
+</div>
+<div class="card-tldr">微调REAL-TSE因果模型，用通话内截取的声纹样本做无注册目标说话人提取，以WER为指标在Krisp与AMI上验证。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-02/self-supervised-object-centric-representation-for-multi-task-2610-41870/">Self-Supervised Object-Centric Representation for Multi-Task Audio Analysis</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-11-02</span>
+</div>
+<div class="card-tldr">用 slot attention 自监督重建 AST patch 嵌入，得到目标中心表示，统一支撑分类、检测与分离。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-10-30</span>
 </div>
 <div class="card-tldr">用低成本微控制器网络分布式实现高阶Ambisonics解码，靠IEEE 1588 PTP同步达到亚微秒对齐，三阶原型验证可行。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-28/streamse-neural-audio-codec-based-streaming-speech-enhanceme-2610-37024/">StreamSE: Neural Audio Codec-based Streaming Speech Enhancement for On-device Inference</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-10-28</span>
-</div>
-<div class="card-tldr">在冻结神经音频编解码器的连续潜空间做逐帧回归，实现20M参数、无前瞻、单次前向的流式语音增强，可在手机单核实时运行。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-28/tap2listen-instant-target-switching-for-streaming-audio-visu-2610-36643/">Tap2Listen: Instant Target Switching for Streaming Audio-Visual Speaker Extraction</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-10-28</span>
-</div>
-<div class="card-tldr">提出流式音视频目标说话人提取模型 Tap2Listen，将目标无关音频编码与目标相关视觉条件解耦，实现 0.12ms 目标切换与首帧满质量输出。</div>
 </div>
 </div>
 
