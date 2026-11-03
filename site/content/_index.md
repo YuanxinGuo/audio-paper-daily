@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-02/">Self-Supervised Object-Centric Representation for Multi-Task Audio Analysis</a>
-<div class="pick-tldr">用 slot attention 自监督重建 AST patch 嵌入，得到目标中心表示，统一支撑分类、检测与分离。</div>
-<div class="pick-meta"><span class="tag-pill">#语音分离</span><span>· 2026-11-02</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-03/">High Frequency Safeguard and Weighted Objective Scoring Bandwidth Extension</a>
+<div class="pick-tldr">提出HFSWO，用Swin复数谱双流对抗框架加两个专用判别器约束高频能量分布，参数量比AP-BWE少74.6%。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-11-03</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-02</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">5</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-03</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-02/" class="btn-primary">查看 2026-11-02 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-03/" class="btn-primary">查看 2026-11-03 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-02/voxlock-target-speaker-extraction-for-voice-agents-without-a-2610-40727/">VoxLock: Target-Speaker Extraction for Voice Agents Without an Enrollment Step</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-03/spatex-array-flexible-multichannel-to-multichannel-target-sp-2611-03119/">SPATEX: Array-Flexible Multichannel-to-Multichannel Target Speech Extraction using Direction Clue</a>
 <div class="card-meta">
-<span class="card-score">8.2</span>
+<span class="card-score">8.8</span>
 <span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-11-02</span>
+<span class="card-date">2026-11-03</span>
 </div>
-<div class="card-tldr">微调REAL-TSE因果模型，用通话内截取的声纹样本做无注册目标说话人提取，以WER为指标在Krisp与AMI上验证。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-02/self-supervised-object-centric-representation-for-multi-task-2610-41870/">Self-Supervised Object-Centric Representation for Multi-Task Audio Analysis</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-11-02</span>
-</div>
-<div class="card-tldr">用 slot attention 自监督重建 AST patch 嵌入，得到目标中心表示，统一支撑分类、检测与分离。</div>
+<div class="card-tldr">提出首个阵列灵活的多通道到多通道目标说话人提取框架，利用麦克风坐标与目标DOA重建各通道目标语音并保留空间信息。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-30/array-agnostic-high-order-ambisonics-encoding-via-diffusion--2610-39185/">Array-Agnostic High-Order Ambisonics Encoding via Diffusion Posterior Sampling</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-03/spatial-transfusion-from-structured-spatial-scene-understand-2611-02330/">Spatial Transfusion: From Structured Spatial Scene Understanding to Generation and Editing</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
 <span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-30</span>
+<span class="card-date">2026-11-03</span>
 </div>
-<div class="card-tldr">用阵列无关的Ambisonics扩散先验加显式物理采集模型，通过score blending实现零样本编码与升阶。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-30/sonoworld4d-from-one-video-to-a-4d-audio-visual-scene-via-di-2610-40640/">SonoWorld4D: From One Video to a 4D Audio-Visual Scene via Diffusion Synchronization</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-30</span>
-</div>
-<div class="card-tldr">从单目视频生成可探索的4D音视频场景，重建动态物体轨迹并用双空间音频扩散同步合成空间声场。</div>
+<div class="card-tldr">将预训练空间音频理解模型通过流匹配扩展到一阶Ambisonics生成与编辑，冻结主干并用LoRA路由实现统一框架。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-10-30/ambisonics-introducing-an-accessible-distributed-approach-2610-39898/">Ambisonics: Introducing an Accessible, Distributed Approach</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-03/high-frequency-safeguard-and-weighted-objective-scoring-band-2611-02235/">High Frequency Safeguard and Weighted Objective Scoring Bandwidth Extension</a>
 <div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-10-30</span>
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-03</span>
 </div>
-<div class="card-tldr">用低成本微控制器网络分布式实现高阶Ambisonics解码，靠IEEE 1588 PTP同步达到亚微秒对齐，三阶原型验证可行。</div>
+<div class="card-tldr">提出HFSWO，用Swin复数谱双流对抗框架加两个专用判别器约束高频能量分布，参数量比AP-BWE少74.6%。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-03/ananas-a-networked-audio-system-for-distributed-spatial-audi-2611-03077/">Ananas: A Networked Audio System for Distributed Spatial Audio Applications</a>
+<div class="card-meta">
+<span class="card-score">7.0</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-11-03</span>
+</div>
+<div class="card-tldr">提出基于低成本微控制器与Faust语言的网络化空间音频系统Ananas，用PTP实现纳秒级同步，支持波场合成与高阶Ambisonics。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-03/q-bwe-quantum-chaos-informed-speech-bandwidth-extension-2611-02250/">Q-BWE: Quantum Chaos-Informed Speech Bandwidth Extension</a>
+<div class="card-meta">
+<span class="card-score">7.0</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-03</span>
+</div>
+<div class="card-tldr">用量子混沌判别器替代多判别器，指导Lattice-ConformerNeXt生成器做语音带宽扩展，参数量更少。</div>
 </div>
 </div>
 
