@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-03/">High Frequency Safeguard and Weighted Objective Scoring Bandwidth Extension</a>
-<div class="pick-tldr">提出HFSWO，用Swin复数谱双流对抗框架加两个专用判别器约束高频能量分布，参数量比AP-BWE少74.6%。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-11-03</span></div>
+<div class="pick-score">7.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-04/">SciPhi-Chat: Training a Spatial Audio Agent for Question Answering, Dialogue, and Tool Use</a>
+<div class="pick-tldr">提出 SciPhi-Chat 空间音频智能体，在一阶 Ambisonics 录音上做问答、多轮对话与工具调用，并发布 12000 样本的 MASU 基准。</div>
+<div class="pick-meta"><span class="tag-pill">#空间音频问答</span><span>· 2026-11-04</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">5</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-03</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-04</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-03/" class="btn-primary">查看 2026-11-03 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-04/" class="btn-primary">查看 2026-11-04 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
