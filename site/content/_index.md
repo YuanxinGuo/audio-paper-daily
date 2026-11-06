@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-05/">Speaker-Consistent Grounding for Confusion-Resilient LLM-Based Target Speech Extraction</a>
-<div class="pick-tldr">提出先修复后接地框架，用无训练证据修复与码空间接地约束LLM目标说话人提取，降低错说话人提取与内容幻觉。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-05</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-06/">SubRoformer: Subband Time-Domain Representation for Music Source Separation</a>
+<div class="pick-tldr">提出子带时域表示加残差 RoFormer 的 Transformer 系统，在 MUSDB18-HQ 上四轨平均 SDR 达 10.63 dB（目标专属模型）与 11.59 dB（单模型多轨）。</div>
+<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-11-06</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-05</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">5</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-06</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-05/" class="btn-primary">查看 2026-11-05 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-06/" class="btn-primary">查看 2026-11-06 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
@@ -41,61 +41,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-05/speaker-consistent-grounding-for-confusion-resilient-llm-bas-2611-06297/">Speaker-Consistent Grounding for Confusion-Resilient LLM-Based Target Speech Extraction</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/subroformer-subband-time-domain-representation-for-music-sou-2611-08130/">SubRoformer: Subband Time-Domain Representation for Music Source Separation</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-11-06</span>
+</div>
+<div class="card-tldr">提出子带时域表示加残差 RoFormer 的 Transformer 系统，在 MUSDB18-HQ 上四轨平均 SDR 达 10.63 dB（目标专属模型）与 11.59 dB（单模型多轨）。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/route-dmd-distribution-matching-distillation-with-task-route-2611-08011/">Route-DMD: Distribution Matching Distillation with Task-Routed Mechanism for Speech Foundation Models</a>
 <div class="card-meta">
 <span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-11-05</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-11-06</span>
 </div>
-<div class="card-tldr">提出先修复后接地框架，用无训练证据修复与码空间接地约束LLM目标说话人提取，降低错说话人提取与内容幻觉。</div>
+<div class="card-tldr">提出 Route-DMD，按任务路由蒸馏目标：分离任务改用回归损失，其余保留解耦分布匹配，4 步学生逼近 32 步教师。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-05/which-one-is-sounding-binaural-sounding-instance-disambiguat-2611-06074/">Which One Is Sounding? Binaural Sounding Instance Disambiguation for Audio-Visual Segmentation</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/fastwave-optimized-diffusion-model-for-audio-super-resolutio-2603-04122/">FastWave: Optimized Diffusion Model for Audio Super-Resolution</a>
 <div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-11-05</span>
+<span class="card-score">8.0</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-06</span>
 </div>
-<div class="card-tldr">用双耳声的耳间差提供声源方向约束，在同类别多候选场景中消歧出真正发声的实例，实现视听实例分割。</div>
+<div class="card-tldr">FastWave 用改进的扩散训练技巧做任意采样率到 48 kHz 的音频超分，仅 1.3M 参数、约 50 GFLOPs，效果优于 NU-Wave 2。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-05/the-hearpiece-database-of-binaural-room-impulse-responses-an-2611-06345/">The Hearpiece Database of Binaural Room Impulse Responses and Driver Responses on KEMAR</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/auditory-and-visual-virtualization-in-6dof-xr-effects-on-pla-2611-07612/">Auditory and Visual Virtualization in 6DoF XR: Effects on Plausibility and Dynamic Auditory Distance Perception</a>
 <div class="card-meta">
 <span class="card-score">7.8</span>
 <span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-11-05</span>
+<span class="card-date">2026-11-06</span>
 </div>
-<div class="card-tldr">发布 KEMAR 人工头配 Hearpiece 入耳阵列的 BRIR 与驱动器响应数据库，覆盖多房间、多朝向、多次佩戴。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-03/spatex-array-flexible-multichannel-to-multichannel-target-sp-2611-03119/">SPATEX: Array-Flexible Multichannel-to-Multichannel Target Speech Extraction using Direction Clue</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-11-03</span>
-</div>
-<div class="card-tldr">提出首个阵列灵活的多通道到多通道目标说话人提取框架，利用麦克风坐标与目标DOA重建各通道目标语音并保留空间信息。</div>
+<div class="card-tldr">首个在6DoF XR中联合评估实时房间声学模拟与双耳渲染对可信度及动态听觉距离感知影响的感知研究。</div>
 </div>
 </div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-03/spatial-transfusion-from-structured-spatial-scene-understand-2611-02330/">Spatial Transfusion: From Structured Spatial Scene Understanding to Generation and Editing</a>
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/design-of-a-speech-enhancement-based-deep-semantic-autoencod-2611-07361/">Design of a Speech Enhancement-Based Deep Semantic Autoencoder for Wireless Communications</a>
 <div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-11-03</span>
+<span class="card-score">7.0</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-06</span>
 </div>
-<div class="card-tldr">将预训练空间音频理解模型通过流匹配扩展到一阶Ambisonics生成与编辑，冻结主干并用LoRA路由实现统一框架。</div>
+<div class="card-tldr">面向无线通信的语音增强型深度语义自编码器，用双分支编码器与自适应噪声解耦提升低SNR下的语义一致性与重建质量。</div>
 </div>
 </div>
 
