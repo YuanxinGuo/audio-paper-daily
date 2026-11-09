@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-06/">SubRoformer: Subband Time-Domain Representation for Music Source Separation</a>
-<div class="pick-tldr">提出子带时域表示加残差 RoFormer 的 Transformer 系统，在 MUSDB18-HQ 上四轨平均 SDR 达 10.63 dB（目标专属模型）与 11.59 dB（单模型多轨）。</div>
-<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-11-06</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-09/">SPDMX: Large-Scale Open Stem Audio From Symbolic Music</a>
+<div class="pick-tldr">将公有领域 PDMX 乐谱渲染成大规模开放许可多轨 stem 语料，含 25.4 万首歌、54.7 万条单声道 stem。</div>
+<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-11-09</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">5</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-06</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-09</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-06/" class="btn-primary">查看 2026-11-06 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-09/" class="btn-primary">查看 2026-11-09 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-09/gtcrn-ss-lightweight-causal-speech-separation-with-residual--2611-09358/">GTCRN-SS: Lightweight Causal Speech Separation with Residual Allocation and Reconstruction Refinement</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-11-09</span>
+</div>
+<div class="card-tldr">将轻量GTCRN增强骨干改造为两阶段因果语音分离器，用残差分配与重建条件精炼，参数量不足百万即在Libri2Mix取得10.1 dB SDRi。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-09/spdmx-large-scale-open-stem-audio-from-symbolic-music-2611-09140/">SPDMX: Large-Scale Open Stem Audio From Symbolic Music</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#乐器分离</span>
+<span class="card-date">2026-11-09</span>
+</div>
+<div class="card-tldr">将公有领域 PDMX 乐谱渲染成大规模开放许可多轨 stem 语料，含 25.4 万首歌、54.7 万条单声道 stem。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-09/aishell8-fisheye-a-fisheye-audio-visual-dataset-for-target-s-2611-09368/">AISHELL8-FISHEYE: A Fisheye Audio-Visual Dataset for Target Speaker Extraction with Distortion-Aware Baselines</a>
+<div class="card-meta">
+<span class="card-score">8.0</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-11-09</span>
+</div>
+<div class="card-tldr">发布47小时中文鱼眼音视频数据集AISHELL8-FISHEYE，并提出融合畸变感知分支的音视频目标说话人提取基线。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-06</span>
 </div>
 <div class="card-tldr">提出 Route-DMD，按任务路由蒸馏目标：分离任务改用回归损失，其余保留解耦分布匹配，4 步学生逼近 32 步教师。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/fastwave-optimized-diffusion-model-for-audio-super-resolutio-2603-04122/">FastWave: Optimized Diffusion Model for Audio Super-Resolution</a>
-<div class="card-meta">
-<span class="card-score">8.0</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-11-06</span>
-</div>
-<div class="card-tldr">FastWave 用改进的扩散训练技巧做任意采样率到 48 kHz 的音频超分，仅 1.3M 参数、约 50 GFLOPs，效果优于 NU-Wave 2。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/auditory-and-visual-virtualization-in-6dof-xr-effects-on-pla-2611-07612/">Auditory and Visual Virtualization in 6DoF XR: Effects on Plausibility and Dynamic Auditory Distance Perception</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-11-06</span>
-</div>
-<div class="card-tldr">首个在6DoF XR中联合评估实时房间声学模拟与双耳渲染对可信度及动态听觉距离感知影响的感知研究。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/design-of-a-speech-enhancement-based-deep-semantic-autoencod-2611-07361/">Design of a Speech Enhancement-Based Deep Semantic Autoencoder for Wireless Communications</a>
-<div class="card-meta">
-<span class="card-score">7.0</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-11-06</span>
-</div>
-<div class="card-tldr">面向无线通信的语音增强型深度语义自编码器，用双分支编码器与自适应噪声解耦提升低SNR下的语义一致性与重建质量。</div>
 </div>
 </div>
 
