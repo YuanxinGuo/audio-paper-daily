@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-09/">SPDMX: Large-Scale Open Stem Audio From Symbolic Music</a>
-<div class="pick-tldr">将公有领域 PDMX 乐谱渲染成大规模开放许可多轨 stem 语料，含 25.4 万首歌、54.7 万条单声道 stem。</div>
-<div class="pick-meta"><span class="tag-pill">#乐器分离</span><span>· 2026-11-09</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-10/">Textraction: Unified Text-Guided Speaker Extraction and Enhancement for Single- and Multi-Channel Audio</a>
+<div class="pick-tldr">提出Textraction，用自然语言描述引导统一模型从单/多通道混合中提取目标说话人或噪声源，并兼顾语音增强。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-10</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-09</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-10</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-09/" class="btn-primary">查看 2026-11-09 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-10/" class="btn-primary">查看 2026-11-10 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-10/textraction-unified-text-guided-speaker-extraction-and-enhan-2611-12493/">Textraction: Unified Text-Guided Speaker Extraction and Enhancement for Single- and Multi-Channel Audio</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-11-10</span>
+</div>
+<div class="card-tldr">提出Textraction，用自然语言描述引导统一模型从单/多通道混合中提取目标说话人或噪声源，并兼顾语音增强。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-06</span>
 </div>
 <div class="card-tldr">提出子带时域表示加残差 RoFormer 的 Transformer 系统，在 MUSDB18-HQ 上四轨平均 SDR 达 10.63 dB（目标专属模型）与 11.59 dB（单模型多轨）。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-06/route-dmd-distribution-matching-distillation-with-task-route-2611-08011/">Route-DMD: Distribution Matching Distillation with Task-Routed Mechanism for Speech Foundation Models</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-11-06</span>
-</div>
-<div class="card-tldr">提出 Route-DMD，按任务路由蒸馏目标：分离任务改用回归损失，其余保留解耦分布匹配，4 步学生逼近 32 步教师。</div>
 </div>
 </div>
 
