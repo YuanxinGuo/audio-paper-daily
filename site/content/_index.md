@@ -19,25 +19,61 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-11/">AURA: Auditory Spatial Intelligence via a Unified Representation from a General-Audio Encoder through Complete Alignment</a>
-<div class="pick-tldr">冻结通用音频编解码器与语言模型，通过完整场景描述与通道差对齐，实现双源空间方位问答。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-11-11</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-13/">Structured Speaker Conditioning for Diarization-Guided Target-Speaker ASR</a>
+<div class="pick-tldr">提出结构化说话人条件化SSC，用日志活动结构与会话级声纹身份构造目标条件，调制ASR编码器，实现日志引导的目标说话人识别。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-13</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-11</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-13</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-11/" class="btn-primary">查看 2026-11-11 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-13/" class="btn-primary">查看 2026-11-13 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-13/structured-speaker-conditioning-for-diarization-guided-targe-2611-16371/">Structured Speaker Conditioning for Diarization-Guided Target-Speaker ASR</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-11-13</span>
+</div>
+<div class="card-tldr">提出结构化说话人条件化SSC，用日志活动结构与会话级声纹身份构造目标条件，调制ASR编码器，实现日志引导的目标说话人识别。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-13/kezek-splitting-mono-two-person-conversations-into-per-speak-2611-16933/">Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音分离</span>
+<span class="card-date">2026-11-13</span>
+</div>
+<div class="card-tldr">Kezek 将单声道双人对话拆成每人一条等长音轨，两阶段：指纹引导的双声活动检测定决策，条件时域分离器执行，输出严格可加。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-13/mesh-multi-receiver-evaluation-of-spatial-hearing-across-ego-2611-16787/">MESH: Multi-receiver Evaluation of Spatial Hearing across Egocentric and Allocentric Views</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-11-13</span>
+</div>
+<div class="card-tldr">提出MESH基准，用自我中心与异中心视角评测多接收器共享声场景中的声源关联与空间理解。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-11</span>
 </div>
 <div class="card-tldr">开源流式语音增强SDK，集成降噪、归一化、重采样与回声消除，支持CPU/移动端/浏览器多平台部署。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-10/textraction-unified-text-guided-speaker-extraction-and-enhan-2611-12493/">Textraction: Unified Text-Guided Speaker Extraction and Enhancement for Single- and Multi-Channel Audio</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-11-10</span>
-</div>
-<div class="card-tldr">提出Textraction，用自然语言描述引导统一模型从单/多通道混合中提取目标说话人或噪声源，并兼顾语音增强。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-09/gtcrn-ss-lightweight-causal-speech-separation-with-residual--2611-09358/">GTCRN-SS: Lightweight Causal Speech Separation with Residual Allocation and Reconstruction Refinement</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-11-09</span>
-</div>
-<div class="card-tldr">将轻量GTCRN增强骨干改造为两阶段因果语音分离器，用残差分配与重建条件精炼，参数量不足百万即在Libri2Mix取得10.1 dB SDRi。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-09/spdmx-large-scale-open-stem-audio-from-symbolic-music-2611-09140/">SPDMX: Large-Scale Open Stem Audio From Symbolic Music</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#乐器分离</span>
-<span class="card-date">2026-11-09</span>
-</div>
-<div class="card-tldr">将公有领域 PDMX 乐谱渲染成大规模开放许可多轨 stem 语料，含 25.4 万首歌、54.7 万条单声道 stem。</div>
 </div>
 </div>
 
