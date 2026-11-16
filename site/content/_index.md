@@ -19,25 +19,37 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
 <div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-13/">Structured Speaker Conditioning for Diarization-Guided Target-Speaker ASR</a>
-<div class="pick-tldr">提出结构化说话人条件化SSC，用日志活动结构与会话级声纹身份构造目标条件，调制ASR编码器，实现日志引导的目标说话人识别。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-13</span></div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-16/">Any Channel Count, One Token Stream: Incorporating Spatial Audio Understanding and Reasoning into Large Audio-Language Models</a>
+<div class="pick-tldr">提出SpheraAudio，将任意通道数（单声道/立体声/FOA）空间音频映射为统一token流，结合SMRoPE与三阶段训练实现空间定位与推理。</div>
+<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-11-16</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
 <div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-13</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-16</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-13/" class="btn-primary">查看 2026-11-13 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-16/" class="btn-primary">查看 2026-11-16 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-16/any-channel-count-one-token-stream-incorporating-spatial-aud-2611-18112/">Any Channel Count, One Token Stream: Incorporating Spatial Audio Understanding and Reasoning into Large Audio-Language Models</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-11-16</span>
+</div>
+<div class="card-tldr">提出SpheraAudio，将任意通道数（单声道/立体声/FOA）空间音频映射为统一token流，结合SMRoPE与三阶段训练实现空间定位与推理。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-11</span>
 </div>
 <div class="card-tldr">冻结通用音频编解码器与语言模型，通过完整场景描述与通道差对齐，实现双源空间方位问答。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-11/gigaedge-spench-an-sdk-for-practical-streaming-speech-enhanc-2611-13243/">GigaEdge Spench: An SDK for Practical Streaming Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-11-11</span>
-</div>
-<div class="card-tldr">开源流式语音增强SDK，集成降噪、归一化、重采样与回声消除，支持CPU/移动端/浏览器多平台部署。</div>
 </div>
 </div>
 
