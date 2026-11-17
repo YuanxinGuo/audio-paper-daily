@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-16/">Any Channel Count, One Token Stream: Incorporating Spatial Audio Understanding and Reasoning into Large Audio-Language Models</a>
-<div class="pick-tldr">提出SpheraAudio，将任意通道数（单声道/立体声/FOA）空间音频映射为统一token流，结合SMRoPE与三阶段训练实现空间定位与推理。</div>
-<div class="pick-meta"><span class="tag-pill">#双耳音频</span><span>· 2026-11-16</span></div>
+<div class="pick-score">7.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-17/">VoxMel TTS Technical Report</a>
+<div class="pick-tldr">VoxMel用固定可逆二维Haar变换把Mel分解为Coarse-Mel与两级残差，实现无tokenizer自回归TTS，0.6B模型WER 1.51%。</div>
+<div class="pick-meta"><span class="tag-pill">#语音合成</span><span>· 2026-11-17</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-16</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-17</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-16/" class="btn-primary">查看 2026-11-16 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-17/" class="btn-primary">查看 2026-11-17 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
