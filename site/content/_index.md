@@ -18,26 +18,50 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">7.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-17/">VoxMel TTS Technical Report</a>
-<div class="pick-tldr">VoxMel用固定可逆二维Haar变换把Mel分解为Coarse-Mel与两级残差，实现无tokenizer自回归TTS，0.6B模型WER 1.51%。</div>
-<div class="pick-meta"><span class="tag-pill">#语音合成</span><span>· 2026-11-17</span></div>
+<div class="pick-score">9.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-18/">Back to Mel: Learning to Bridge Fidelity and Perception in Generative Speech Enhancement</a>
+<div class="pick-tldr">以Mel频谱为结构化表示，用flow matching框架BAME在保真度、感知质量与效率间取得平衡。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-11-18</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-17</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-18</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-17/" class="btn-primary">查看 2026-11-17 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-18/" class="btn-primary">查看 2026-11-18 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-18/back-to-mel-learning-to-bridge-fidelity-and-perception-in-ge-2611-22628/">Back to Mel: Learning to Bridge Fidelity and Perception in Generative Speech Enhancement</a>
+<div class="card-meta">
+<span class="card-score">9.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-18</span>
+</div>
+<div class="card-tldr">以Mel频谱为结构化表示，用flow matching框架BAME在保真度、感知质量与效率间取得平衡。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-18/personalized-causal-low-bitrate-coded-speech-restoration-wit-2611-22620/">Personalized Causal Low-Bitrate Coded Speech Restoration with Speaker Embeddings</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-18</span>
+</div>
+<div class="card-tldr">在因果低复杂度UBGAN带宽扩展模型上，用说话人嵌入条件化实现个性化低码率编码语音恢复，ViSQOL与WB-PESQ显著提升。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -72,30 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-13</span>
 </div>
 <div class="card-tldr">Kezek 将单声道双人对话拆成每人一条等长音轨，两阶段：指纹引导的双声活动检测定决策，条件时域分离器执行，输出严格可加。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-13/mesh-multi-receiver-evaluation-of-spatial-hearing-across-ego-2611-16787/">MESH: Multi-receiver Evaluation of Spatial Hearing across Egocentric and Allocentric Views</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-11-13</span>
-</div>
-<div class="card-tldr">提出MESH基准，用自我中心与异中心视角评测多接收器共享声场景中的声源关联与空间理解。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-11/aura-auditory-spatial-intelligence-via-a-unified-representat-2611-13687/">AURA: Auditory Spatial Intelligence via a Unified Representation from a General-Audio Encoder through Complete Alignment</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-11-11</span>
-</div>
-<div class="card-tldr">冻结通用音频编解码器与语言模型，通过完整场景描述与通道差对齐，实现双源空间方位问答。</div>
 </div>
 </div>
 
