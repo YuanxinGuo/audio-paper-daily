@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">9.2</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-18/">Back to Mel: Learning to Bridge Fidelity and Perception in Generative Speech Enhancement</a>
-<div class="pick-tldr">以Mel频谱为结构化表示，用flow matching框架BAME在保真度、感知质量与效率间取得平衡。</div>
-<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-11-18</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-19/">End-to-End Multi-Task Learning for Adjustable Joint Noise Reduction and Hearing Loss Compensation</a>
+<div class="pick-tldr">用可微分听觉模型端到端训练单一DNN，同时输出NR与HLC两个TF掩码，可按指数独立调节并支持audiogram个性化。</div>
+<div class="pick-meta"><span class="tag-pill">#语音增强</span><span>· 2026-11-19</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">9.2</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-18</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-19</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-18/" class="btn-primary">查看 2026-11-18 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-19/" class="btn-primary">查看 2026-11-19 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-19/end-to-end-multi-task-learning-for-adjustable-joint-noise-re-2603-20387/">End-to-End Multi-Task Learning for Adjustable Joint Noise Reduction and Hearing Loss Compensation</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-19</span>
+</div>
+<div class="card-tldr">用可微分听觉模型端到端训练单一DNN，同时输出NR与HLC两个TF掩码，可按指数独立调节并支持audiogram个性化。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-13</span>
 </div>
 <div class="card-tldr">提出结构化说话人条件化SSC，用日志活动结构与会话级声纹身份构造目标条件，调制ASR编码器，实现日志引导的目标说话人识别。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-13/kezek-splitting-mono-two-person-conversations-into-per-speak-2611-16933/">Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data</a>
-<div class="card-meta">
-<span class="card-score">8.2</span>
-<span class="tag-pill">#语音分离</span>
-<span class="card-date">2026-11-13</span>
-</div>
-<div class="card-tldr">Kezek 将单声道双人对话拆成每人一条等长音轨，两阶段：指纹引导的双声活动检测定决策，条件时域分离器执行，输出严格可加。</div>
 </div>
 </div>
 
