@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">7.0</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-20/">Rhythm-TTS: High-Fidelity Shortcut Latent Modeling and Probabilistic Rhythm Generation for Zero-Shot Text-to-Speech</a>
-<div class="pick-tldr">用离散codec token作语义-声学先验，流匹配直接生成连续语音latent，并加入概率化时长与静音生成器提升韵律多样性。</div>
-<div class="pick-meta"><span class="tag-pill">#语音合成</span><span>· 2026-11-20</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-23/">The Voice on the Line</a>
+<div class="pick-tldr">用因果掩码Transformer从通话中自注册目标说话人，蒸馏出22M/9.8M小模型在CPU单线程实时运行，显著降低WER。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-23</span></div>
 </div>
 </div>
 
 <div class="dashboard">
-<div class="stat-card"><div class="stat-num">5</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">7.0</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-20</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-23</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-20/" class="btn-primary">查看 2026-11-20 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-23/" class="btn-primary">查看 2026-11-23 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-23/the-voice-on-the-line-2610-35272/">The Voice on the Line</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-11-23</span>
+</div>
+<div class="card-tldr">用因果掩码Transformer从通话中自注册目标说话人，蒸馏出22M/9.8M小模型在CPU单线程实时运行，显著降低WER。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-16</span>
 </div>
 <div class="card-tldr">提出SpheraAudio，将任意通道数（单声道/立体声/FOA）空间音频映射为统一token流，结合SMRoPE与三阶段训练实现空间定位与推理。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-13/structured-speaker-conditioning-for-diarization-guided-targe-2611-16371/">Structured Speaker Conditioning for Diarization-Guided Target-Speaker ASR</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#目标说话人提取</span>
-<span class="card-date">2026-11-13</span>
-</div>
-<div class="card-tldr">提出结构化说话人条件化SSC，用日志活动结构与会话级声纹身份构造目标条件，调制ASR编码器，实现日志引导的目标说话人识别。</div>
 </div>
 </div>
 
