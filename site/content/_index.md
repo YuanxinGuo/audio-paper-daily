@@ -18,21 +18,21 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-23/">The Voice on the Line</a>
-<div class="pick-tldr">用因果掩码Transformer从通话中自注册目标说话人，蒸馏出22M/9.8M小模型在CPU单线程实时运行，显著降低WER。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-23</span></div>
+<div class="pick-score">7.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-24/">SonicRender: Structured and Time-Grounded Rendering of Multi-Event Audio Scene Generation</a>
+<div class="pick-tldr">提出 SonicRender 统一多事件音频渲染器，用时序音频场景图绑定源身份与时间窗，实现结构化可控的场景混合生成。</div>
+<div class="pick-meta"><span class="tag-pill">#音频生成</span><span>· 2026-11-24</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">1</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-23</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-24</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-23/" class="btn-primary">查看 2026-11-23 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-24/" class="btn-primary">查看 2026-11-24 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
