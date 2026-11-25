@@ -18,26 +18,62 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">7.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-24/">SonicRender: Structured and Time-Grounded Rendering of Multi-Event Audio Scene Generation</a>
-<div class="pick-tldr">提出 SonicRender 统一多事件音频渲染器，用时序音频场景图绑定源身份与时间窗，实现结构化可控的场景混合生成。</div>
-<div class="pick-meta"><span class="tag-pill">#音频生成</span><span>· 2026-11-24</span></div>
+<div class="pick-score">8.8</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-25/">BEARING: Who Is Talking to Whom? Grounding Acoustic Direction in Vision for Online Multi-Party Conversation</a>
+<div class="pick-tldr">用麦克风阵列测得的声源方向作为视觉提示与可验证奖励，在线判定多人对话中谁在对谁说话。</div>
+<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-25</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">0</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">7.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-24</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-25</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-24/" class="btn-primary">查看 2026-11-24 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-25/" class="btn-primary">查看 2026-11-25 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-25/bearing-who-is-talking-to-whom-grounding-acoustic-direction--2611-31735/">BEARING: Who Is Talking to Whom? Grounding Acoustic Direction in Vision for Online Multi-Party Conversation</a>
+<div class="card-meta">
+<span class="card-score">8.8</span>
+<span class="tag-pill">#目标说话人提取</span>
+<span class="card-date">2026-11-25</span>
+</div>
+<div class="card-tldr">用麦克风阵列测得的声源方向作为视觉提示与可验证奖励，在线判定多人对话中谁在对谁说话。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-25/mask-based-speech-enhancement-for-spatial-audio-effects-of-s-2611-32910/">Mask-Based Speech Enhancement for Spatial Audio: Effects of Signal Representation and Channel-Specific Masking</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-25</span>
+</div>
+<div class="card-tldr">系统比较麦克风、波束成形与一阶Ambisonics域中时频掩蔽的语音增强与空间线索保持效果。</div>
+</div>
+</div>
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-25/synavid-a-synthetic-audio-visual-immersive-dataset-of-dynami-2611-32311/">SynAVID: A Synthetic Audio-Visual Immersive Dataset of Dynamic Scenes</a>
+<div class="card-meta">
+<span class="card-score">7.8</span>
+<span class="tag-pill">#双耳音频</span>
+<span class="card-date">2026-11-25</span>
+</div>
+<div class="card-tldr">提出SynAVID合成视听沉浸数据集，含8个室内外场景，提供视角相关的双耳音频与配对参考，用于视觉重建、双耳音频重建与视听编辑评测。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -60,42 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-19</span>
 </div>
 <div class="card-tldr">用可微分听觉模型端到端训练单一DNN，同时输出NR与HLC两个TF掩码，可按指数独立调节并支持audiogram个性化。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-18/back-to-mel-learning-to-bridge-fidelity-and-perception-in-ge-2611-22628/">Back to Mel: Learning to Bridge Fidelity and Perception in Generative Speech Enhancement</a>
-<div class="card-meta">
-<span class="card-score">9.2</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-11-18</span>
-</div>
-<div class="card-tldr">以Mel频谱为结构化表示，用flow matching框架BAME在保真度、感知质量与效率间取得平衡。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-18/personalized-causal-low-bitrate-coded-speech-restoration-wit-2611-22620/">Personalized Causal Low-Bitrate Coded Speech Restoration with Speaker Embeddings</a>
-<div class="card-meta">
-<span class="card-score">7.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-11-18</span>
-</div>
-<div class="card-tldr">在因果低复杂度UBGAN带宽扩展模型上，用说话人嵌入条件化实现个性化低码率编码语音恢复，ViSQOL与WB-PESQ显著提升。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-16/any-channel-count-one-token-stream-incorporating-spatial-aud-2611-18112/">Any Channel Count, One Token Stream: Incorporating Spatial Audio Understanding and Reasoning into Large Audio-Language Models</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#双耳音频</span>
-<span class="card-date">2026-11-16</span>
-</div>
-<div class="card-tldr">提出SpheraAudio，将任意通道数（单声道/立体声/FOA）空间音频映射为统一token流，结合SMRoPE与三阶段训练实现空间定位与推理。</div>
 </div>
 </div>
 
