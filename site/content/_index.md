@@ -18,26 +18,38 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 </div>
 <div class="hero-pick">
 <div class="pick-label">今日一言推荐</div>
-<div class="pick-score">8.8</div>
-<a class="pick-title" href="/audio-paper-daily/posts/2026-11-25/">BEARING: Who Is Talking to Whom? Grounding Acoustic Direction in Vision for Online Multi-Party Conversation</a>
-<div class="pick-tldr">用麦克风阵列测得的声源方向作为视觉提示与可验证奖励，在线判定多人对话中谁在对谁说话。</div>
-<div class="pick-meta"><span class="tag-pill">#目标说话人提取</span><span>· 2026-11-25</span></div>
+<div class="pick-score">8.2</div>
+<a class="pick-title" href="/audio-paper-daily/posts/2026-11-26/">Line-Level Singer Diarization in Multi-Member Pop Songs: A Benchmark, Lead-Vocal Isolation, and Song-Level Decoding</a>
+<div class="pick-tldr">提出逐行歌手日志任务与 ColorCoded-SD 基准，用主唱分离+歌声嵌入+歌曲级解码将 B-cubed F1 提升约 0.06。</div>
+<div class="pick-meta"><span class="tag-pill">#说话人日志</span><span>· 2026-11-26</span></div>
 </div>
 </div>
 
 <div class="dashboard">
 <div class="stat-card"><div class="stat-num">10</div><div class="stat-label">今日抽取</div></div>
-<div class="stat-card stat-focus"><div class="stat-num">3</div><div class="stat-label">重点领域</div></div>
-<div class="stat-card stat-top"><div class="stat-num">8.8</div><div class="stat-label">最高分</div></div>
-<div class="stat-card"><div class="stat-num">2026-11-25</div><div class="stat-label">最近更新</div></div>
+<div class="stat-card stat-focus"><div class="stat-num">2</div><div class="stat-label">重点领域</div></div>
+<div class="stat-card stat-top"><div class="stat-num">8.2</div><div class="stat-label">最高分</div></div>
+<div class="stat-card"><div class="stat-num">2026-11-26</div><div class="stat-label">最近更新</div></div>
 </div>
 
-<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-25/" class="btn-primary">查看 2026-11-25 完整速递 →</a></p>
+<p class="dashboard-cta"><a href="/audio-paper-daily/posts/2026-11-26/" class="btn-primary">查看 2026-11-26 完整速递 →</a></p>
 
 ## 🎯 重点领域最新
 
 > 跨日聚合：你亲选的 5 个领域里最近被分析的论文
 
+<div class="paper-card paper-card-focus">
+<div class="card-rank">⭐</div>
+<div class="card-body">
+<a class="card-title" href="/audio-paper-daily/posts/2026-11-26/fsc-net-integrating-fast-fourier-convolutions-and-progressiv-2606-06962/">FSC-Net: Integrating Fast Fourier Convolutions and Progressive Learning for Speech Bandwidth Extension</a>
+<div class="card-meta">
+<span class="card-score">8.2</span>
+<span class="tag-pill">#语音增强</span>
+<span class="card-date">2026-11-26</span>
+</div>
+<div class="card-tldr">FSC-Net 用快速傅里叶卷积扩展感受野至全频谱，并以频率渐进课程学习重建高频，实现 1.54M 参数的高效语音带宽扩展。</div>
+</div>
+</div>
 <div class="paper-card paper-card-focus">
 <div class="card-rank">⭐</div>
 <div class="card-body">
@@ -84,18 +96,6 @@ description: "每日自动追踪语音与音频 AI 前沿论文，DeepSeek 深�
 <span class="card-date">2026-11-23</span>
 </div>
 <div class="card-tldr">用因果掩码Transformer从通话中自注册目标说话人，蒸馏出22M/9.8M小模型在CPU单线程实时运行，显著降低WER。</div>
-</div>
-</div>
-<div class="paper-card paper-card-focus">
-<div class="card-rank">⭐</div>
-<div class="card-body">
-<a class="card-title" href="/audio-paper-daily/posts/2026-11-19/end-to-end-multi-task-learning-for-adjustable-joint-noise-re-2603-20387/">End-to-End Multi-Task Learning for Adjustable Joint Noise Reduction and Hearing Loss Compensation</a>
-<div class="card-meta">
-<span class="card-score">8.8</span>
-<span class="tag-pill">#语音增强</span>
-<span class="card-date">2026-11-19</span>
-</div>
-<div class="card-tldr">用可微分听觉模型端到端训练单一DNN，同时输出NR与HLC两个TF掩码，可按指数独立调节并支持audiogram个性化。</div>
 </div>
 </div>
 
